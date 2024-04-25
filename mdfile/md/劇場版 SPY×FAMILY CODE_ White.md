@@ -27,4 +27,4 @@ tags: ['#movie']
 **IMDb頁面：**\
 **海報：** 
 
-![](image/%E5%8A%87%E5%A0%B4%E7%89%88_SPY%C3%97FAMILY_CODE_White.jpg)
+![[%E5%8A%87%E5%A0%B4%E7%89%88_SPY%C3%97FAMILY_CODE_White.jpg]]

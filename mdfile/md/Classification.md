@@ -58,15 +58,15 @@ tags: [機器學習]
     以點（new point）為中心，選擇K個最近的node，計算其中最多點的集群，作為該點的集群
     ![](image/B1eOjAXzT.png)
 
-3. [Support Vector Machine](/ji56kq2dStmfxuxVg0jsYw)
+3. [[Support Vector Machine]]
 
-4. [Decision Tree](/tgD5d8ziR3OBHMPubDHdZw)
+4. [[Decision Tree]]
 
-5. **Naive bayes**\
+5. **Naive bayes**
     單純貝氏分類器（英語：Naive Bayes classifier，中國大陸稱為樸素貝葉斯分類器），在機器學習中是一系列以假設特徵之間強（樸素）獨立下運用貝氏定理為基礎的簡單機率分類器。
-
+obsidian://open?vault=mdfile&file=md%2F
 ## Multiclass Classification
-- **DEFINATION**\
+- **DEFINATION**
     多類別分類器，在此分類器中，所有類別皆為互斥即一個物件只能被分到一個類別。(單選題)
 - Using Method of  Multiclass
     - K-nearest neighbors
