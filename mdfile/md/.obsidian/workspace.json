@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "76c52e3f8cbf2d4e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e466d19ab1e9a3cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb38e9ac5f331b7b",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "image/S1d1KrcgA.png"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c61db9f6101c560c",
+    "type": "split",
+    "children": [
+      {
+        "id": "80dc380feebf0eea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61af2e102ee22bbb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "0fdb811cbc6fd732",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ae0a839091b59da0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b03ce395fb964a80",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9709b9635a2af88",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae611fb520470720",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "image/S1d1KrcgA.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9a573a8912a8e0dd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "image/S1d1KrcgA.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bf25c1e32839afd0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c4d5a9d83dc0285c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "image/S1d1KrcgA.png"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false
+    }
+  },
+  "active": "eb38e9ac5f331b7b",
+  "lastOpenFiles": [
+    "image/rkwbO4PeC.png",
+    "image/B1ncz8PST.png",
+    "image/BJxCWOSPT.png",
+    "image/By0FCOrva.png",
+    "image/1280px-Data_stack.svg.png",
+    "image/1*Nf2tTTkALYq6RTMQmhjo1A.png",
+    "基礎資料結構/chap6 graph.md",
+    "基礎資料結構/chap1 introduction.md",
+    "os/os.md",
+    "os/chap 8 Deadlock.md",
+    "database/chap 6 for 資料庫.md",
+    "祭祖/SaaS.md",
+    "all.md",
+    "祭祖/POSTPC.md",
+    "information retrieval/L2 Tolerance Retrieval.md",
+    "os/CHAP3 FOR OS.md",
+    "other/離散數學.md",
+    "密碼學/lect 1 note.md",
+    "other/課程名稱.md",
+    "movie/劇場版 SPY×FAMILY CODE_ White.md",
+    "os/simple shell.md",
+    "os/oslab14.md",
+    "select.md",
+    "physics net/hw3 勿連網.md",
+    "os/chap 10 for os.md",
+    "基礎資料結構/chap5 tree.md",
+    "基礎資料結構/chap3 stack&queue.md",
+    "other/SQL.md",
+    "機器學習/Reading Assignment (Self-learning Week).md",
+    "機器學習/Data Preprocessing.md",
+    "祭祖/馮紐曼.md",
+    "physics net",
+    "calculus",
+    "unix",
+    "information retrieval",
+    "other",
+    "database",
+    "機器學習",
+    "密碼學",
+    "基礎資料結構",
+    "os"
+  ]
+}

@@ -17,7 +17,8 @@ tags: [os]
 ## What is Operating System ?
 ---
 ### **define**
-* [wiki](https://zh.wikipedia.org/zh-tw/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F)\
+* [wiki](https://zh.wikipedia.org/zh-tw/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F)
+
     作業系統（英語：Operating System，縮寫：OS）是一組<font color="ffff">主管並控制電腦操作、運用和執行硬體、軟體資源和提供公共服務來組織使用者互動的相互關聯的系統**軟體**程式</font>，同時也是電腦系統的核心與基石。作業系統需要處理如管理與組態記憶體、決定系統資源供需的優先次序、控制輸入與輸出裝置、操作網路與管理檔案系統等基本事務。作業系統也提供一個讓使用者與系統互動的操作介面。
 
 * from 張軒彬
@@ -29,7 +30,8 @@ tags: [os]
     - Operating System is the one program running at all times on the computer
     - it is often to descript kernel
 
->Ｑ： 如果沒有作業系統，會怎樣?\
+>Ｑ： 如果沒有作業系統，會怎樣?
+
 >Ａ： 總之就是電腦不能動了
 
 >Ｑ： 為什麼要學習作業系統?
@@ -38,9 +40,9 @@ tags: [os]
 
 ### 電腦硬體介紹
 ![image.png](image/S1c37Ov7T.png)
-- [cpu](/cpu.md)
+- [[cpu]]
     - 處理器
-    - 現代電腦皆採[馮紐曼架構](/馮紐曼.md)
+    - 現代電腦皆採[[馮紐曼]]
 - bus (匯流排)
     - 可以簡單理解為數據線
 - memory
@@ -58,7 +60,7 @@ tags: [os]
     
 ### i/o structure
 作業系統大部分都是在處理i/o，因為這跟系統穩定性有很大關係
-- [DMA(直接記憶體存取)](/DMA.md)
+- [[DMA]]
 
 ## Computer System Architecture(電腦系統架構)
 根據處理器的分配做分類
@@ -201,8 +203,8 @@ tags: [os]
 - multi tasking(time sharing)
     - 為multi programing 的延伸
     - cpu通過在多個process多次之間切換，以提升響應速度(reponse time)
-    - need cpu scheduling in [chap5](/chap%205%20for%20os_.md)
-    - 為了達到這一效果，很常會使用到一技術--[虛擬記憶體](/虛擬記憶體.md)
+    - need cpu scheduling in [[chap%205%20for%20os_]]
+    - 為了達到這一效果，很常會使用到一技術--[[虛擬記憶體]]
 ### Dual mode and Multi mode
 由於作業系統要確保不會有錯誤(或惡意)程式，使其他程式無法執行，故需要用多種模式去限制能使用的物件(or 指令)。
 ![](image/dualmode.png?raw=true)

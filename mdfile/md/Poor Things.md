@@ -6,11 +6,16 @@ tags: ['#movie']
 
 # 電影評分：Poor thing
 
-**發行商：** 	元素影業\
-**導演：** 尤格·藍西莫\
-**演員：** 艾瑪·史東\
-**上映日期：** 2024/02/08\
-**片長：** 141 min \
+**發行商：** 	元素影業
+
+**導演：** 尤格·藍西莫
+
+**演員：** 艾瑪·史東
+
+**上映日期：** 2024/02/08
+
+**片長：** 141 min 
+
 
 ## 簡介
 故事發生在19世紀的 London ，有名的科學家兼醫生 Godwin撿到一位懷有身孕的自殺女子，將其中胎兒的腦袋替換母親的腦袋，一副具有嬰兒頭腦合大人身軀的實驗品--Bella·Bester 誕生了，而這(電影)便是關於Bella·Bester的成長故事。
@@ -39,13 +44,19 @@ tags: ['#movie']
 
 
 ## 我的評價
-**評分[標準](/標準md)：** 9.7/10(人生必看)\
-**觀影建議：** 很吃感覺、不一定每個人都會喜歡\
-**記憶點：** more and more Sex and Philosophy\
-**評論：** \
+**評分[標準](/標準md)：** 9.7/10(人生必看)
+
+**觀影建議：** 很吃感覺、不一定每個人都會喜歡
+
+**記憶點：** more and more Sex and Philosophy
+
+**評論：** 
+
 對社會化(我願稱之為 Bella(科學怪人) 的社會化之旅)的精彩解構，又或者說是對整個社會的解構，讓我們看到了整個社會的荒誕，其中也包含不少哲學性的思考，而其標題《Poor Things》估計指的根本不只是*Bella*而是在這個社會中的所有人吧!!
 
 ## 連結
-**IMDb頁面：** [link](https://www.bing.com/ck/a?!&&p=c3345eeaab3c595dJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zMmIxYjM2NC1jYzgxLTY1MDktMDc4My1hNzc4Y2Q5MTY0NTcmaW5zaWQ9NTIyMA&ptn=3&ver=2&hsh=3&fclid=32b1b364-cc81-6509-0783-a778cd916457&psq=poor+thing+imbd&u=a1aHR0cHM6Ly93d3cuaW1kYi5jb20vdGl0bGUvdHQxNDIzMDQ1OC8&ntb=1)\
-**海報：** \
+**IMDb頁面：** [link](https://www.bing.com/ck/a?!&&p=c3345eeaab3c595dJmltdHM9MTcwODY0NjQwMCZpZ3VpZD0zMmIxYjM2NC1jYzgxLTY1MDktMDc4My1hNzc4Y2Q5MTY0NTcmaW5zaWQ9NTIyMA&ptn=3&ver=2&hsh=3&fclid=32b1b364-cc81-6509-0783-a778cd916457&psq=poor+thing+imbd&u=a1aHR0cHM6Ly93d3cuaW1kYi5jb20vdGl0bGUvdHQxNDIzMDQ1OC8&ntb=1)
+
+**海報：** 
+
 ![image](image/Poor_Things_Poster.jpg)

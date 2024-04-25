@@ -5,7 +5,7 @@ tags: ['#movie']
 ---
 
 # 電影評分：魔法滿屋(Encanto)
-- **發行商：** [Disneys](/Disneys.md)
+- **發行商：** [[Disneys]]
 - **導演：** 拜倫·霍華 and 傑瑞·布希
 - **演員：** 
     史蒂芬妮·碧翠絲
@@ -27,11 +27,15 @@ tags: ['#movie']
 
 
 ## 我的評價
-**評分[標準](/標準.md)：** 7.5/10\
-**記憶點：** 很酷的設定\
-**評論：**\
+**評分[[標準]]：** 7.5/10
+
+**記憶點：** 很酷的設定
+
+**評論：**
+
 &emsp;缺點很明顯，衝突醞釀太久，衝突真的爆發時又潦草的和解，我也不是要什麼驚天大和解，但是，太隨便了，以至於我只能給到7分。
 ## 連結
-**IMDb頁面：** https://www.imdb.com/title/tt2953050/ \
+**IMDb頁面：** https://www.imdb.com/title/tt2953050/ 
+
 **海報：** 
 ![](image/MV5BNjE5NzA4ZDctOTJkZi00NzM0LTkwOTYtMDI4MmNkMzIxODhkXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_FMjpg_UY3000_.jpg)

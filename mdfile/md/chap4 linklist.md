@@ -241,7 +241,7 @@ struct PolyNode* add(struct PolyNode* A, struct PolyNode* B) {
 ### multiple
 pass(不太想寫)
 ## 環狀串列
-![](https://ithelp.ithome.com.tw/upload/images/20200920/201298413jG9aKfiyq.png)
+[[]]
 通過將最後一個指向head完成
 
 

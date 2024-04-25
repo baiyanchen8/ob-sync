@@ -9,20 +9,27 @@ tags: [機器學習]
 ## why we need regression
 因為我們會需要處理continuous的Predict like 房地產
 ## Linear Regression
-1. **Defination**\
-    簡易來說，Linear Regression 定義的是一種模型變量與自變量之間的關係\
+1. **Defination**
+
+    簡易來說，Linear Regression 定義的是一種模型變量與自變量之間的關係
+
     而這關係是$y=\theta x$，其中$\theta$為常數
 2. Evaluate Model Method (計算誤差的方法)
-    1. MSE(方均)\
+    1. MSE(方均)
+
         $\large{\Sigma\frac{YR_i-YP_i}{n}}$，其中YR為Real data，YPh為model Predict
-    2. RMSE(方均根）\
+    2. RMSE(方均根）
+
         $\large{\sqrt{\Sigma\frac{YR_i-YP_i}{n}}}$，其中YR為Real data，YPh為model Predict
-    3. MAE（絕對值平均）\
+    3. MAE（絕對值平均）
+
         $\large{\Sigma\frac{|YR_i-YP_i|}{n}}$，
         其中YR為Real data，YPh為model Predict
 ## Polynomial Regression
-1. **Defination**\
-    簡易來說，Polynomial Regression 定義的是一種模型變量與自變量之間的關係\
+1. **Defination**
+
+    簡易來說，Polynomial Regression 定義的是一種模型變量與自變量之間的關係
+
     而這關係是$y=\Sigma\theta_nx^n$，其中$\theta_n$皆為常數
 2. how to choose complexity of model
     >  慎選指數
@@ -60,7 +67,8 @@ tags: [機器學習]
         
     
 ## Calculating Gradient
-梯度下降是一种迭代優化算法，用于最小化損失函数，以找到模型参数的最佳值。\
+梯度下降是一种迭代優化算法，用于最小化損失函数，以找到模型参数的最佳值。
+
 在每次迭代中，梯度下降计算損失函数的梯度（變化率），然后沿着負梯度（相對低谷）的方向更新参数，以减小損失函数的值。
 
 1. BGD（批次梯度下降）

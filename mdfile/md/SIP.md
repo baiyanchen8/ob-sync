@@ -7,7 +7,7 @@ tags: ['#計組']
 
 ![](image/Bk3mx6o-6.png)
 
-1. **[SaaS](/SaaS.md)（軟件即服務，Software as a Service）**：
+1. **[[SaaS]]（軟件即服務，Software as a Service）**：
 	- SaaS是一種雲計算服務模型，它提供已經構建好的軟件應用程序，用戶可以通過網絡來訪問和使用這些應用程序。
 	- 用戶無需擔心軟件的部署、維護和基礎設施，因為這些都由SaaS提供商負責。
 	- 典型的SaaS應用包括郵件服務、客戶關係管理（CRM）軟件、**辦公軟件**（如Google Workspace和Microsoft Office 365）等

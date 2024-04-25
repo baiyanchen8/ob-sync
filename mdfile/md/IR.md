@@ -23,11 +23,11 @@ tags : I.R.
 - **課程時間**: 1/5~8
 
 ## 課程內容
-1. [lesson 1 for IR](/lesson%201%20for%20IR.md)
-2. [L2 Tolerance Retrieval](/L2%20Tolerance%20Retrieval.md)
-3. [ir3](/ir3.md)
-4.  [ir5](/ir5.md)
-5. [final](/L3%20is%20for%20home%20work.md)
+1. [[lesson%201%20for%20IR]]
+2. [[L2%20Tolerance%20Retrieval]]
+3. [[ir3]]
+4.  [[ir5]]
+5. [[L3%20is%20for%20home%20work]]
 ## 評估
 1. Assignment 20%
 2. Midterm 20%

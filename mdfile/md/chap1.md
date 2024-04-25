@@ -34,15 +34,15 @@ tags: ['#計組']
 #### cloud computing
 1. 多與PMD結合，software run on pwd ,data run on cloud database
 2. Portion of software run on a PMD and a portion run in the Cloud
-3. [SIP](/SIP.md)
-4. [四種部屬雲](/四種部屬雲.md)
+3. [[SIP]]
+4. [[四種部屬雲]]
 5. 延伸介紹: industry 3.0 vs 4.0
     
     | ----         | Industry 3.0                             | Industry 4.0                                                 |
     | ------------ |:---------------------------------------- |:------------------------------------------------------------ |
     | 人為干預部分 | 會需要人在事先設定好程序靠本地端電腦執行 | 多數生產過程使用大量數據和智慧互聯機器，不依賴任何人為干預。 |
     
-    詳細介紹:[industry](/hxL487ZzR3iXJlU1twpUlg)
+    詳細介紹:[[industry]]
     
 ![](image/BJUVc6obT.png)
 
@@ -50,12 +50,12 @@ tags: ['#計組']
 ### hardware
 #### input
 keyborad、mouse
-##### [POSTPC](https://hackmd.io/o_E6p7YNTTSVn-a8lqwLiQ) 後PC時代
+##### [[POSTPC]] 後PC時代
 ![](image/By_Ay6jW6.png)
 
 
 #### output
-**[CRT](https://hackmd.io/TepuCGZWRpi9m4aKCLO-uw)**
+**[[CRT]]**
 
 #### memory
 
@@ -65,20 +65,23 @@ keyborad、mouse
 | magnetic、flash、CDROM、DVD|       memory、cache、register                  |
 由於valid and nonvalid 使memory分為兩種大類型，一種用於快速存取，另一種用於保存資料。
 ##### valid memory
-memory、cache、register \
+memory、cache、register 
+
 ![](image/r1PoWaoZp.png)
 
 **由於其價格差異，因此才會分為多層使用(越快越貴)**
 
 #### network
 ![](image/BJWnZTo-6.png)
-**WAN** : wide area netwwork → 輸入(通常只有一孔)\
-**LAN** : Local area netwwork → 輸入(通常有多孔)\
+**WAN** : wide area netwwork → 輸入(通常只有一孔)
+
+**LAN** : Local area netwwork → 輸入(通常有多孔)
+
 **Wireless network**: WiFi, Bluetooth
 
 
 #### cpu
-##### [逢紐曼電腦架構](https://hackmd.io/YfbDHi5pRVWlcmcQ1kKQVw)
+##### [[馮紐曼]]電腦
 ![](image/HJt6-piZp.png)
 ![](image/S1YaZps-T.png)
 
@@ -89,7 +92,8 @@ $Cost\ Per\ Dies=Cost\ Per\ Wafer/Dies\ Per\ Wafer\times Yelid$
 
 $Dies\ Per\ Wafer≓Wafer\ Area/Dies\ Area$
 
-$Yelid =1/(1+Defect\ Per\ Area×Dies\ Area)^N$\
+$Yelid =1/(1+Defect\ Per\ Area×Dies\ Area)^N$
+
 通常N各家晶片廠自定義,like 三星為130
 ### SOFTWARE
 ![](image/rJzp7pjbp.png)
@@ -106,10 +110,12 @@ window and linux kernel and so on
 
 #### function Marco
 
-- fuctoin :  \
+- fuctoin :  
+
     it need to return address, so it will cost more tme
 
-- Marco : \
+- Marco : 
+
     it will insert data into stack , so it did't need return address,but it will cost many space
 
 
@@ -123,8 +129,8 @@ window and linux kernel and so on
 ![](image/BkR8ETibp.png)
 
 ### cloud system
-#### [SIP](/BrG766-wQt6feIWi-3hfug)
-#### [四種部屬雲](/aqnyVtnyTu-m3vCcXOBJLQ)
+#### [[SIP]]
+#### [[四種部屬雲]]
 #### 五大功能
 -  按需求自助服務(On-Demand Self-Service) 
 	- 消費者可據需求自己來
@@ -197,7 +203,8 @@ window and linux kernel and so on
         - A'performance / 3 = B'performance
 5. CPU rate
     - 單位(次/秒)
-    - 3.xHz \
+    - 3.xHz 
+
 ![](image/BJEYHF3bT.png)
 
 
@@ -262,7 +269,7 @@ window and linux kernel and so on
             - 不同指令不同CPI
                 - 因此Avg(CPI)會嚴重受使用的所有指令影響
 4. 硬碟的I/O次數
-    - 根據I/O的使用次數與使用方式會影響程式表現,[硬碟詳細內容介紹](/硬碟HDD.md)
+    - 根據I/O的使用次數與使用方式會影響程式表現,[[硬碟HDD]]
         |儲存型態|link list |arr|
         |-|:-|:-|
         |優點| 可隨時變換長度及型態|根據硬碟型態 可以有較快的讀取速度 |
@@ -278,11 +285,11 @@ window and linux kernel and so on
     |            資料結構            |   ✔️   | ✔️  |    ✖️    |
     |         program design         |   ✔️   | ✔️  |    ✖️    |
     |            complier            |   ✔️   | ✔️  |    ✖️    |
-    | [ISA](/ISA.md) |   ✔️   | ✔️  |    ✔️    |
+    | [[ISA]] |   ✔️   | ✔️  |    ✔️    |
     |              計組              |   ✖️   | ✔️  |    ✔️    |
     |          VLSI(純硬體)          |   ✖️   | ✖️  |    ✔️    |
     
-#### exapand-[turbo mode](/turbo%20mode.md) 
+#### exapand-[[turbo mode]] 
 渦輪模式 : 在 CPU 運算量高時讓 CPO 時脈短暫开高10 %,
 直到 CPO 過熱為止
 ### The power wall (能耗牆)
@@ -294,7 +301,8 @@ window and linux kernel and so on
          
         ![](image/SyvpWBp-p.png)
         動態耗能: 
-            由於電橋本身具有電阻，產生能耗\
+            由於電橋本身具有電阻，產生能耗
+
         靜態能耗:
             由於mosfet本身結構(中間電橋),在靜止狀態下容易產生電中和，因此會產生能耗
         
@@ -304,13 +312,17 @@ window and linux kernel and so on
 
 
 ### Fallacies and pitfalls(謬誤與陷阱)
--  [Amdahl’s Law](/Amdahl’s%20Law.md)(經驗法則)
+-  [[Amdahl’s Law]](經驗法則)
 
     - $P_{new}=\frac{P_{part\ of \ affect}}{times\ of\ improve}+P_{part\ of \ not\ affect}$ 
-        - example : \
-            程式在電腦上執行需要100秒，且乘法耗費其中的80秒，請問該如何改善乘法的速度讓他跑5倍快? \
-            ans : $\frac {100}{5}=20 \neq \frac{80}{X} +20$ \
-            其中X為改善倍率 ,因此X→$\infty$\
+        - example : 
+
+            程式在電腦上執行需要100秒，且乘法耗費其中的80秒，請問該如何改善乘法的速度讓他跑5倍快? 
+
+            ans : $\frac {100}{5}=20 \neq \frac{80}{X} +20$ 
+
+            其中X為改善倍率 ,因此X→$\infty$
+
             ⇒不可能改善
     - so make the common case fast is better
 
@@ -323,7 +335,4 @@ window and linux kernel and so on
             - ISAs between computers
             - Instruction program
             - complexity between instructions
-        - $\large{MIPs \\= \frac {Instruction\ Count}{Excution\ 
-            time_{(sec)}\times 10^6}
-            \\= \frac {Instruction\ Count}{\frac{Instructio \ count\times CPI}{Clock Rate}\ \times\  10^6}
-            \\=\frac{Clock \ Rate }{CPI\times 10^6}}$
+        - equation$$\small{MIPs \\= \frac {Instruction\ Count}{Excution\ time_{(sec)}\times 10^6}\\= \frac {Instruction\ Count}{\frac{Instructio \ count\times CPI}{Clock Rate}\ \times\  10^6}\\=\frac{Clock \ Rate }{CPI\times 10^6}}$$

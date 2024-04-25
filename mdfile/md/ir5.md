@@ -20,4 +20,4 @@ tags: [I.R.]
     - so , 轉為預測機率(softmax)
         - 假設我們空間中只有(A,B,C,D)四個向量
         - $\large{P(B|A;\theta)=\frac{e^{\vec{A}\cdot\vec{B}}}{e^{\vec{A}\cdot\vec{B}}+e^{\vec{A}\cdot\vec{C}}+e^{\vec{A}\cdot\vec{D}}}}$
-        - ![圖片](https://hackmd.io/_uploads/BkKtEMWlC.png)
+        - [[圖片]]
