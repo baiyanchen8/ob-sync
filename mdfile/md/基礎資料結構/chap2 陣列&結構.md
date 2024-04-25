@@ -1,7 +1,7 @@
 ---
 title: chap2 陣列&結構
-tags: [基礎資料結構]
-
+tags:
+  - 基礎資料結構
 ---
 
 # chap2 陣列&結構
@@ -19,7 +19,7 @@ Array由<index,value>組成
 	- `int list[]={1,2,3,4,5,6,7,8,9,10}`
 ## 2.2 動態陣列
 ### 2.2.1 一維陣列
-```c=1ㄢ
+```c=1
 int main() {
     // 使用malloc
     int *arr = (int *)malloc(5 * sizeof(int));
@@ -110,6 +110,7 @@ struct poly{
 	float coef[100];//每級的係數
 };
 ```
+
 ```c=1
 struct poly add(struct poly A,struct poly B){
 	struct poly D;

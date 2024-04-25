@@ -5,7 +5,7 @@ tags: [基礎資料結構]
 ---
 
 # binsearch
-```python=1
+```python=
 def binarySearch(arr, target):
     left = 0
     right = len(arr) - 1

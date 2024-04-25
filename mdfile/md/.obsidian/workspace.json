@@ -11,8 +11,12 @@
             "id": "0d467135aaa5c3fd",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "information retrieval/IR.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "information retrieval/IR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "information retrieval/IR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "information retrieval/IR.md"
+              }
             }
           }
         ],
@@ -131,6 +139,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "markdown-importer:開啟 Markdown 格式轉換器": false,
       "switcher:開啟快速切換": false,
       "graph:查看關聯圖": false,
       "canvas:建立新畫布": false,
@@ -141,10 +150,16 @@
   },
   "active": "0d467135aaa5c3fd",
   "lastOpenFiles": [
+    "information retrieval/L3 is for home work.md",
+    "information retrieval/IR.md",
+    "基礎資料結構/chap1 introduction.md",
+    "基礎資料結構/chap2 陣列&結構.md",
+    "基礎資料結構/binsearch.md",
+    "基礎資料結構/排序演算法.md",
+    "基礎資料結構/基礎資料結構.md",
+    "movie/觀看清單.md",
     "資安與密碼學/密碼學.md",
     "基礎資料結構/chap5 tree.md",
-    "基礎資料結構/基礎資料結構.md",
-    "基礎資料結構/chap1 introduction.md",
     "database/資料庫課程.md",
     "os/chap 6 Process Synchronizatio.md",
     "os/CHAP1  For OS.md",
@@ -161,12 +176,6 @@
     "機器學習/What is Machine Learning.md",
     "physics net/智慧物聯網.md",
     "physics net/hw3 勿連網.md",
-    "physics net/物連網hw4.md",
-    "機器學習/機器學習.md",
-    "Towers%20of%20Hanoi.md",
-    "unix/unix chap1.md",
-    "unix/UNIX.md",
-    "unix/path of unix.md",
     "離散數學",
     "image/S1d1KrcgA.png",
     "image/rkwbO4PeC.png",
