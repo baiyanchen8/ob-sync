@@ -112,10 +112,6 @@ key 是由一個 table 中的部分或全部 attribute 組成
 - 就是對兩個table使用基本乘法
 - instructor X teaches
 - 假如有重複名稱的attribute不會合併 ⇒ $teaches.ID\;\&\; instructor.ID$
-<div class="text-center">
-
-![](image/Cartesian-Product%20Operation.png?raw=true)
-</div>
 
 ### Join Operation
 - Inner Join

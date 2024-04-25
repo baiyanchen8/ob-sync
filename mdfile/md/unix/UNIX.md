@@ -5,5 +5,6 @@ tags: [unix]
 ---
 
 # UNIX 
-1. [[unix%20chap1]]
-2. [[unix%20chap2]]
+1. [[path of unix]]
+2. [[unix chap1]]
+3. [[unix chap2]]

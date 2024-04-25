@@ -85,7 +85,7 @@ int main(int k,char *argv[]) {
 ### 1.3.2 遞迴演算法
 我懶得做了
 ## Exercise
-1. [[Towers%20of%20Hanoi]]
+1. [[Towers of Hanoi]]
 
 ## 1.4資料抽象化
 除了char、int、float、double，還有array&structure

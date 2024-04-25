@@ -27,7 +27,7 @@ tags: [機器學習]
 ## 四種mdeol類型
 
 1. 監督學習 (Supervised Learning):
-    - [Classification](/0fKPwVJSTAqVqwRvC1s9AA) [Regression](/uUM_D_UFSN6_mClhGr7JuQ)
+    - [[Classification]] [[Regression]]
         - 分類 (Classification):
                 分類是一種監督學習任務，通常用於將數據點分為不同的類別或類別。它的目標是為每個輸入數據點分配一個預定義的類別標籤。常見的分類算法包括決策樹、支持向量機 (SVM)、K最近鄰 (K-Nearest Neighbors)、神經網絡等。
         - 回歸 (Regression):

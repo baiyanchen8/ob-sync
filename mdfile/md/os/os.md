@@ -16,7 +16,7 @@ This course introduces the operating system to facilitate students to understand
 - **上課地點**: AT242
 - **授課教師**: 張軒彬[youtube](https://www.youtube.com/@user-zt2jb8cg2d)
 - **聯絡方式**: None
-- **課程時間**: [周2 34 and 周4 2](/NzV-a9tGRX-__mPE58OdLQ)(腦子有洞)
+- **課程時間**: 周2 34 and 周4 2(腦子有洞)
 
 ## 目標
 1. 瞭解作業系統的組成架構與分類

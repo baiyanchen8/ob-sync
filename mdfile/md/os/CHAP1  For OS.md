@@ -204,7 +204,7 @@ tags: [os]
 - multi tasking(time sharing)
     - 為multi programing 的延伸
     - cpu通過在多個process多次之間切換，以提升響應速度(reponse time)
-    - need cpu scheduling in [[chap%205%20for%20os_]]
+    - need cpu scheduling in [[chap 5 for os]]
     - 為了達到這一效果，很常會使用到一技術--[[虛擬記憶體]]
 ### Dual mode and Multi mode
 由於作業系統要確保不會有錯誤(或惡意)程式，使其他程式無法執行，故需要用多種模式去限制能使用的物件(or 指令)。
@@ -212,11 +212,7 @@ tags: [os]
 ### Timer
 - 通常由晶振體組成
 - 使用inerrupt
-<!-- ## Source Management
----
-### 行程管理
 
- -->
 ## protection and security
 - protection
     - 是一種行程控制或使用者存取電腦資源的一種限制

@@ -162,7 +162,6 @@ void connected(){
 
 ## 雙連通元件((bi-connected components))
 articulation point : 將*連通圖G*中某一*節點v*刪除會出現多個(>1)連通圖，該節點極為連接點(articulation point)
-![](image/20240317_173225.jpg?raw=true)
 
 ### low 公式
 low(n)=min{dfn(n)

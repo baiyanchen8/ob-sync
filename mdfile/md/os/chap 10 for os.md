@@ -110,7 +110,7 @@ tags: [os]
 ![image](image/ry6gFSIPT.png)
 
 ### Page Fault Handling
-![](image/page_handler_pre.png?raw=true)
+
 1. check page table 
 	- if valid bit = 0 (i)
 		- 執行步驟2

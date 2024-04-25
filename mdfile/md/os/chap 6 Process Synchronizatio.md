@@ -382,9 +382,7 @@ Solution : 由 OS 建立了更方便的方法去解決 Critical Section
 		}
 		```
 - 流程
-<div class="text-center">
-<img src="image/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-12-10%20012603.png?raw=true" width="" height="144">
-</div>
+
 ### Problem of Mutex
 - only for two Process
 ## Spin Lock  與 mutex lock 的
@@ -430,14 +428,7 @@ Solution : 由 OS 建立了更方便的方法去解決 Critical Section
 		- 初始化為 1
 - Usage
 	- 輪流
-		:::spoiler 輪流
-		![image](image/semaphore1.png?raw=true)
-		:::
 	- 同步
-		:::spoiler Synchronization 同步
-		先S1再S2
-		![](image/semaphore2.png?raw=true)
-		:::
 
 ### BUT!!
 - 以上做法還是需要 busy waiting
@@ -503,9 +494,7 @@ monitor monitor_name{
 }
 ```
 ### entry queue
-<div class="text-center">
-<img src="image/entry_queue.png?raw=true" width="" height="288">
-</div>
+
 
 - 作用
 	- 由於 monitor 一次只能有一個進入
@@ -599,7 +588,7 @@ void x_signal(){
 ## Deadlock
 
 Deadlock（死結）是指在多個執行緒或進程之間，每個都在等待另一個釋放資源，而導致所有執行緒或進程都無法繼續執行的情況。這通常發生在彼此互相等待對方釋放的資源上，形成一種循環等待的狀態。
-![](image/Deadlock.png?raw=true)
+
 
 ## Priority Inversion
 

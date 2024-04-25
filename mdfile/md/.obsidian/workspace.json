@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e466d19ab1e9a3cf",
+        "id": "a3cacd9a67699401",
         "type": "tabs",
         "children": [
           {
-            "id": "eb38e9ac5f331b7b",
+            "id": "0d467135aaa5c3fd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "movie/觀看清單.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -38,7 +34,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "movie/觀看清單.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "movie/觀看清單.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "movie/觀看清單.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -147,35 +139,35 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "eb38e9ac5f331b7b",
+  "active": "0d467135aaa5c3fd",
   "lastOpenFiles": [
-    "資安與密碼學/lec 2 note.md",
-    "祭祖/cpu.md",
-    "database/chap 1 for 資料庫.md",
-    "code theme.md",
-    "movie/魔法滿屋(Encanto).md",
-    "other/我的遊戲庫.md",
-    "基礎資料結構/chap4 linklist.md",
-    "os/chap 9 for os.md",
-    "database/chap 2 for 資料庫.md",
-    "database/chap 4 for 資料庫.md",
-    "機器學習/What is Machine Learning.md",
-    "基礎資料結構/Towers of Hanoi.md",
-    "機器學習/Regression.md",
-    "movie/觀看清單.md",
-    "unix/unix chap1.md",
-    "離散數學/lec1.md",
-    "離散數學",
-    "基礎資料結構/chap7 for基礎資料結構.md",
-    "祭祖/chap1.md",
-    "os/chap 7 for Os.md",
-    "機器學習/Unsupervised Learning.md",
-    "祭祖/RSIC-V.md",
-    "os/CHAP1  For OS.md",
-    "祭祖/ARM.md",
-    "movie/馬修·范恩.md",
+    "資安與密碼學/密碼學.md",
+    "基礎資料結構/chap5 tree.md",
+    "基礎資料結構/基礎資料結構.md",
+    "基礎資料結構/chap1 introduction.md",
     "database/資料庫課程.md",
-    "movie/沙丘2.md",
+    "os/chap 6 Process Synchronizatio.md",
+    "os/CHAP1  For OS.md",
+    "祭祖/chap2.md",
+    "機器學習/Regression.md",
+    "os/os.md",
+    "other/標準.md",
+    "祭祖/祭祖.md",
+    "os/chap 10 for os.md",
+    "基礎資料結構/chap6 graph.md",
+    "離散數學/離散數學.md",
+    "離散數學/lec1.md",
+    "database/chap 2 for 資料庫.md",
+    "機器學習/What is Machine Learning.md",
+    "physics net/智慧物聯網.md",
+    "physics net/hw3 勿連網.md",
+    "physics net/物連網hw4.md",
+    "機器學習/機器學習.md",
+    "Towers%20of%20Hanoi.md",
+    "unix/unix chap1.md",
+    "unix/UNIX.md",
+    "unix/path of unix.md",
+    "離散數學",
     "image/S1d1KrcgA.png",
     "image/rkwbO4PeC.png",
     "image/B1ncz8PST.png",
