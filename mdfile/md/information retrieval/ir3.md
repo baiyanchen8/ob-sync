@@ -7,7 +7,7 @@ tags: [I.R.]
 
 # Rank Retrieval
 
-＃> 這章節要處理的問題是 『rank retrieval』
+> 這章節要處理的問題是 『rank retrieval』
 > 我們目前只能處理搜尋，但無法處理相關度的問題
 > 本章節就是解決這個
 ## w 
@@ -44,10 +44,10 @@ $b$ : given parameter
 # Vector Sparse Model
 > A collection of n documents can be represented in the vector space model by a term-document matrix.
 
-| Document \ Term | T<sub>1</sub> | T<sub>2</sub> | T<sub>3</sub> | ... | T<sub>t</sub>|
-|-----------------|----|----|----|---|---|
-| D<sub>1</sub> | w<sub>11</sub> | w<sub>21</sub> | w<sub>31</sub>| ... | w<sub>t1</sub>|
-| D<sub>2</sub> | w<sub>12</sub> | w<sub>22</sub> | w<sub>32</sub>|...| w<sub>t2</sub> |
+| Document \ Term | T<sub>1</sub>  | T<sub>2</sub>  | T<sub>3</sub>  | ... | T<sub>t</sub>  |
+| --------------- | -------------- | -------------- | -------------- | --- | -------------- |
+| D<sub>1</sub>   | w<sub>11</sub> | w<sub>21</sub> | w<sub>31</sub> | ... | w<sub>t1</sub> |
+| D<sub>2</sub>   | w<sub>12</sub> | w<sub>22</sub> | w<sub>32</sub> | ... | w<sub>t2</sub> |
 ## Similarity Measur
 > 三種可能計算相似度的方法
 > > 1. Euclidean Distance (歐肌理得距離) 

@@ -121,4 +121,3 @@ void dec() {
     pthread_exit(NULL);
 }
 ```
-> 

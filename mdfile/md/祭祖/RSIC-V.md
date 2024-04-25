@@ -1,7 +1,8 @@
 ---
 title: RSIC-V
-tags: ["\_#undo"]
-
+tags:
+  - "#undo"
+  - 計組
 ---
 
 # RSIC-V

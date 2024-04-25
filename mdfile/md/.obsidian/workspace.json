@@ -11,9 +11,11 @@
             "id": "eb38e9ac5f331b7b",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "image/S1d1KrcgA.png"
+                "file": "movie/觀看清單.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "image/S1d1KrcgA.png",
+                "file": "movie/觀看清單.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "image/S1d1KrcgA.png",
+                "file": "movie/觀看清單.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "image/S1d1KrcgA.png"
+                "file": "movie/觀看清單.md"
               }
             }
           }
@@ -147,37 +149,40 @@
   },
   "active": "eb38e9ac5f331b7b",
   "lastOpenFiles": [
+    "資安與密碼學/lec 2 note.md",
+    "祭祖/cpu.md",
+    "database/chap 1 for 資料庫.md",
+    "code theme.md",
+    "movie/魔法滿屋(Encanto).md",
+    "other/我的遊戲庫.md",
+    "基礎資料結構/chap4 linklist.md",
+    "os/chap 9 for os.md",
+    "database/chap 2 for 資料庫.md",
+    "database/chap 4 for 資料庫.md",
+    "機器學習/What is Machine Learning.md",
+    "基礎資料結構/Towers of Hanoi.md",
+    "機器學習/Regression.md",
+    "movie/觀看清單.md",
+    "unix/unix chap1.md",
+    "離散數學/lec1.md",
+    "離散數學",
+    "基礎資料結構/chap7 for基礎資料結構.md",
+    "祭祖/chap1.md",
+    "os/chap 7 for Os.md",
+    "機器學習/Unsupervised Learning.md",
+    "祭祖/RSIC-V.md",
+    "os/CHAP1  For OS.md",
+    "祭祖/ARM.md",
+    "movie/馬修·范恩.md",
+    "database/資料庫課程.md",
+    "movie/沙丘2.md",
+    "image/S1d1KrcgA.png",
     "image/rkwbO4PeC.png",
     "image/B1ncz8PST.png",
     "image/BJxCWOSPT.png",
     "image/By0FCOrva.png",
     "image/1280px-Data_stack.svg.png",
     "image/1*Nf2tTTkALYq6RTMQmhjo1A.png",
-    "基礎資料結構/chap6 graph.md",
-    "基礎資料結構/chap1 introduction.md",
-    "os/os.md",
-    "os/chap 8 Deadlock.md",
-    "database/chap 6 for 資料庫.md",
-    "祭祖/SaaS.md",
-    "all.md",
-    "祭祖/POSTPC.md",
-    "information retrieval/L2 Tolerance Retrieval.md",
-    "os/CHAP3 FOR OS.md",
-    "other/離散數學.md",
-    "密碼學/lect 1 note.md",
-    "other/課程名稱.md",
-    "movie/劇場版 SPY×FAMILY CODE_ White.md",
-    "os/simple shell.md",
-    "os/oslab14.md",
-    "select.md",
-    "physics net/hw3 勿連網.md",
-    "os/chap 10 for os.md",
-    "基礎資料結構/chap5 tree.md",
-    "基礎資料結構/chap3 stack&queue.md",
-    "other/SQL.md",
-    "機器學習/Reading Assignment (Self-learning Week).md",
-    "機器學習/Data Preprocessing.md",
-    "祭祖/馮紐曼.md",
     "physics net",
     "calculus",
     "unix",
@@ -185,8 +190,7 @@
     "other",
     "database",
     "機器學習",
-    "密碼學",
-    "基礎資料結構",
-    "os"
+    "資安與密碼學",
+    "基礎資料結構"
   ]
 }

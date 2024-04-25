@@ -124,20 +124,20 @@ ensure only one process at a time can manipulate the shared data
 > 為什麼turn 的條件不能設為對方的?
 > NO!
 > 因為會使兩個CS衝突到
->|                  p1                  |                  p2                  |
->|:------------------------------------:|:------------------------------------:|
->|              flag[1]=1               |                  -                   |
->|                turn=1                |                  -                   |
->|                  -                   |              flag[2]=1               |
->|                  -                   |                turn=2                |
->|                  -                   | while(flag[1]\==1&turn\==1){1} *#pass* |
->|                  -                   |                  CS                  |
->| while(flag[2]\==1&turn\==2){1} *#pass* |                  -                   |
->|                  CS                  |                  -                   |
+
+|                   p1                   |                   p2                   |
+| :------------------------------------: | :------------------------------------: |
+|               flag[1]=1                |                   -                    |
+|                 turn=1                 |                   -                    |
+|                   -                    |               flag[2]=1                |
+|                   -                    |                 turn=2                 |
+|                   -                    | while(flag[1]\==1&turn\==1){1} *#pass* |
+|                   -                    |                   CS                   |
+| while(flag[2]\==1&turn\==2){1} *#pass* |                   -                    |
+|                   CS                   |                   -                    |
 
 > is it possible to change the first two statements?
 > No!!
-> <p class='text-center'><img src="image/S1BkMDsrp.png" width="" height="288"></p>
 > 因為會使兩個 process 同時進入到 CS
 
 ## Proof of Correct

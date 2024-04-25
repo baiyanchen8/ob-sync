@@ -48,9 +48,7 @@ tags: [資料庫]
 7. **檔案系統類型**：不同的操作系統使用不同的檔案系統，如NTFS和FAT32用於Windows，而EXT4用於Linux。每種檔案系統都有其自己的特點和優勢。
 8. **儲存設備**：檔案系統可以存在於不同的儲存設備上，包括硬碟、固態硬碟、USB閃存驅動器等。
 總的來說，檔案系統是一個基本的數據管理系統，用於組織和存儲檔案，並提供應用程式和使用者對數據的訪問。它是操作系統中重要的一個組成部分。
-<p class ="text-center">
-<a href="https://searchstorage.techtarget.com/definition/file-system" title="link"><img src="image/HybXh-7B6.png" alt="測試圖片" border="0"width="" height="288"></a>
-</p>
+
 
 ### Probelm of file System to manage big data
 資料冗余和不一致性是在使用傳統的檔案系統管理數據時可能出現的問題。以下是一些與這些問題相關的主要挑戰：

@@ -9,7 +9,7 @@ tags: [unix]
 ## intro 
 ### structure of command
 
-🧑‍💻 \$ [command] [option(s)] [option arguments] [command argument]
+ \$ [command] [option(s)] [option arguments] [command argument]
 - \[command]：這是指要執行的命令的名稱或識別符號。
 - \[option(s)]：這是一個或多個選項，它們修改命令的行為。
 - \[option arguments]：這是與選項相關聯的參數或值。
