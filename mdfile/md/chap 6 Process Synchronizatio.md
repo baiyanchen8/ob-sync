@@ -1,0 +1,621 @@
+---
+title: chap 6 Process Synchronizatio
+tags: [os]
+
+---
+
+
+# Backgound
+## Producer&Comsumer Problem
+### introduction
+生產者消費者問題（英語：Producer-consumer problem），也稱*有限緩衝問題*（Bounded-buffer problem），是一個多進程同步問題的經典案例。該問題描述了共享固定大小緩衝區的兩個進程——即所謂的「生產者」和「消費者」——在實際運行時會發生的問題。生產者的主要作用是生成一定量的數據放到緩衝區中，然後重複此過程。與此同時，消費者也在緩衝區消耗這些數據。該問題的關鍵就是要保證生產者不會在緩衝區滿時加入數據，消費者也不會在緩衝區中空時消耗數據。
+### implementation (模擬)
+- share data
+	``` clike=1
+	#define buffersize 10 
+	struct item{
+		int i;
+		int j;
+		...
+	};
+	struct item bufffer[buffersize];
+	int start=0;
+	int end=0;
+	int count =0;
+	```
+- Producer
+	```clike=
+	item next;
+	while(1){
+		while(count!=buffersize){
+			buffer[end]=next;
+			in=(in+1)%buffersize;
+			count++;
+		}
+	}
+	```
+- Consumer
+	```clike=
+	int next;
+	while(1){
+		while(count>0){
+			next=buffer[start];
+			out=(out+1)%buffersize;
+			count--;
+			
+		}
+	}
+	```
+### 問題產生
+
+當 producer & consumer 一起執行時，有可能因為某方執行到一半時遇到   context switch (交換 process 執行)，進而發生錯誤。
+> examle image
+![image](image/BJJy3mjVp.png)
+
+
+## Race Condition
+競爭危害（race hazard）又名競態條件、競爭條件（race condition），它旨在描述一個系統或者進程的輸出依賴於不受控制的事件出現順序或者出現時機。*此詞源自於兩個訊號試著彼此競爭，來影響誰先輸出。*
+
+### sol : Process synchronization and coordination(流程同步與協調)
+
+ensure only one process at a time can manipulate the shared data
+*確保一次只有一個進程可以操作共享數據*
+# The Critical Section Problem
+## define 
+- 假設有 n 個 process 可以存取共享資料
+- 每個 process 有一個code section(程式碼部分CS)負責存取share data
+<p class='text-center'><img src="image/By8x5Eor6.png" width="" height="288"></p>
+
+### goal
+- 當有其中一個 process 進入 CS 時，其他 process *不能同時*執行 CS
+## solution
+- to achieve the goal，我們需要修改程式
+	- berfore CS
+		- 每個 process 要先發送使用CS的請求:**entry section**
+	- after CS
+		- 每個 process 釋放手中資源:**exit section**
+- remain code
+	- remainder section(剩餘部分)
+- new code structure
+	<p class='text-center'><img src="image/rkK4a4jSp.png" width="" height="288"></p>
+
+### 必要條件
+1. Mutual Exclusive (互斥)
+	- 在任何時候，都只能有一個process在CS(critical section)
+2. Progess 
+	- 如果沒有process在執行CS(critical section)，而且有process 想進入critical section
+		- 只有enry-section or exit-section 可以參與決策(remainder 不可，不相關者不參與決策政策)
+		- 並且不能無限期地推遲接下來進入臨界區的進程的選擇。
+3. Bounded Waiting(有限等待)
+	- 進程請求輸入其 CS 後且該請求被批准之前
+	- 允許進程進入*等待的時間必須有限制*
+	- 保證進程將被選擇進入其CS
+   		- 否則進程將遭受飢餓
+   		- "starvation"（飢餓）是指一種情況，其中某些執行緒、進程或*任務無法獲取它們所需的資源*，導致它們無法正常執行。這可能是由於資源分配不公平或不當的原因所致。
+
+# Peterson's Solution (Software Solution)
+## 特色 
+- 在當今電腦架構下不一定能使用(是個古老的做法)
+- Is a *Software Solution*
+- *TWO process solution*
+- the *Load and Store* Cpu instructions must be *atomic*(不能切割).
+	- **atomic**
+	 ```asembly=
+	 lw $t1,$t2,0
+	 ```
+	- **not atomic**
+	```asembly=
+	addi $t2,$t2,4
+	lw $t1,$t2,0
+	```
+- 用於控制 entry & exit section 的兩個變數:
+	- `int trun`
+		- 目前輪到誰
+	- `boolean flag[2]`
+		- 用於放置哪個 process ready to enter
+## code
+<p class='text-center'>
+<img src="image/SJrcQUoST.png" width="" height="288"></p>
+<p class='text-center'>
+<img src="image/ryjlSUsHp.png" width="" height="288"></p>
+
+
+> why turn set other thraed ?
+> 為什麼turn 的條件不能設為對方的?
+> NO!
+> 因為會使兩個CS衝突到
+>|                  p1                  |                  p2                  |
+>|:------------------------------------:|:------------------------------------:|
+>|              flag[1]=1               |                  -                   |
+>|                turn=1                |                  -                   |
+>|                  -                   |              flag[2]=1               |
+>|                  -                   |                turn=2                |
+>|                  -                   | while(flag[1]\==1&turn\==1){1} *#pass* |
+>|                  -                   |                  CS                  |
+>| while(flag[2]\==1&turn\==2){1} *#pass* |                  -                   |
+>|                  CS                  |                  -                   |
+
+> is it possible to change the first two statements?
+> No!!
+> <p class='text-center'><img src="image/S1BkMDsrp.png" width="" height="288"></p>
+> 因為會使兩個 process 同時進入到 CS
+
+## Proof of Correct
+1. Mutual Exclusive (互斥)
+	- 在任何時候，只有$P_0\ or\ P_1$進入 CS
+2. Progess 
+	- 如果沒有 process 在執行CS(critical section)，而且有process 想進入critical section
+		- 只有 enry-section or exit-section 可以參與決策(remainder 不可，不相關者不參與決策政策)
+			- 是的
+		- 並且不能無限期地推遲接下來進入臨界區的進程的選擇。
+			- 是的
+3. Bounded Waiting
+	- 只需要等待1個 Process 
+
+## Drawsbacks of Software solution
+- Prone to error if not careful(不小心的話很容易出錯)
+- Not guarantee work on modern computer architecture
+	- 在現代電腦系統中，計算機系統可能會對指令進行重排，以優化執行效能。
+	- 可以使用 memory barrier 解決
+- A two process solution
+	- 現代已經很少只需要兩個 process 的程式碼
+- busy waiting
+	- 指的是透過迴圈監測條件並等待的行為
+	- 會產生不必要的執行時間(浪費cpu time)
+	- 比較好的方式是 use block
+# Hardware Solutions
+## Uniprocessor System(單一處理器系統) 的 hardware Solution
+- disable interrupt
+	- code 在進行中就不會遇到 preemption(強制中斷)
+- but,只有在 kernel 有用
+	- 因為 cli 只有在 kernel mode 能用
+- 另外,這對 multi processor 不夠用
+	- 在 multi processor 系統中，當你 cli one process ，另外一個 process 還是可以跑在其他 processor
+	- 因此對 multi processor 系統不管用
+<p class='text-center'><img src="image/rJSegqhBp.png" width="" height="208"></p>
+
+## Memory barriers 
+- Memory barriers(記憶體屏障) 又稱 Memory Fence(記憶體柵欄)
+- an Instruction (mfence for X86 )
+- 強迫在 mfence 之前的程式碼一定要在這行( mfence )之前執行完畢
+	 ```clike=1
+	#include <immintrin.h>
+	int main() {
+		int sharedVariable=0;
+		sharedVariable=42;
+		// 在這裡插入 mfence 指令
+		_mm_mfence();
+		// 在 mfence 之後，確保能看到 mfence 之前寫入的 sharedVariable 的值
+		int valueFromCore1=sharedVariable;
+		return 0;
+	}
+	```
+- 強制停止 reorder
+- 可以用於解決 peterson solution 的*部分問題*
+	- still have three problem of Peterson Solution
+		:::spoiler
+		1. 容易寫錯
+		2. only work on two process
+		3. busy waiting
+		4. reorder (已解決)
+		:::
+- Besides memory barrier is *low-level operation*
+	- 需要使用 assembly language
+	- So , 目前為止只有被用於系統開發  ∑( ° Δ °)
+## Hardware Instructions
+### Genral idea LOCK
+- 在進入 CS 前,先檢查 lock is 0 or not 
+	```clike=1
+	while(lock!=0);
+	lock=1;
+	cs 
+	lock=0;
+	```
+- if lock == 0 
+	- 設定 LOCK 1 並進入 CS
+	- 退出CS並設定鎖定=0
+-  if lock == 1 
+	-  我們留在這裡直到鎖打開
+-  it can not implement by myslef 
+	-  因最有可能的情況是，同時兩個thread 同時解鎖，因此 lock 就沒意義了
+	-  也因為 lock 這個變數本身就是 global(Not atomic) 所以也會產生 race condition 
+		:::spoiler race condition
+		![image](image/r1oZXgCr6.png)
+		:::
+	-  除非每個 lock 皆用不同條件做設定，但這又太麻煩 
+- 解法:
+	- 讓 `lock=1`變成 atomic(不可切割的) 
+		- 讓 `mov eax,1` 和 `mov lock,eax` 結合成一個 instruction
+		- 不允許之間插入process or thread
+		- 透過提供 atomic instruction 實現
+			- test_and_set or compare_and_swap
+### Atomic Instruction
+#### define
+原子指令（atomic instructions）是指在執行過程中不可被中斷或分割的指令。這些指令通常用於多執行緒（multithreading）或並行處理（concurrency）的情境，以確保在同一時間只有一個執行緒能夠存取共享資源，避免競爭條件（race conditions）的發生。
+
+在程式設計中，原子指令是為了確保某些操作的完整性，使其在執行過程中不會被其他執行緒中斷。這有助於避免資源競爭和確保程式的正確執行。
+#### test_and_set
+將邏輯以c language 實現
+```cliek=1
+boolean test_and_set(boolean *target){
+	boolean rv= *target;
+	*target =true;
+	return rv;
+}
+```
+1. 整個function 為 atomic
+2. 回傳原本的值
+3. 將原本的變數設為true
+
+#### test_and_set 實作
+```cliek=
+int lock=0;
+void thread(){
+	while(test_and_set(lock)!=0){;}
+	//檢測 if lock =0 return 0 and lock =1
+	critical section;
+	lock=0;
+	remainder section;
+}
+```
+:::spoiler 結果
+![image](image/rJlvdxCHT.png)
+:::
+#### compare_and_swap
+將邏輯以c language 實現
+```cliek=
+int compare_and_swap(int *value,int excepted,int new_value){
+	int old_value=*value;
+	if (*value == excepted)
+		*value = new_value;
+	return old_value;
+}
+```
+#### compare_and_swap 實作
+```cliek==
+int lock=0;
+void thread(){
+	while(compare_and_swap(lock,0,1)!=0){;}
+	//檢測 if lock =0 return 0 and lock =1
+	critical section;
+	lock=0;
+	remainder section;
+}
+```
+:::spoiler 結果 
+![image](image/HJTXGWRST.png)
+:::
+#### 問題
+- 即使 compare_and_swap and test_and_set 已經滿足 mutual exclusive 
+- 沒有滿足 bounded waiting
+	:::spoiler 只要remainder夠小，就沒有thread2的事
+	![image](image/ByQCOfASp.png)
+	:::
+- 解法 : `boolean waiting[n]`
+	- 透過將每一個thread個字分別設定lock，就可以避免互相搶共同資源
+	
+### 解法
+```clike=
+do{
+	waiting[i]=true;
+	while(waiting[i]&&testandset(&lock));
+	wating[i]=false;
+	//cs
+	j=(i+1)%n;
+	while(j!=i&&waiting[j]==false){
+		j=(j+1)%n;
+	}
+	if(j==i)lock=false;
+	else waiting[j]=false;
+
+}while(1);
+```
+### However
+這些做法還是太過複雜，以至於沒有拿書出來抄作業，是很難每次都寫對 **∑( ° Δ °)**
+## Atomic Variable
+
+在C程式設計中，原子變數通常使用`<stdatomic.h>`頭實現，提供原子操作的函數。
+
+:::spoiler code
+```cliek=
+#include <stdio.h>
+#include <stdatomic.h>
+#include <pthread.h>
+// Declare an atomic variable
+atomic_int atomic_variable = ATOMIC_VAR_INIT(0);
+// Declare a mutex for atomic operations
+pthread_mutex_t atomic_mutex = PTHREAD_MUTEX_INITIALIZER;
+// Function to modify the atomic variable
+void* modify_atomic_variable(void* arg) {
+    for (int i = 0; i < 100000; ++i) {
+        // Use a mutex for atomic operation
+        pthread_mutex_lock(&atomic_mutex);
+        atomic_fetch_add(&atomic_variable, 1);
+        pthread_mutex_unlock(&atomic_mutex);
+    }
+    return NULL;
+}
+int main() {
+    pthread_t thread1, thread2;
+    // Create two threads to operate on the atomic variable
+    pthread_create(&thread1, NULL, modify_atomic_variable, NULL);
+    pthread_create(&thread2, NULL, modify_atomic_variable, NULL);
+    // Wait for threads to finish
+    pthread_join(thread1, NULL);
+    pthread_join(thread2, NULL);
+    // Output the final value of the atomic variable
+    printf("Final value of the atomic variable: %d\n", atomic_load(&atomic_variable));
+    return 0;
+}
+```
+:::
+
+# OS Solution 
+## Intro
+先前介紹了介紹了很難實現的Hardware solution:
+- Memory barrier
+- Hardware instructions
+	- test_and_set
+	- compare_and_swap
+- Atomic Variable
+
+Solution : 由 OS 建立了更方便的方法去解決 Critical Section
+- mutex lock
+- semaphores
+## Mutex Lock 
+- Mutex (mutual exclusion) lock : a synchronization tool provide by os
+	- mutex is *System call*
+- Mutex : a *boolean variable*
+	- mutex is initizlied to 1.
+- Mutex Can only accessed via two atomic function(各自都是 atomic ):
+	- acquire() 
+		```clike=
+		void acquire(){
+			while(mutex==false); //雖然是busy lock，但實現時
+			mutex=false;
+		}
+		```
+	- release()
+		```clike=
+		void release(){
+			mutex=true;
+		}
+		```
+- 流程
+<div class="text-center">
+<img src="image/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-12-10%20012603.png?raw=true" width="" height="144">
+</div>
+### Problem of Mutex
+- only for two Process
+## Spin Lock  與 mutex lock 的
+- define
+	- busy waiting 版本的 mutex lock
+- condition to use
+	- There is MP(multi processor) System
+	- CS is short(需要即時反應的)
+- advantage
+	- 可以避免 sleep & wake 所需要的 overhead
+0
+## Semaphores 
+### 初版 Semaphores
+- define
+	- a more powerful synchronization tool]
+	- Semaphores S ⇒ Integer variable
+	- has to operation
+	- `wait(S)`
+		```c=
+		wait(s):{
+			while(S<=0);
+			s--;
+		}
+		```
+	- `signal(S)`
+		```c=
+		signal(s):{
+			s++;
+		}
+		```
+	- 判斷
+		- if s > 0
+			- 有可以空間可以進入
+		- if s ＜＝０
+			- 所有空間都被進入
+- 種類
+	- Counting Semaphores
+		- 允許 N 個 process 同時進入 Critical Section
+		- 將 Semaphore S 初始化為 N
+	- Binary Semaphores
+		- Semaphore S 只能是1、0
+		- 類似 mutex locks
+		- 初始化為 1
+- Usage
+	- 輪流
+		:::spoiler 輪流
+		![image](image/semaphore1.png?raw=true)
+		:::
+	- 同步
+		:::spoiler Synchronization 同步
+		先S1再S2
+		![](image/semaphore2.png?raw=true)
+		:::
+
+### BUT!!
+- 以上做法還是需要 busy waiting
+- 為避免 busy waiting
+	- 我們需要將 Process 放入 waiting Queue (進入休眠狀態)
+### Re-define a Semaphore 
+- define
+	- Semaphore
+		```clike=
+		typedef struct{
+		int value; // value of semaphore
+		struct process *L; // 用於將PCB串聯起來
+		// 也是為了避免 always waiting
+		}semaphore;
+		```
+	- method
+		- `wait`
+			```clike=
+			S.value--;
+			if(S.value<0){
+				//add this process to S.L
+				block;
+			}
+			```
+		- `signal`
+			```clike=
+			S.value++;
+			if(S.value<=0){
+				//remove a process P from S.L
+				wake(P);
+			}
+			```
+### how os implement Semaphore
+- Uniprocessor System
+	- Disable interrupt
+- Multiprocessor System
+	- Compare-and-Swap & Test-and-Set or Spin Lock(?)
+### Semaphores Problem
+1. difficult to implement
+	- 有可能因為寫錯而導致唯有實現效果
+2. The bugs may hard to detect
+### Problem of semaphores 
+![image](image/S1gfbeJup.png)
+
+# Language Level Solution : Monitors
+- Monitor : encapsulate private data with public method (用公共方法封裝私有數據)
+	- Variable can only access by local procedures
+- Only one process may be active within monitor at a time (監視器內一次只能有一個行程處於活動狀態)
+- ==but==錯誤的使用 monitor 還是很難去偵錯
+## Monitor Structure
+- 內容
+	- public method
+	- private variable 
+	- condition variable
+		- 好像一定要被命名為x、y
+```java=
+monitor monitor_name{
+	private share_data;
+	private condition x,y;
+	public process1();
+	public process2();
+	public process3();
+}
+```
+### entry queue
+<div class="text-center">
+<img src="image/entry_queue.png?raw=true" width="" height="288">
+</div>
+
+- 作用
+	- 由於 monitor 一次只能有一個進入
+	- 所以需要一個機制，用於控制進入 monitor 的順序，避免always waiting
+### Condition Variable
+- Condition X
+	- `x.wait()`
+		- 將執行此 function 的 process block
+		- 將 process 放入 x.queue 中
+	- `x.signal()`
+		- 將 block 在 x 中的一個 process 喚醒
+		- if no process in X.queue → 不作用
+		- difference from mutex
+			- signal in mutex 是去影響semaphore 的狀態
+- 問題
+	- 可能會造成在 monitor 中一次有兩個 process
+- 解法
+	- signal and wait
+		- 一旦啟用`signal`，自身也會進入`wait`
+	- signal and continue 
+		- 啟用`signal`且繼續執行，直到自身結束，`signal`才真正發揮作用
+
+## Implement Monitor use Semaphore
+### 分析
+- monitor 中共有三種情況會使 process block (意味需要使用三種semaphore) 
+- case 1
+	- entry queue
+		- 由於 monitor 中同時只能有一個 process 而產生
+- case 2
+	- 呼叫 wait()
+- case 3
+	- 呼叫 signal()
+	- 假設我們所使用的方法為 signal and wait
+### Semaphore for three case
+- case 1(entry)
+	- mutex -> 0(Semaphore)
+	- mutex 初始化為 True (有空間可以進入)
+	- 進入是呼叫 acquire(or wait) 詢問資源(mutex)
+	- 結束時呼叫 release(or signal)釋放資源(mutex)
+- case 2(wait)
+	- x_sem → 0 (Semaphore)
+	- int x_count → 0 (Calculate num of wait queue)
+- case 3(siganl)
+	- next → 0 (Semaphore)
+	- next_count →(Calculate num of siganl queue)
+### Code of three case
+#### case 1
+```clike=
+void process(){
+	wait(mutex);
+	origin_function();
+	if (next_count>0){
+		signal(next);// signal signal queue
+	}else{
+		signal(mutex);// signal entry queue
+	}
+}
+```
+#### case 2
+```clike=
+void x_wait(){
+	x_count++;//新增x queue 的 長度
+	if (next_count>0)
+		signal(next);// signal signal queue
+	else
+		signal(mutex);// signal entry queue
+	
+	wait(x_sem);
+	x_count--;//減少x queue 的長度
+}
+```
+#### case 3 
+```clike=
+void x_signal(){
+	if(x_count>0){
+		signal(x_sem);
+		next_count++;
+		wait(next);
+		next_count--;
+	}
+}
+```
+# Liveness
+- Liveness（存活性）
+	- 是指系統的一種性質，它關注的是系統是否能夠在執行中的各種操作中**保持活動**狀態。
+- Liveness failure (hazard)
+	- 存活性失效是指系統未能滿足存活性的要求，導致系統陷入死結、餓死或其他不可接受的狀態。存活性失效表示系統無法確保執行緒或進程的正常執行，可能因為同步問題、競爭條件或不當的資源管理而導致。
+- example
+	- Deadlock
+	- Starvation
+## Deadlock
+
+Deadlock（死結）是指在多個執行緒或進程之間，每個都在等待另一個釋放資源，而導致所有執行緒或進程都無法繼續執行的情況。這通常發生在彼此互相等待對方釋放的資源上，形成一種循環等待的狀態。
+![](image/Deadlock.png?raw=true)
+
+## Priority Inversion
+
+Priority Inversion（優先權反轉）則是指低優先權的執行緒持有了高優先權的資源，導致高優先權的執行緒被迫等待。這可能發生在多執行緒環境中，低優先權的執行緒在使用資源時阻礙了高優先權的執行緒，而高優先權的執行緒必須等待低優先權的執行緒釋放資源。
+![image](image/rJUz67hUT.png)
+
+### Solution --- Priority Inheritance
+
+在多執行緒環境中，Priority Inheritance（優先權繼承）是一種機制，它用於解決Priority Inversion（優先權反轉）的問題。當一個高優先權的執行緒需要等待一個低優先權的執行緒持有的資源時，低優先權的執行緒會臨時提升其優先權，以便高優先權的執行緒更快地完成對資源的訪問。
+
+# Evaluation
+- lock-based 
+	- 先取得lock在執行
+- lock-free
+	- 假設不會發生 race condition
+	- 如果發生了再處理
+	
+	
+![image](image/S1QgzNhLp.png)

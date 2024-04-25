@@ -1,0 +1,195 @@
+---
+title: chap 7 for Os
+tags: [os]
+
+---
+
+# Classic Problems of Synchronization
+## Bounded-Buffer Problem
+Bounded-Buffer Problem（有限緩衝區問題）是在多執行緒環境中，經常用來展示同步與互斥問題的經典案例之一。這個問題通常描述了一個生產者-消費者的情境，其中有一個有限大小的緩衝區（Buffer）用來存放產生的資料，而生產者將資料放入緩衝區，消費者則從中取出資料。
+### Race condition Version
+```clike=
+#define Buff_size 10
+typedef struct{
+	...
+}item;
+item buffer[Buff_size];
+int in=0;
+int out=0;
+
+void producer(){
+	item next;
+	while(1){
+		while((in+1)%Buff_size==out){;}
+		buffer[in]=next;
+		in=(in+1)%Buff_size;
+	}
+}
+void consumer(){
+	item next;
+	while(1){
+		while(in==out){;}
+		next=buffer[out];
+		out=(out+1)%Buff_size;
+	}
+}
+```
+### Non-Race Condition Version
+- N buffers all hold one item
+- three semaphores
+	- mutex (init.1)
+		- 限制存取
+	- full (init.0)
+		- 意指buffer中有幾個item
+		- if full=0 → 沒有物計可以存取 → block consumer
+	- empty (init.N)
+		- 意指buffer中有幾個空位
+		- if empty =0 → 沒有空為可以存放 → block producer
+
+```clike=
+void Conmser(){
+	do(){
+		wait(full);//if full=0 => wait
+		wait(mutex);
+		//remove item
+		signal(mutex);
+		signal(empty);//empty+=1
+	}while(1);
+}
+void Producer(){
+	do(){
+		wait(empty);//if empty=0 => wait
+		wait(mutex);
+		//add item
+		signal(mutex);
+		signal(full);//full+=1
+	}while(1);
+}
+```
+## Readers and Writers Problem
+- Assume
+	- Readers
+		- only read
+	- Writer
+		- read and write
+- Goal
+	- 可以讓所有人同時讀資料
+	- 只要有人寫資料，就只能他一人存取資料
+- shared data
+	- DATA Set
+	- Int read_count (init 0)
+		- record num of reader 
+	- Mutex (init 0)
+		- 控制 read_count 同步
+	- rw_mutex (init 1)
+		- 控制 writer 同步
+- code
+	- writer
+		```clike=1
+		while(1){
+			wait(rw_mutex);
+			//block reader or other writer
+			/*
+			write data
+			*/
+			signal(rw_mutex);
+			//unblock reader or other writer
+		}
+		```
+	-	reader
+		```clike=1
+		while(1){
+			wait(mutex);
+			read_count+=1;
+			if(raed_count==1){
+				//first reader
+				wait(rw_mutex);// block writer 
+			}
+			signal(mutex);
+			//read 
+			wait(mutex);
+			read_count-=1;
+			if(raed_count==0){
+				signal(rw_mutex);// unblock writer 
+			}
+			signal(mutex);
+		}
+		```
+## Dining-Philosophers Problem(哲學家問題) 
+哲學家問題是一個經典的多進程同步問題，描述了五位哲學家坐在一張圓桌旁，每人面前有一個盤子和一根叉子。哲學家的生活包括交替地思考和進食兩個活動，而進食需要*兩隻叉子*。
+
+問題的挑戰在於確保哲學家可以安全地進食，即不會發生死鎖（所有哲學家都在等待另一根叉子）和不會發生資源競爭（兩位相鄰哲學家同時取起右手邊的叉子）。
+### Solution 1 Seampores
+- shared data
+	```clike=
+	semaphore chopstick[5]; //intail all value as 1
+	```
+```clike=
+void Philosophers(i){
+	while(1){
+		wait(chopstick[i]);
+		wait(chopstick[(i+1)%5]);
+		// eat 
+		signal(chopstick[i]);
+		signal(chopstick[(i+1)%5]);
+		// think
+	}
+	
+}
+```
+> it may casuse **daedlock**
+
+### Solution 2 Monitor Deadlock-free
+- idae
+	- 前者為先取一個，再取另一個
+	- 現在，當左右都有 chopsticks 時才拿起
+	- 不容易發生 deadlock
+- data structure
+	- state
+		- 紀錄哲學家的狀態(hungry、eating、thinking)
+		- state 只有當左右都不在 eating (hungry or thinking)時，才能eating
+	- condition self 
+		- 當有哲學家i沒辦法拿到刀叉
+		- self[i] set as wait
+- inner code
+	```java=
+	monitor Dining_Philosophers{
+		enum (THINKING; HUNGRY, EATING) state [5] ;
+		coadition self [5];
+		void pickup (int i) {
+			state[i] = HUNGRY;
+			test(i);
+			// if test 失敗 -> block myself
+			if (state [i] != EATING) self[i].wait;
+		}
+		void putdown (int i) {
+			state[i] = THINKING;
+			//  吃完檢查左右是否需要 chopsticks 
+			test((i + 4) % 5); // 左
+			test((i + 1) % 5); // 右
+		}
+		void test (int i) {
+			if ((state [ (i + 4) % 5] != EATING)&&
+			(state[i]== HUNGRY)&&
+			(state [(i + 1) % 5] != EATING)) {
+			state[i] = EATING;
+			self[i].signal (); 
+			// signal for eating 成功
+			}
+			// signal for eating 失敗
+		}
+		void initial_code(){
+			for(i=0;i<5;i++){
+				state[i]=THINKING;
+			}
+		}
+	}
+	```
+- outer code
+	```java
+	dp.pickup();
+	//eating
+	dp.pickdown();
+	```
+- problem
+	- it make casue starvation
