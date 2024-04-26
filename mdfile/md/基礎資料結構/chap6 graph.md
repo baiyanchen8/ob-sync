@@ -163,6 +163,7 @@ low(n)=min{dfn(n)
 
 ### code
 ```c=
+int asdasdbhkhlifabdjbhjbdhfohsdbbjewofbbdbhsfhebhhhsdbjashdb;
 
 ```
 # 最小花費生成樹(Minimum spanning tree)
