@@ -24,22 +24,17 @@ tags: [基礎資料結構]
 
 ## Constraints (通常禁止以下的內容)
 1. self edge 
-    >  
-    指那些由A指向A的邊，也稱 self loop
-    EX : (A,A)、<C,C>
-   
-    
-3. multigraph
-    > 
-    擁有**多重邊**的圖即稱為 mutigraph
-
-    
-    
+	指那些由A指向A的邊，也稱 self loop
+	EX : (A,A)、<C,C>
+		![[20240302_191947.jpg]]
+1. multigraph
+	擁有**多重邊**的圖即稱為 mutigraph
+		![[multigraph.jpg]]
 ## 圖的各種表示法
 ### 相鄰矩陣 (Adjacency Matrix) 
 假設共有 N 個 Vertex，使用一個N$\times$N的矩陣，並用0表示不相鄰、1表示相鄰。
->  舉例
-使用$G_3$舉例
+>  **舉例**
+	**使用$G_3$舉例**
 
 | x\y  | 0   | 1   | 2   |
 | --- |:--- | --- | --- |
@@ -63,37 +58,35 @@ tags: [基礎資料結構]
 1. 完全圖 full graph
     > 
     一個有*n*個邊的無向圖中，最多可能有$\frac{n(n-1)}{2}$個邊(*握手問題*)，而一個擁有最多可能邊的無向圖則稱為無向圖
-    
-1. 子圖 sub-graph
+2. 子圖 sub-graph
     >  說明
     通過將原本的圖拆分，所獲得的圖即為 sub-graph
     ![](https://th.bing.com/th/id/R.143f05e877a98a5defd774e29b388cae?rik=z55otwB3FZ2Hbw&riu=http%3a%2f%2f3.bp.blogspot.com%2f-L7KQbEpYe6o%2fUs2MELwhrnI%2fAAAAAAAAB6M%2furqBoTOR7To%2fs1600%2fSubgraph.JPG&ehk=7mTflNxR9h9uNIZ813%2fLOfhRNT07RDwrwqi8i2lG8BE%3d&risl=&pid=ImgRaw&r=0)
-    
-1. 迴圈 circle
+3. 迴圈 circle
     >  說明
     由一段頭尾相同的路徑組成
     
-1. 連通 connect
+4. 連通 connect
     >  說明
     指一張圖中，若u&v之間存在至少一條路徑，即為連通
     
-1. 連通元件 connect components
+5. 連通元件 connect components
     >  說明
     連通元件是指在一個圖形或網路中，能夠互相連接的元素或節點集合，這些元素之間可以透過路徑相互到達。
     
-1. 強連通圖 strongly connected components
+6. 強連通圖 strongly connected components
     >  說明
     強連通圖是指在*有向圖*中，任意兩個節點之間都存在互相到達的路徑，也就是說，圖中的任意兩個節點都是彼此可達的。
     
-1. 弱連通圖 weak connected components
+7. 弱連通圖 weak connected components
     >  說明
     如果將一個*有像圖*所有有向邊替換為無向邊之後的無向圖是連通的，則稱為弱連通圖。
     
-1. 分支度
+8. 分支度
     >  說明
     1. 無向圖
         所有相連邊的數量
-    3. 有向圖
+    2. 有向圖
         有向圖的分支度分為入分支度 & 出分支度，就是將指向節點的邊&指出節點的邊分開計算。 
     
 
@@ -160,18 +153,18 @@ void connected(){
 當選擇圖中一個頂點，然後使用某種算法遍歷所有頂點，把所有其中經歷的路徑記錄下來便是生成樹
 
 
-## 雙連通元件((bi-connected components))
+## 雙連通元件(bi-connected components)
 articulation point : 將*連通圖G*中某一*節點v*刪除會出現多個(>1)連通圖，該節點極為連接點(articulation point)
 
 ### low 公式
 low(n)=min{dfn(n)
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;,min{low(w)\|當w為n的child on dfs tree}
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;,min{dfn(w)\|當(w,n)為back edge}}
+			,min{low(w)\|當w為n的child on dfs tree}
+			,min{dfn(w)\|當(w,n)為back edge}}
 
 ### code
-不想寫 ......
+```c=
 
-
+```
 # 最小花費生成樹(Minimum spanning tree)
 ## greedy method
 

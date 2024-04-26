@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "movie/庫伊拉.md",
+                "file": "基礎資料結構/chap6 graph.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "movie/庫伊拉.md",
+                "file": "基礎資料結構/chap6 graph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "movie/庫伊拉.md",
+                "file": "基礎資料結構/chap6 graph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "movie/庫伊拉.md"
+                "file": "基礎資料結構/chap6 graph.md"
               }
             }
           }
@@ -134,24 +134,30 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "markdown-importer:開啟 Markdown 格式轉換器": false,
-      "switcher:開啟快速切換": false,
       "graph:查看關聯圖": false,
       "canvas:建立新畫布": false,
-      "daily-notes:開啟今天的每日筆記": false,
       "templates:插入模板": false,
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "61af2e102ee22bbb",
+  "active": "0d467135aaa5c3fd",
   "lastOpenFiles": [
+    "image/20240302_191947.jpg",
+    "image/20240302_191947.jpg.crdownload",
+    "image/Pasted image 20240426235153.jpg",
+    "image/Pasted image 20240426234957.jpg",
+    "image/Pasted image 20240426234812.jpg",
+    "基礎資料結構/chap6 graph.md",
+    "movie/庫伊拉.md",
+    "圖片.md",
     "image/Cruella_image.png",
     "other/標準.md",
-    "movie/庫伊拉.md",
     "movie/觀看清單.md",
     "movie/哥吉拉與金剛：新帝國.md",
     "movie/沙丘2.md",
@@ -173,8 +179,6 @@
     "movie/馬修·范恩.md",
     "information retrieval/IR.md",
     "information retrieval/L3 is for home work.md",
-    "基礎資料結構/chap1 introduction.md",
-    "基礎資料結構/chap2 陣列&結構.md",
     "離散數學",
     "image/S1d1KrcgA.png",
     "image/rkwbO4PeC.png",
@@ -182,7 +186,6 @@
     "image/BJxCWOSPT.png",
     "image/By0FCOrva.png",
     "image/1280px-Data_stack.svg.png",
-    "image/1*Nf2tTTkALYq6RTMQmhjo1A.png",
     "physics net",
     "calculus",
     "unix",
@@ -190,7 +193,6 @@
     "other",
     "database",
     "機器學習",
-    "資安與密碼學",
-    "基礎資料結構"
+    "資安與密碼學"
   ]
 }
