@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "information retrieval/IR.md",
+                "file": "movie/庫伊拉.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "information retrieval/IR.md",
+                "file": "movie/庫伊拉.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "information retrieval/IR.md",
+                "file": "movie/庫伊拉.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,17 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "information retrieval/IR.md"
+                "file": "movie/庫伊拉.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,34 +147,34 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "0d467135aaa5c3fd",
+  "active": "61af2e102ee22bbb",
   "lastOpenFiles": [
-    "information retrieval/L3 is for home work.md",
+    "image/Cruella_image.png",
+    "other/標準.md",
+    "movie/庫伊拉.md",
+    "movie/觀看清單.md",
+    "movie/哥吉拉與金剛：新帝國.md",
+    "movie/沙丘2.md",
+    "movie/沙丘1.md",
+    "movie/皮克斯Pixar.md",
+    "movie/白日夢冒險王.md",
+    "movie/月老.md",
+    "movie/巴斯光年(lightyear).md",
+    "movie/元素方城市(Elemental).md",
+    "movie/《奧本海默》（英語：Oppenheimer）.md",
+    "movie/《機密特務：阿蓋爾》（英語：Argylle）.md",
+    "movie/Poor Things.md",
+    "movie/Disneys.md",
+    "movie/魔法滿屋(Encanto).md",
+    "movie/靈魂急轉彎(Soul).md",
+    "movie/劇場版 SPY×FAMILY CODE_ White.md",
+    "movie/還錢.md",
+    "movie/蒙太奇.md",
+    "movie/馬修·范恩.md",
     "information retrieval/IR.md",
+    "information retrieval/L3 is for home work.md",
     "基礎資料結構/chap1 introduction.md",
     "基礎資料結構/chap2 陣列&結構.md",
-    "基礎資料結構/binsearch.md",
-    "基礎資料結構/排序演算法.md",
-    "基礎資料結構/基礎資料結構.md",
-    "movie/觀看清單.md",
-    "資安與密碼學/密碼學.md",
-    "基礎資料結構/chap5 tree.md",
-    "database/資料庫課程.md",
-    "os/chap 6 Process Synchronizatio.md",
-    "os/CHAP1  For OS.md",
-    "祭祖/chap2.md",
-    "機器學習/Regression.md",
-    "os/os.md",
-    "other/標準.md",
-    "祭祖/祭祖.md",
-    "os/chap 10 for os.md",
-    "基礎資料結構/chap6 graph.md",
-    "離散數學/離散數學.md",
-    "離散數學/lec1.md",
-    "database/chap 2 for 資料庫.md",
-    "機器學習/What is Machine Learning.md",
-    "physics net/智慧物聯網.md",
-    "physics net/hw3 勿連網.md",
     "離散數學",
     "image/S1d1KrcgA.png",
     "image/rkwbO4PeC.png",
