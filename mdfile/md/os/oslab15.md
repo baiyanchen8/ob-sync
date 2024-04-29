@@ -1,6 +1,7 @@
 ---
 title: oslab15
-
+tags:
+  - os
 ---
 
 # oslab15

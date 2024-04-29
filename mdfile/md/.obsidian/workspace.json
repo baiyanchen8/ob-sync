@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a3cacd9a67699401",
+        "id": "584a4079bb91ce75",
         "type": "tabs",
         "children": [
           {
-            "id": "0d467135aaa5c3fd",
+            "id": "bce55119d25a5e55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "基礎資料結構/chap6 graph.md",
+                "file": "physics net/物聯網作業5.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b03ce395fb964a80",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "基礎資料結構/chap6 graph.md",
+                "file": "physics net/物聯網作業5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "基礎資料結構/chap6 graph.md",
+                "file": "physics net/物聯網作業5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "基礎資料結構/chap6 graph.md"
+                "file": "physics net/物聯網作業5.md"
               }
             }
           }
@@ -146,53 +147,54 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "0d467135aaa5c3fd",
+  "active": "bce55119d25a5e55",
   "lastOpenFiles": [
-    "image/20240302_191947.jpg",
-    "image/20240302_191947.jpg.crdownload",
-    "image/Pasted image 20240426235153.jpg",
-    "image/Pasted image 20240426234957.jpg",
-    "image/Pasted image 20240426234812.jpg",
+    "Main Page.md",
+    "專題/專題.md",
+    "專題/Spatial color-to-grayscale transform preserving chrominance edge information.md",
+    "information retrieval/Link analysis.md",
+    "專題",
+    "image/Pasted image 20240429155153.png",
+    "image/Pasted image 20240429154707.png",
+    "image/Pasted image 20240429154347.png",
+    "image/Pasted image 20240429145631.png",
+    "image/Pasted image 20240429144827.png",
+    "information retrieval/Pasted.md",
+    "information retrieval/IR.md",
+    "image/Pasted image 20240429143015.png",
+    "physics net/物聯網作業5.md",
+    "image/Pasted image 20240428202415.png",
+    "image/Pasted image 20240428202349.png",
     "基礎資料結構/chap6 graph.md",
+    "基礎資料結構/基礎資料結構.md",
+    "基礎資料結構/chap11 for基礎資料結構.md",
+    "基礎資料結構/chap7 for基礎資料結構.md",
+    "基礎資料結構/chap8 for基礎資料結構.md",
+    "基礎資料結構/chap1 introduction.md",
+    "image/Pasted image 20240427200454.png",
+    "image/Pasted image 20240427200432.png",
+    "未命名.canvas",
+    "movie/《奧本海默》（英語：Oppenheimer）.md",
+    "movie/《機密特務：阿蓋爾》（英語：Argylle）.md",
+    "2024-W17.md",
+    "os/oslab15.md",
+    "os/oslab14.md",
+    "os/oslab13.md",
+    "os/HW4 Mutex.md",
+    "os/HW3 Thread & Concurrency.md",
+    "image/20240302_191947.jpg.crdownload",
     "movie/庫伊拉.md",
     "圖片.md",
-    "image/Cruella_image.png",
     "other/標準.md",
     "movie/觀看清單.md",
     "movie/哥吉拉與金剛：新帝國.md",
-    "movie/沙丘2.md",
-    "movie/沙丘1.md",
-    "movie/皮克斯Pixar.md",
-    "movie/白日夢冒險王.md",
-    "movie/月老.md",
-    "movie/巴斯光年(lightyear).md",
-    "movie/元素方城市(Elemental).md",
-    "movie/《奧本海默》（英語：Oppenheimer）.md",
-    "movie/《機密特務：阿蓋爾》（英語：Argylle）.md",
-    "movie/Poor Things.md",
-    "movie/Disneys.md",
-    "movie/魔法滿屋(Encanto).md",
-    "movie/靈魂急轉彎(Soul).md",
-    "movie/劇場版 SPY×FAMILY CODE_ White.md",
-    "movie/還錢.md",
-    "movie/蒙太奇.md",
-    "movie/馬修·范恩.md",
-    "information retrieval/IR.md",
-    "information retrieval/L3 is for home work.md",
     "離散數學",
-    "image/S1d1KrcgA.png",
-    "image/rkwbO4PeC.png",
-    "image/B1ncz8PST.png",
-    "image/BJxCWOSPT.png",
-    "image/By0FCOrva.png",
-    "image/1280px-Data_stack.svg.png",
     "physics net",
     "calculus",
     "unix",
     "information retrieval",
     "other",
     "database",
-    "機器學習",
-    "資安與密碼學"
+    "機器學習"
   ]
 }

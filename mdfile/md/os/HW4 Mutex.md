@@ -1,5 +1,5 @@
 ---
 title: os
+tags:
+  - os
 ---
-
-# HW4 Mutex

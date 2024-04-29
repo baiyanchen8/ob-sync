@@ -35,5 +35,4 @@ tags: ['#movie']
 **IMDb頁面：** [link](https://www.imdb.com/title/tt15398776/)
 
 **海報：**
-
-![](image/Oppenheimer_%28film%29_poster.jpg)
+![[Pasted image 20240427105321.jpg]]

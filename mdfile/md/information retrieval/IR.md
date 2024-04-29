@@ -20,7 +20,8 @@ tags: [I.R.]
 1. [[lesson 1 for IR]]
 2. [[L2 Tolerance Retrieval]]
 3. [[ir3]]
-4.  [[ir5]]
+4. [[Link analysis]]
+6.  [[ir5]]
 ## 評估
 1. Assignment 20%
 2. Midterm 20%

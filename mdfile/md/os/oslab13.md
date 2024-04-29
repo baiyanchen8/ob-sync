@@ -1,6 +1,7 @@
 ---
 title: oslab13
-
+tags:
+  - os
 ---
 
 # oslab13
@@ -135,3 +136,4 @@ static void *threadFunc1(void *arg){
 
 > lab2
 
+去那了？？
