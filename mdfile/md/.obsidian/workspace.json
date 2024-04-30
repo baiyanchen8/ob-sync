@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physics net/物聯網作業5.md",
+                "file": "Main Page.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b03ce395fb964a80",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "physics net/物聯網作業5.md",
+                "file": "Main Page.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "physics net/物聯網作業5.md",
+                "file": "Main Page.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physics net/物聯網作業5.md"
+                "file": "Main Page.md"
               }
             }
           }
@@ -149,6 +148,7 @@
   },
   "active": "bce55119d25a5e55",
   "lastOpenFiles": [
+    "physics net/物聯網作業5.md",
     "Main Page.md",
     "專題/專題.md",
     "專題/Spatial color-to-grayscale transform preserving chrominance edge information.md",
@@ -162,7 +162,6 @@
     "information retrieval/Pasted.md",
     "information retrieval/IR.md",
     "image/Pasted image 20240429143015.png",
-    "physics net/物聯網作業5.md",
     "image/Pasted image 20240428202415.png",
     "image/Pasted image 20240428202349.png",
     "基礎資料結構/chap6 graph.md",
