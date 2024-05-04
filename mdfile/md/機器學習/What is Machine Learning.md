@@ -37,7 +37,7 @@ tags: [機器學習]
     - 例子: 手寫數字識別，其中模型訓練於數字圖像和相對應的數字標籤。
     - 圖示 : 
          ![](image/SkvRu_zfp.png)
-         ![](image/1*Nf2tTTkALYq6RTMQmhjo1A.png)
+         ![](image/1Nf2tTTkALYq6RTMQmhjo1A.png)
 
     
     
