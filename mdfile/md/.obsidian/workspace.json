@@ -8,12 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c027dc40b0ec1b38",
+            "id": "61827811782814fd",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "image/1Nf2tTTkALYq6RTMQmhjo1A.png"
+                "file": "離散數學/lec 2.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           },
@@ -36,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/chap 2 for 資料庫.md",
+                "file": "database/chap 7 for 資料庫.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -72,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:1*",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,12 +92,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b03ce395fb964a80",
@@ -110,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "image/1Nf2tTTkALYq6RTMQmhjo1A.png",
+                "file": "離散數學/lec 2.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "image/1Nf2tTTkALYq6RTMQmhjo1A.png",
+                "file": "離散數學/lec 2.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -151,23 +154,27 @@
               "type": "quiet-outline",
               "state": {}
             }
-          },
-          {
-            "id": "916fa675f39c38dd",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "image/1Nf2tTTkALYq6RTMQmhjo1A.png"
-              }
-            }
           }
         ],
         "currentTab": 3
+      },
+      {
+        "id": "7834da1e5faf4e81",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "042030a460546a5b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 779.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,26 +185,32 @@
       "graph:查看關聯圖": false
     }
   },
-  "active": "0fdb811cbc6fd732",
+  "active": "61827811782814fd",
   "lastOpenFiles": [
-    "機器學習/What is Machine Learning.md",
-    "離散數學/lec 2.md",
+    "image/Pasted image 20240504180612.png",
+    "image/Pasted image 20240504180435.png",
+    "image/Pasted image 20240504180423.png",
+    "image/Pasted image 20240504175820.png",
     "other/latex 大全.md",
-    "image/SmartSelect_Pin 1.jpg",
-    "image/SmartSelect_Pin.jpg",
-    "image/SmartSelect_20240503_203532_Samsung Notes.jpg",
-    "image/Pasted image 20240503195145.png",
-    "image/Pasted image 20240503194923.png",
-    "image/Pasted image 20240503194641.png",
-    "image/Pasted image 20240503194506.png",
-    "image/tempFileForShare_20240503-154949.jpg",
-    "image/SmartSelect_20240503_153735_Samsung Notes.jpg",
+    "離散數學/lec 2.md",
+    "image/Pasted image 20240504175219.png",
+    "image/Pasted image 20240504174524.png",
+    "image/Pasted image 20240504174128.png",
+    "image/Pasted image 20240504173214.png",
+    "image/Pasted image 20240504171902.png",
+    "image/Pasted image 20240504171552.png",
+    "image/Pasted image 20240504171256.png",
     "離散數學/離散數學.md",
+    "Main Page.md",
+    "movie/沙丘1.md",
+    "database/chap 7 for 資料庫.md",
+    "database/chap 3 for 資料庫.md",
+    "database/chap 1 for 資料庫.md",
+    "database/資料庫HW4.md",
+    "database/chap 2 for 資料庫.md",
+    "機器學習/What is Machine Learning.md",
     "離散數學/lec1.md",
     "lect1.md",
-    "image/tempFileForShare_20240503-135644.jpg",
-    "database/chap 2 for 資料庫.md",
-    "database/chap 1 for 資料庫.md",
     "other/oracle.md",
     "other/dada.md",
     "資安與密碼學/lec 6 note.md",
@@ -207,16 +220,10 @@
     "基礎資料結構/chap7 for基礎資料結構.md",
     "基礎資料結構/基礎資料結構.md",
     "基礎資料結構/chap11 for基礎資料結構.md",
-    "Main Page.md",
     "physics net/物聯網作業5.md",
     "專題/專題.md",
     "專題/Spatial color-to-grayscale transform preserving chrominance edge information.md",
-    "information retrieval/Link analysis.md",
     "專題",
-    "information retrieval/Pasted.md",
-    "information retrieval/IR.md",
-    "基礎資料結構/chap8 for基礎資料結構.md",
-    "基礎資料結構/chap1 introduction.md",
     "未命名.canvas",
     "image/20240302_191947.jpg.crdownload",
     "離散數學",

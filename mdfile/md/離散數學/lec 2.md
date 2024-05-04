@@ -269,4 +269,106 @@ subset of all odd integer of U=>101010101010
 
 ![[SmartSelect_Pin 1.jpg]]
 # Function
-n 
+在許多情控下，任意set-A與set-B有著特定關系，這在資料庫系統中特別常見。例如下圖。
+![[Pasted image 20240504154932.png]]
+## Define---Function( $\rightarrow$)(資料庫也有[[chap 7 for 資料庫]])
+設 A 與 B 為非空集合。從 A 到 B 的函數 f 是將 B 的一個元素準確指派給 A 的每個元素。如果 b 是函數 f 對 A 的元素 a 指派的唯一元素，我們寫作 f (a) = b。如果 f 是從 A 到 B 的函數，我們寫作 f：A → B。
+Remark: Functions are sometimes also called mappings or transformations
+
+> 假設A&B為非空集合，from A 指向 B, like f(a)=b,且b 只能有一個，即為 -> 。
+
+## Define---Other related related terms for functions
+![[Pasted image 20240504160032.png|600]]
+
+>如果 f 是從 A 到 B 的函數，我們說 A 是函數 f 的定義域(domain)，B 是函數 f 的對象域(codomain)。如果 f (a) = b，我們說 b 是 a 的對應值(image)，而 a 是 b 的原像(preimage)。函數 f 的值域(range,image)，也就是 f 的對象域(B codomain)中所有對應值的集合(所有f(a)=b成立的b的集合)。此外，如果 f 是從 A 到 B 的函數，我們說 f 將 A 對應(maps)到 B。
+
+### Related issus: Smae Fuction
+we define a fuction with:
+1. domain
+2. codomain
+3. mapping ways
+if two fuction are same , there above all same.
+### Example 
+![[Pasted image 20240504162628.png]]
+## Define---“Addition” or “multiplication” of two functions?
+### 前提
+兩個function 的domain & codomain(R好像一定要是數字且是實數?) 相同
+### Addition
+$$(f_1+f_2)(x)=f_1(x)+f_2(x)$$
+### multiplication
+$$f_1f_2(x)=f_1(x)\times f_2(x)$$
+## Define---The image of subset
+function F 是將 A 映射到 B ，S 是 A 的 subset 。求F(S)?
+##### ans
+$$\huge{F(S)=\{t|\exists\ x\in S(t=F(x))\}}$$
+  
+> 備註：對於函數 f 下集合 S 的像，使用符號 f(S) 有潛在的歧義。在這裡，f(S) 表示一個集合，而不是函數 f 對集合 S 的值。 
+
+### Example
+Let 
+$$A=\{a,b,c,d,e\}$$
+$$B=\{1,2,3,4\}$$
+with f (a) = 2, f (b) = 1, f (c) = 4, f (d) = 1, and f (e) = 1. if S is subset of A,and $S=\{b,c,d\}$,the image of F(S)?
+
+>**ans**:
+>f (S) = {1, 4}.
+
+## Define---One-to-One Function (injection單射)
+函數 f 若滿足以下條件，則稱為單射(injection)，又稱為一一對應：對於函數 f 的定義域中的所有 a 和 b，若 f(a) = f(b) 則必須有 a = b。單射也稱為一對一函數。
+![[Pasted image 20240504165507.png]]
+
+### Example
+![[Pasted image 20240504171012.png|]]
+
+![[Pasted image 20240504171117.png]]
+> $f(-1)=f(1)=1^2=(-1)^2=1$
+> 因此不是 1-to-1 function
+
+
+![[Pasted image 20240504171256.png]]
+> if x+1=y+1 ,that x+1-1=y+1-1 => x=y ,so it is 1-to-1 function
+
+
+## Define---increasing/decreasing Function
+如果函數 f 的定義域和對象域都是實數集合的子集，則稱該函數為「增加函數」，若對於所有 x < y，且 x 和 y 屬於 f 的定義域時，都有 f(x) ≤ f(y)，那麼 f 就被稱為「增加函數」。若對於所有 x < y，且 x 和 y 屬於 f 的定義域時，都有 f(x) < f(y)，那麼 f 就被稱為「嚴格增加函數」。反之，如果對於所有 x < y，且 x 和 y 屬於 f 的定義域時，都有 f(x) ≥ f(y)，那麼 f 就被稱為「減少函數」。若對於所有 x < y，且 x 和 y 屬於 f 的定義域時，都有 f(x) > f(y)，那麼 f 就被稱為「嚴格減少函數」。
+## Define---Onto Function(surjection滿射)
+![[Pasted image 20240504170054.png|500]]
+### Example
+![[Pasted image 20240504171552.png]]
+> f(x)=-23 , 因為沒有 integer 的平方為 -23 因此不是 onto funtion
+
+## Define---Bijection (onto+one-to-one)
+不用解釋
+### Example
+![[Pasted image 20240504171902.png]]
+## SUMMARY 1(above)
+![[Pasted image 20240504173214.png]]
+
+## Define---Inverse Function
+假設 F 為 A 單射到 B 的 function ，那麼 $F^{-1}$ 則為 F 的反函數。
+
+> 11對應稱為可逆的，因為我們可以定義這個函數的逆函數。如果一個函數不是11對應，則它是不可逆的，因為這樣的函數沒有逆函數。
+### Example
+![[Pasted image 20240504174128.png]]
+> 因為f(x)是 1to1 function，所以有 $f^{-1}(y)=y-1$
+
+![[Pasted image 20240504174524.png]]
+> 可逆-> $f(x)=x^2=f(y)=y^2$->$x=(+y)\ or\ (-y)$ -> 因為domain 為非負整數 -> x=y
+> => one-to-one
+
+## Define---Composition of the functions
+![[Pasted image 20240504175219.png|600]]
+
+當我有g:A->B & f: B-> C，$(f\circ g)(a)=f(g(a))$
+### Example
+![[Pasted image 20240504175820.png]]
+> $(f\circ g)(a)=f(g(a))$
+>  $(g\circ f)(a)=g(f(a))$
+
+## Define---Floor and Ceiling function
+![[Pasted image 20240504180435.png]]
+
+## Define---The Graphs of Functions
+![[Pasted image 20240504180612.png]]
+
+# Sequences and Summattion

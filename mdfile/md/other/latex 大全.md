@@ -1,3 +1,8 @@
+### 運算符號
+
+| latex | show    |
+| ----- | ------- |
+| circ  | $\circ$ |
 
 ### normal math
 | latex code | 效果     |

@@ -74,7 +74,7 @@
       "query": "path:離散數學  ",
       "color": {
         "a": 1,
-        "rgb": 14048348
+        "rgb": 13130966
       }
     },
     {
@@ -102,6 +102,6 @@
   "repelStrength": 9.77392716935156,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.20179459325531335,
+  "scale": 0.2829125686076346,
   "close": true
 }
