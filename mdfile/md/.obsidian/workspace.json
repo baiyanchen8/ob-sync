@@ -45,6 +45,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ce7de03dd4a8eaa0",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "image/Pasted image 20240505012421.png"
+              }
+            }
           }
         ]
       }
@@ -77,9 +87,9 @@
               "state": {
                 "query": "",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
@@ -92,7 +102,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -159,22 +170,28 @@
         "currentTab": 3
       },
       {
-        "id": "7834da1e5faf4e81",
+        "id": "4bbc581c7b6eb1b9",
         "type": "tabs",
         "children": [
           {
-            "id": "042030a460546a5b",
+            "id": "021c00660bc19fd8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "tmp.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 779.5
+    "width": 586.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,23 +204,25 @@
   },
   "active": "61827811782814fd",
   "lastOpenFiles": [
-    "image/Pasted image 20240504180612.png",
-    "image/Pasted image 20240504180435.png",
-    "image/Pasted image 20240504180423.png",
-    "image/Pasted image 20240504175820.png",
-    "other/latex 大全.md",
+    "tmp.md",
     "離散數學/lec 2.md",
-    "image/Pasted image 20240504175219.png",
-    "image/Pasted image 20240504174524.png",
-    "image/Pasted image 20240504174128.png",
-    "image/Pasted image 20240504173214.png",
-    "image/Pasted image 20240504171902.png",
-    "image/Pasted image 20240504171552.png",
-    "image/Pasted image 20240504171256.png",
+    "image/Pasted image 20240505012421.png",
+    "database/chap 7 for 資料庫.md",
+    "image/Pasted image 20240505012421.png.~tmp",
+    "image/Pasted image 20240505010511.png",
+    "image/Pasted image 20240505012436.png",
+    "image/Pasted image 20240505010351.png",
+    "image/Pasted image 20240505004736.png",
+    "image/Pasted image 20240505000711.png",
+    "movie/觀看清單.md",
+    "image/Pasted image 20240504235835.png",
+    "image/Pasted image 20240504235510.png",
+    "image/Pasted image 20240504230240.png",
+    "image/Pasted image 20240504230203.png",
+    "other/latex 大全.md",
     "離散數學/離散數學.md",
     "Main Page.md",
     "movie/沙丘1.md",
-    "database/chap 7 for 資料庫.md",
     "database/chap 3 for 資料庫.md",
     "database/chap 1 for 資料庫.md",
     "database/資料庫HW4.md",
@@ -221,8 +240,6 @@
     "基礎資料結構/基礎資料結構.md",
     "基礎資料結構/chap11 for基礎資料結構.md",
     "physics net/物聯網作業5.md",
-    "專題/專題.md",
-    "專題/Spatial color-to-grayscale transform preserving chrominance edge information.md",
     "專題",
     "未命名.canvas",
     "image/20240302_191947.jpg.crdownload",
@@ -232,7 +249,6 @@
     "unix",
     "information retrieval",
     "other",
-    "database",
-    "機器學習"
+    "database"
   ]
 }

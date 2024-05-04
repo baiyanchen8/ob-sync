@@ -4,5 +4,8 @@
   "blue-topaz-theme@@table-style-options": "table-style-default",
   "blue-topaz-theme@@full-width-table": true,
   "blue-topaz-theme@@show-border-table": true,
-  "blue-topaz-theme@@toggle-table-transition": true
+  "blue-topaz-theme@@toggle-table-transition": true,
+  "blue-topaz-theme@@accent-strong@@dark": "#00FFD4CC",
+  "blue-topaz-theme@@accent-strong@@light": "#00E1FF",
+  "blue-topaz-theme@@accent-em@@dark": "#CBCBCB"
 }

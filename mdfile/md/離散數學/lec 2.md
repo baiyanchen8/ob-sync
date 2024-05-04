@@ -1,6 +1,8 @@
 ---
 tags:
   - 離散
+cssclasses:
+  - img
 ---
 # Set
 ## Define ---Set
@@ -372,3 +374,123 @@ with f (a) = 2, f (b) = 1, f (c) = 4, f (d) = 1, and f (e) = 1. if S is subset o
 ![[Pasted image 20240504180612.png]]
 
 # Sequences and Summattion
+## Why we need Sequences
+![[Pasted image 20240504215300.png|600]]
+1. $2^{n-1}$
+2. $2^n-1$
+## Define---Sequence(序列)
+**Sequence**是一種由一個整數子集合(通常是{0,1,2,3...} or {1,2,3...}) 映射而成的集合
+![[Pasted image 20240504222231.png|600]]
+## Define---Geometric progression(等比級數)
+### 等比級數和
+####  if  1~n
+$$\huge{S_n=\frac{a_1\times(1-r^n)}{1-r},q\not=1}$$
+####  if  0~n
+$$\huge{S_n=\frac{a_0\times(1-r^{n+1})}{1-r},q\not=1}$$
+### 推導
+$$\large{\begin{align*} 
+S_0 &= a_0 \\
+S_1 &= S_0 \times r + a_0 \\
+&\dots \\
+\Rightarrow S_n - r \times S_n &= a_0 - a_0 \cdot r^{n+1}\\
+S_n &= \frac{a_0 - a_0 \cdot r^{n+1}}{1 - r}
+\end{align*}}
+$$
+### Example
+#### Question
+##### 年利率
+你存在銀行 P 元，年利率為 i
+明年你的存款就會變成 $P(1+i)$，後年$P(1+i)^2$
+##### 敘述
+假設你每年**底**存 P 元到銀行 N 年後你有多少錢?
+#### Answer
+$$
+\large{
+\begin{align}
+S_1&=P\\
+S_2&=S_1(1+i)+P\\
+&...\\
+\Rightarrow S_n &=S_{n-1}*r+S_1 (等比級數和公式)\\
+S_n&=\frac{P - P \cdot (1+i)^n}{1 - (1+i)}\\
+&=\frac{P  \cdot(1-(1+i)^n)}{-i}
+\end{align}
+}
+$$
+## Define---Arithmetic progression(等差級數)
+### 等差級數和(梯形公式)
+$$\huge{S=\frac{a_0+a_n}{2}=\frac{2a_0+(n)\times d}{2}}$$
+
+## Define---Recurrence Relations(遞迴關係)
+> 後面一項是由前幾項構成
+### Example
+![[Pasted image 20240504230203.png]]
+#### 費氏數列 
+![[Pasted image 20240504230240.png|600]]
+
+### 閉式解(closed formula)
+解析解又稱閉式解，是可以用解析表達式來表達的解， 在數學上若一個方程式或方程組存在某些解，是由有限 次常見運算組合給出的形式，則稱該方程式存在解析解
+
+#### Example for 閉式解
+![[Pasted image 20240504235510.png]]
+> $2a_{n-1}-a_{n-2}=2(3(n-1))-3(n-2)=3n=a_n$ => correct
+
+![[Pasted image 20240504235835.png]]
+> $2a_{n-1}-a_{n-2}=2\times 2^{n-1}-2^{n-2}\not =2^n=a_n$=> not correct for recurrence relation 
+
+#### forworad substitution or backward substitution
+![[Pasted image 20240505000711.png]]
+> **forward substitution**
+> $a_2=2+3$
+> $a_3=(2+3)+3$
+> $a_4=(2+3*2)+3$
+> .....
+> $a_n=2+3*(n-1)$
+
+> **backward substitution**
+> $a_n=a_{n-1}+3$
+> $a_n=a_{n-2}+3+3$
+> $a_n=a_{n-3}+3+3+3$
+> ....
+> $a_n=a_{1}+3\times (n-1)$
+
+#### Guess for Sequence  
+1. 有沒有相同的數值連續出現？也就是說，同樣的數值會連續出現多次嗎？
+2. 這些項目是否是由前一項目加上相同的數量，或者是依賴於序列中的**位置**而增加的數量所獲得的？
+3. 這些項目是否是由前一項目乘上特定的數量所獲得的？
+4. 這些項目是否是通過某種特定的方式結合前一項目而得到的？
+5. 在這些項目之間是否存在循環？
+
+![[Pasted image 20240505004736.png]]
+
+> **(a)**
+> $1/2^n$ ,for n = 0,1,2,3....
+
+>**(b)**
+>1+2n,for n = 0,1,2,3....
+
+>**(c)**
+> $(-1)^n$,for n = 0,1,2,3.... 
+
+##### hiya
+![[Pasted image 20240505010351.png|600]]
+##### example
+![[Pasted image 20240505010511.png]]
+>  $3^n-2$
+
+#### Summations($\Sigma$)
+```image-layout-b
+![[Pasted image 20240505012421.png]]
+![[Pasted image 20240505012436.png]]
+```
+
+> 左圖前五項要背歐
+
+### 補充第八章(閉式解)
+#### 矩陣對角化
+
+#### 常係數線性遞迴關係
+
+#### 生成函數
+> 優先生成函數
+> 因為前兩種方法在遇到非齊次問題時，無法解
+
