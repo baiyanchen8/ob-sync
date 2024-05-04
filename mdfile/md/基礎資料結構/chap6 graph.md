@@ -50,10 +50,11 @@ tags: [基礎資料結構]
 空間複雜度為$O(N^2)$，且所有需要遍歷的算法都需要比較大的時間複雜度
 
 ### 相鄰串列 (adjacency list)
-![]()
+
 ### 相鄰多元串列 (Adjacency Multilist)
 
 ### 索引表 (Index Table)
+
 # 圖的各種基本名詞
 1. 完全圖 full graph
     > 
@@ -336,7 +337,9 @@ void addedge(int a, int b) {
 ### 缺點
 不夠好，不夠精確，有可能造成 Cycle
 ## kruskal's algorithm
-1. 將所有 edge 按照
+1. 將所有 edge 按照由小到大排序
+2. 然後要將所有edge 一個一個選出(要避免cycle)
+
 
 # 最短路徑與遞移封閉
 

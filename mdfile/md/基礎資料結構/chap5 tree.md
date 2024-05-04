@@ -118,7 +118,7 @@ graph TD;
     E(E)
     F(F)
     G(G)
-    H(H
+    H(H)
     I(I)
     J(J)
     K(K)

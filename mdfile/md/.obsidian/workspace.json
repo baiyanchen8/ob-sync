@@ -8,13 +8,40 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bce55119d25a5e55",
+            "id": "c027dc40b0ec1b38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Page.md",
+                "file": "離散數學/lec 2.md",
                 "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a00d576889f8e2e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "other/latex 大全.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d5d427769fd7ccf9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "database/chap 2 for 資料庫.md",
+                "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -69,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b03ce395fb964a80",
@@ -85,9 +113,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Page.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "file": "離散數學/lec 2.md",
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -102,8 +130,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Page.md",
-                "linksCollapsed": false,
+                "file": "離散數學/lec 2.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -120,12 +148,20 @@
             }
           },
           {
-            "id": "c4d5a9d83dc0285c",
+            "id": "8348c374bd9b0327",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "916fa675f39c38dd",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Page.md"
+                "file": "離散數學/lec 2.md"
               }
             }
           }
@@ -134,59 +170,57 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "markdown-importer:開啟 Markdown 格式轉換器": false,
-      "graph:查看關聯圖": false,
       "canvas:建立新畫布": false,
       "templates:插入模板": false,
-      "command-palette:開啟命令面板": false
+      "command-palette:開啟命令面板": false,
+      "graph:查看關聯圖": false
     }
   },
-  "active": "bce55119d25a5e55",
+  "active": "c027dc40b0ec1b38",
   "lastOpenFiles": [
-    "physics net/物聯網作業5.md",
+    "other/latex 大全.md",
+    "離散數學/lec 2.md",
+    "image/SmartSelect_Pin 1.jpg",
+    "image/SmartSelect_Pin.jpg",
+    "image/SmartSelect_20240503_203532_Samsung Notes.jpg",
+    "image/Pasted image 20240503195145.png",
+    "image/Pasted image 20240503194923.png",
+    "image/Pasted image 20240503194641.png",
+    "image/Pasted image 20240503194506.png",
+    "image/tempFileForShare_20240503-154949.jpg",
+    "image/SmartSelect_20240503_153735_Samsung Notes.jpg",
+    "離散數學/離散數學.md",
+    "離散數學/lec1.md",
+    "lect1.md",
+    "image/tempFileForShare_20240503-135644.jpg",
+    "database/chap 2 for 資料庫.md",
+    "database/chap 1 for 資料庫.md",
+    "other/oracle.md",
+    "other/dada.md",
+    "資安與密碼學/lec 6 note.md",
+    "資安與密碼學/密碼學.md",
+    "基礎資料結構/chap6 graph.md",
+    "基礎資料結構/chap5 tree.md",
+    "基礎資料結構/chap7 for基礎資料結構.md",
+    "基礎資料結構/基礎資料結構.md",
+    "基礎資料結構/chap11 for基礎資料結構.md",
     "Main Page.md",
+    "physics net/物聯網作業5.md",
     "專題/專題.md",
     "專題/Spatial color-to-grayscale transform preserving chrominance edge information.md",
     "information retrieval/Link analysis.md",
     "專題",
-    "image/Pasted image 20240429155153.png",
-    "image/Pasted image 20240429154707.png",
-    "image/Pasted image 20240429154347.png",
-    "image/Pasted image 20240429145631.png",
-    "image/Pasted image 20240429144827.png",
     "information retrieval/Pasted.md",
     "information retrieval/IR.md",
-    "image/Pasted image 20240429143015.png",
-    "image/Pasted image 20240428202415.png",
-    "image/Pasted image 20240428202349.png",
-    "基礎資料結構/chap6 graph.md",
-    "基礎資料結構/基礎資料結構.md",
-    "基礎資料結構/chap11 for基礎資料結構.md",
-    "基礎資料結構/chap7 for基礎資料結構.md",
     "基礎資料結構/chap8 for基礎資料結構.md",
     "基礎資料結構/chap1 introduction.md",
-    "image/Pasted image 20240427200454.png",
-    "image/Pasted image 20240427200432.png",
     "未命名.canvas",
-    "movie/《奧本海默》（英語：Oppenheimer）.md",
-    "movie/《機密特務：阿蓋爾》（英語：Argylle）.md",
-    "2024-W17.md",
-    "os/oslab15.md",
-    "os/oslab14.md",
-    "os/oslab13.md",
-    "os/HW4 Mutex.md",
-    "os/HW3 Thread & Concurrency.md",
     "image/20240302_191947.jpg.crdownload",
-    "movie/庫伊拉.md",
-    "圖片.md",
-    "other/標準.md",
-    "movie/觀看清單.md",
-    "movie/哥吉拉與金剛：新帝國.md",
     "離散數學",
     "physics net",
     "calculus",
