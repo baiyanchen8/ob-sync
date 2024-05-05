@@ -520,4 +520,28 @@ $$
 - 若數列為有限長度數列，後面空的部分補0
 - 生成函數只在意係數，x 不重要
 #### Example
+##### problem 1
+常數數列 $\{1\}_0^\infty$ 的生成函式
+##### ans 1
+$$\huge{f(x)=1+x+x^2+x^3+.......\Rightarrow\ \Sigma^\infty_{k=0}x^k}$$
+##### problem 2
+等比數列 $\{r^k\}_0^\infty$ 的生成函式
+##### ans 2
+$$\huge{f(x)=1+xr+x^2r^2+x^3r^3....\Rightarrow\Sigma^\infty_{k=0}(xr)^k}$$
 
+##### problem 3
+數列 $\{3+4^k\}_0^\infty$ 的生成函式
+##### ans 3
+$$\Huge{\begin{align}
+f(x)=&(3+4^0)+(3+4^1)x+.....\\
+\Rightarrow & \Sigma^\infty_{k=0}(3+4^k)x^k\\
+\Rightarrow & 3\Sigma^\infty_{k=0}x^k+\Sigma^\infty_{k=0}(4x)^k  \\
+\because &\Sigma^\infty_0x^k=\frac{1}{1-x}\\
+\Rightarrow f(x)=& \frac{3}{1-x}+\frac{1}{1-4x}  \\
+\end{align}
+}$$
+##### problem 4
+find the coefficient of $x^5$ in $(1-2x)^{-7}$
+##### tips 4(生成函式通常會搭配的公式，考試會給)
+
+$$(1+x)^{-n}=\Sigma^\infty_{r=0}\binom{-n}{r}x^r=\Sigma^\infty_{r=0}(-1)^r\binom{n+r-1}{r}x^r$$$$(1-x)^{-n}=\Sigma^\infty_{r=0}(-1)^r\binom{n+r-1}{r}(-x)^r=\Sigma^\infty_{r=0}\binom{n+r-1}{r}-x^r$$

@@ -6,6 +6,8 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiTodoLine",
+      "🗓",
       "📆"
     ],
     "recentlyUsedIconsSize": 5,
@@ -27,5 +29,5 @@
     "iconIdentifier": ":",
     "debugMode": false
   },
-  "other/task for today.md": "📆"
+  "other/task for today.md": "RiTodoLine"
 }
