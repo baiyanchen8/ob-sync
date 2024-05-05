@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "678ebb63a91fc199",
+            "id": "3bf6ce0d1ba561ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -149,7 +149,7 @@
             }
           },
           {
-            "id": "8348c374bd9b0327",
+            "id": "6fc97eec4206f9f3",
             "type": "leaf",
             "state": {
               "type": "quiet-outline",
@@ -169,7 +169,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "other/task for today.md",
+                "file": "other/Tasks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -191,10 +191,13 @@
       "graph:查看關聯圖": false
     }
   },
-  "active": "678ebb63a91fc199",
+  "active": "3bf6ce0d1ba561ef",
   "lastOpenFiles": [
-    "other/task for today.md",
+    "other/Tasks.md",
     "離散數學/lec 2.md",
+    "database/chap 7 for 資料庫.md",
+    "information retrieval/IR.md",
+    "image/Information-Retreival-Lecture-6.pdf",
     "image/Pasted image 20240505161526.png",
     "other/latex 大全.md",
     "image/Pasted image 20240505132857.png",
@@ -202,7 +205,6 @@
     "image/Pasted image 20240505113907.png",
     "線性代數",
     "image/Pasted image 20240505012421.png",
-    "database/chap 7 for 資料庫.md",
     "image/Pasted image 20240505012421.png.~tmp",
     "image/Pasted image 20240505010511.png",
     "image/Pasted image 20240505012436.png",
@@ -229,7 +231,6 @@
     "基礎資料結構/chap7 for基礎資料結構.md",
     "基礎資料結構/基礎資料結構.md",
     "基礎資料結構/chap11 for基礎資料結構.md",
-    "physics net/物聯網作業5.md",
     "專題",
     "未命名.canvas",
     "image/20240302_191947.jpg.crdownload",
@@ -237,7 +238,6 @@
     "physics net",
     "calculus",
     "unix",
-    "information retrieval",
-    "other"
+    "information retrieval"
   ]
 }

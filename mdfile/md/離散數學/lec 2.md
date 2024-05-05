@@ -541,7 +541,51 @@ f(x)=&(3+4^0)+(3+4^1)x+.....\\
 \end{align}
 }$$
 ##### problem 4
-find the coefficient of $x^5$ in $(1-2x)^{-7}$
+find the coefficient of $x^5$ in $(1-2x)^{-7}$ 
+ $(1-2x)^{-7}$  => 生成函式
 ##### tips 4(生成函式通常會搭配的公式，考試會給)
 
-$$(1+x)^{-n}=\Sigma^\infty_{r=0}\binom{-n}{r}x^r=\Sigma^\infty_{r=0}(-1)^r\binom{n+r-1}{r}x^r$$$$(1-x)^{-n}=\Sigma^\infty_{r=0}(-1)^r\binom{n+r-1}{r}(-x)^r=\Sigma^\infty_{r=0}\binom{n+r-1}{r}-x^r$$
+$$(1+x)^{-n}=\Sigma^\infty_{r=0}\binom{-n}{r}x^r=\Sigma^\infty_{r=0}(-1)^r\binom{n+r-1}{r}x^r$$$$(1-x)^{-n}=\Sigma^\infty_{r=0}(-1)^r\binom{n+r-1}{r}(-x)^r=\Sigma^\infty_{r=0}\binom{n+r-1}{r}x^r$$
+##### ans 4
+$(1-2x)^{-7}=\Sigma^\infty_{r=0}\left(\begin{align}7+&r-1\\ &r\\\end{align}\right)(2x)^r$
+=> r 代 5求 $x^5$ 係數
+=> $\left(\begin{align}11\\ 5\\\end{align}\right)(2)^5$
+##### problem 5(超酷5的)
+給你 1、2、3、4、5g砝碼各一個，請問能測出多少種重量，每種有幾種組合?
+##### ans 5
+將每種砝碼的選取編碼:
+> 1g : (1+x)
+> 2g: $(1+x^2)$
+> 3g: $(1+x^3)$
+> 4g: $(1+x^4)$
+> 5g: $(1+x^5)$
+
+=> 該生成函數則為以上幾項相乘
+>$$\huge{g(x)=1+x^1+x^2+2x^3+2x^4+2x^5+2x^6+2x^7+x^8+x^9+x^{10}}$$
+
+=> 直接看上圖可知重量為3g的組合有2種
+
+##### problem 6
+ 給你 1 元、2元、3元郵票各三張，求有幾種價錢、每種價錢有幾種組合?
+##### ans 6
+ 將每種郵票的選取編碼:
+> 1元 : $(1+x+x^2+x^3)$，選0~3張各0、1、2、3塊錢
+> 2元: $(1+x^2+x^4+x^6)$，選0~3張各0、2、4、6塊錢
+> 3元: $(1+x^3+x^6+x^9)$，選0~3張各0、3、6、9塊錢
+
+=> 該生成函數則為以上幾項相乘
+> $$\huge{g(x)=(1+x+x^2+x^3)(1+x^2+x^4+x^6)(1+x^3+x^6+x^9)}$$
+
+##### problem 7
+How many solutions are there for $x_1+x_2+x_3+x_4=19,0\le x_i\le 7$ ?
+##### ans 7
+
+$$\Huge{A(x)=(1+x^1+x^2+x^3+x^4+x^5+x^6+x^7)^4}$$
+>其實跟上面兩提中心思想一樣，每個位置最多放0~7個數，而總共要有19個數
+>=> 因此將 $A(x)$ 乘開後**取 $x^{19}$ 的係數**。
+
+
+###### 怎麼乘開 (這是個好問題)
+
+# Matrices
+

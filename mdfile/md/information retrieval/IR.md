@@ -30,3 +30,5 @@ tags: [I.R.]
 5. course project 20%
 
 ## 學習資源
+![[Information-Retreival-Lecture-6.pdf]]
+
