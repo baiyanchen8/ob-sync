@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "61827811782814fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "離散數學/lec 2.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a00d576889f8e2e4",
             "type": "leaf",
             "state": {
@@ -47,16 +34,20 @@
             }
           },
           {
-            "id": "ce7de03dd4a8eaa0",
+            "id": "678ebb63a91fc199",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "image/Pasted image 20240505012421.png"
+                "file": "離散數學/lec 2.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b03ce395fb964a80",
@@ -173,7 +163,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "021c00660bc19fd8",
+            "id": "7a250aafe8dcc158",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -200,13 +190,15 @@
       "graph:查看關聯圖": false
     }
   },
-  "active": "61827811782814fd",
+  "active": "678ebb63a91fc199",
   "lastOpenFiles": [
     "other/task for today.md",
     "離散數學/lec 2.md",
+    "image/Pasted image 20240505161526.png",
+    "other/latex 大全.md",
+    "image/Pasted image 20240505132857.png",
     "image/Pasted image 20240505114016.png",
     "image/Pasted image 20240505113907.png",
-    "other/latex 大全.md",
     "線性代數",
     "image/Pasted image 20240505012421.png",
     "database/chap 7 for 資料庫.md",
@@ -217,8 +209,6 @@
     "image/Pasted image 20240505004736.png",
     "image/Pasted image 20240505000711.png",
     "movie/觀看清單.md",
-    "image/Pasted image 20240504235835.png",
-    "image/Pasted image 20240504235510.png",
     "離散數學/離散數學.md",
     "Main Page.md",
     "movie/沙丘1.md",
