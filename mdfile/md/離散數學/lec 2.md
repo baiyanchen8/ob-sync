@@ -485,12 +485,28 @@ $$\huge{S=\frac{a_0+a_n}{2}=\frac{2a_0+(n)\times d}{2}}$$
 
 > 左圖前五項要背歐
 
-### 補充第八章(閉式解)
-#### 矩陣對角化
+## 補充第八章(閉式解)
 
-#### 常係數線性遞迴關係
+### 矩陣對角化
+#### Example
+> $a_{n+1}=a_n+2a_{n-1}$
 
-#### 生成函數
+1. 透過二階矩陣，將二階遞迴化為一階
+$$
+\left(\begin{array}{1} a_{n+1}\\ a_n \end{array} \right) = \left( \begin{array}{1} 1 & 2\\ 1 & 0\\ \end{array} \right) \left( \begin{array}{1} a_{n}\\ a_{n-1} \end{array} \right) \Rightarrow U_{n+1}= \left( \begin{array}{1} 1 & 2\\ 1 & 0\\ \end{array} \right) U_{n} \Rightarrow U_{n+1}= {\left( \begin{array}{1} 1 & 2\\ 1 & 0\\ \end{array} \right)}^{n} U_{1}
+$$
+
+2. 求${\left( \begin{array}{1} 1 & 2\\ 1 & 0\\ \end{array} \right)}^{n}$ ，使用對角化技巧 => $P^{-1}AP=D,A^n=PD^nP^{-1}$ , D 為對角矩陣
+	1. 求 $Det(A-\lambda I)=0$ => $det\left\{{\left( \begin{array}{1} 1 & 2\\ 1 & 0\\ \end{array} \right)}-{\left( \begin{array}{1} \lambda & 0\\ 0 & \lambda\\ \end{array} \right)}\right\}=(1-\lambda)(-\lambda)-2=\lambda ^2 -\lambda -2,\lambda =2\ \ or\ \ -1$
+	2. 求 $A\times V_1 = \lambda_1 V_1$ &$A\times V_2 = \lambda_2 V_2$ => $P = [ V_1\ V_2]$ =>$P=\left[\begin{array}{1}2 & 1\\ 1 & -1\end{array}\right]$
+	3. $D=P^{-1}AP$ => $D=\left[\begin{array}{1}2 & 0\\ 0 & -1\end{array}\right]$ => $D^n=\left[\begin{array}{1}2^n & 0\\ 0& (-1)^n\end{array}\right]$
+	4. $U_{n+1}= {\left( \begin{array}{1} 1 & 2\\ 1 & 0\\ \end{array} \right)}^{n} U_{1} = PD^nP^{-1}U_{1}$
+![[Pasted image 20240505114016.png]]
+
+### 常係數線性遞迴關係
+
+### 生成函數
 > 優先生成函數
 > 因為前兩種方法在遇到非齊次問題時，無法解
+
 

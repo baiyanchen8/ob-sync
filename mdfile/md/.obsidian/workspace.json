@@ -102,8 +102,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -179,7 +178,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tmp.md",
+                "file": "other/task for today.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -190,8 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 586.5,
-    "collapsed": true
+    "width": 586.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,8 +202,12 @@
   },
   "active": "61827811782814fd",
   "lastOpenFiles": [
-    "tmp.md",
+    "other/task for today.md",
     "離散數學/lec 2.md",
+    "image/Pasted image 20240505114016.png",
+    "image/Pasted image 20240505113907.png",
+    "other/latex 大全.md",
+    "線性代數",
     "image/Pasted image 20240505012421.png",
     "database/chap 7 for 資料庫.md",
     "image/Pasted image 20240505012421.png.~tmp",
@@ -217,9 +219,6 @@
     "movie/觀看清單.md",
     "image/Pasted image 20240504235835.png",
     "image/Pasted image 20240504235510.png",
-    "image/Pasted image 20240504230240.png",
-    "image/Pasted image 20240504230203.png",
-    "other/latex 大全.md",
     "離散數學/離散數學.md",
     "Main Page.md",
     "movie/沙丘1.md",
@@ -248,7 +247,6 @@
     "calculus",
     "unix",
     "information retrieval",
-    "other",
-    "database"
+    "other"
   ]
 }

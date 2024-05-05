@@ -12,12 +12,13 @@
 | `$\le$`    | $\le$  |
 | `$\lt$`    | $\lt$  |
 ### 希臘字母
-| 發音     | latex code  | 大寫        | 小寫       |
-| ------ | ----------- | --------- | -------- |
-| Sigma  | `$\sigma$`  | $\Sigma$  | $\sigma$ |
-| forall | `$\forall$` | $\forall$ |          |
-| exists | `\exists`   | $\exists$ |          |
-|        |             |           |          |
+| 發音     | latex code  | 大寫        | 小寫        |
+| ------ | ----------- | --------- | --------- |
+| Sigma  | `$\sigma$`  | $\Sigma$  | $\sigma$  |
+| forall | `$\forall$` | $\forall$ |           |
+| exists | `\exists`   | $\exists$ |           |
+| lambda | `\lambda`   | $\Lambda$ | $\lambda$ |
+
 
 ### 集合
 | latex code        | 效果              |
