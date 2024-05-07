@@ -586,6 +586,21 @@ $$\Huge{A(x)=(1+x^1+x^2+x^3+x^4+x^5+x^6+x^7)^4}$$
 
 
 ###### 怎麼乘開 (這是個好問題)
+$\large{A(x)\times(\frac{1-x}{1-x})^4=(\frac{1-x^8}{1-x})^4}$
+=> $\large{(\frac{1-x^8}{1-x})^4=(1-x^8)^4\times(1-x)^{-4}}$
+=> $\large{((1-x^8)^4\times(1-x)^{-4}=((1-x^8)^4\times \Sigma^\infty_{r=0}C^{r+n-1}_rx^r}$
+
+=> 剩下的就是計算第19項的係數了
 
 # Matrices
+## Define---Matrices
+A matrix is a rectangular array of numbers. A matrix with m rows and n columns is called an m × n matrix. The plural of matrix is matrices. A matrix with the same number of rows as columns is called square. Two matrices are equal if they have the same number of rows and the same number of columns and the corresponding entries in every position are equal.
+矩陣是數字的矩形數組。 m 行 n 列的矩陣稱為 m × n 矩陣。 矩陣的複數是矩陣。 行數與列數相同的矩陣稱為方陣。 如果兩個矩陣具有相同的行數和相同的列數，並且每個位置的相應條目都相等，則兩個矩陣相等。
 
+## Define---Zero–One Matrix
+內容只有 0 & 1 的 matrix
+## Define---Boolean product
+![[Pasted image 20240506144050.png|600]]
+
+## Define---Boolean power
+![[Pasted image 20240506144417.png|600]]
