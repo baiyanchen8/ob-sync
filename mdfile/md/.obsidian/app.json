@@ -1,6 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "newFileLocation": "folder",
+  "newFileLocation": "current",
   "useMarkdownLinks": false,
   "attachmentFolderPath": "image",
   "showIndentGuide": false,
