@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "d5d427769fd7ccf9",
+            "id": "ddd00fedf7ca9852",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/chap 7 for 資料庫.md",
+                "file": "離散數學/題庫/離散數學2-3-16.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "3bf6ce0d1ba561ef",
+            "id": "89b4f54e09aea102",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b03ce395fb964a80",
@@ -107,6 +106,7 @@
       {
         "id": "e9709b9635a2af88",
         "type": "tabs",
+        "dimension": 57.08955223880597,
         "children": [
           {
             "id": "ae611fb520470720",
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "離散數學/lec 2.md",
+                "file": "離散數學/題庫/離散數學2-3-16.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "離散數學/lec 2.md",
+                "file": "離散數學/題庫/離散數學2-3-16.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             }
           },
           {
-            "id": "6fc97eec4206f9f3",
+            "id": "f10f6fc5be246bad",
             "type": "leaf",
             "state": {
               "type": "quiet-outline",
@@ -162,6 +162,7 @@
       {
         "id": "4bbc581c7b6eb1b9",
         "type": "tabs",
+        "dimension": 42.91044776119403,
         "children": [
           {
             "id": "7a250aafe8dcc158",
@@ -180,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413.5
+    "width": 331.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,56 +189,58 @@
       "canvas:建立新畫布": false,
       "templates:插入模板": false,
       "command-palette:開啟命令面板": false,
-      "graph:查看關聯圖": false
+      "graph:查看關聯圖": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3bf6ce0d1ba561ef",
+  "active": "ddd00fedf7ca9852",
   "lastOpenFiles": [
-    "other/Tasks.md",
     "離散數學/lec 2.md",
+    "離散數學/題庫/離散數學2-3-16.md",
+    "image/20240509_101247.jpg",
+    "離散數學/離散數學.md",
+    "離散數學/題庫/離散數學2-3-8.md",
+    "image/20240509_100910.jpg",
+    "離散數學/題庫/離散數學2-2-58.md",
+    "離散數學/題庫/離散數學2-2-40.md",
+    "Excalidraw/Drawing 2024-05-09 10.00.08.excalidraw.md",
+    "離散數學/題庫/離散數學2-2-34.md",
+    "Excalidraw/Drawing 2024-05-09 09.38.24.excalidraw.md",
+    "image/Pasted image 20240509095326.png",
+    "離散數學/題庫/離散數學2-2-22.md",
+    "離散數學/題庫/離散數學2-2-14.md",
+    "離散數學/題庫/離散數學2-2-2.md",
+    "other/latex 大全.md",
+    "Excalidraw/Drawing 2024-05-09 01.26.45.excalidraw.md",
+    "離散數學/題庫/離散數學2-1-36.md",
+    "離散數學/題庫/離散數學2-1-28.md",
+    "離散數學/題庫/離散數學2-1-18.md",
+    "other/我的遊戲庫.md",
+    "Excalidraw/Drawing 2024-05-09 01.03.40.excalidraw.md",
+    "Excalidraw",
+    "離散數學/題庫/離散數學2-1-12.md",
+    "離散數學/題庫/離散數學2-1-2.md",
+    "離散數學/題庫/asd.md",
+    "other/題目.md",
+    "other/Untitled (2).md",
+    "離散數學/題庫/未命名.md",
+    "題庫",
+    "離散數學/題庫",
     "image/Pasted image 20240506144417.png",
     "image/Pasted image 20240506144050.png",
     "image/Pasted image 20240506143352.png",
-    "database/chap 7 for 資料庫.md",
-    "information retrieval/IR.md",
     "image/Information-Retreival-Lecture-6.pdf",
     "image/Pasted image 20240505161526.png",
-    "other/latex 大全.md",
     "image/Pasted image 20240505132857.png",
     "image/Pasted image 20240505114016.png",
     "image/Pasted image 20240505113907.png",
     "線性代數",
-    "image/Pasted image 20240505012421.png",
     "image/Pasted image 20240505012421.png.~tmp",
-    "image/Pasted image 20240505010511.png",
-    "image/Pasted image 20240505012436.png",
-    "movie/觀看清單.md",
-    "離散數學/離散數學.md",
-    "Main Page.md",
-    "movie/沙丘1.md",
-    "database/chap 3 for 資料庫.md",
-    "database/chap 1 for 資料庫.md",
-    "database/資料庫HW4.md",
-    "database/chap 2 for 資料庫.md",
-    "機器學習/What is Machine Learning.md",
-    "離散數學/lec1.md",
-    "lect1.md",
-    "other/oracle.md",
-    "other/dada.md",
-    "資安與密碼學/lec 6 note.md",
-    "資安與密碼學/密碼學.md",
-    "基礎資料結構/chap6 graph.md",
-    "基礎資料結構/chap5 tree.md",
-    "基礎資料結構/chap7 for基礎資料結構.md",
-    "基礎資料結構/基礎資料結構.md",
-    "基礎資料結構/chap11 for基礎資料結構.md",
     "專題",
     "未命名.canvas",
     "image/20240302_191947.jpg.crdownload",
     "離散數學",
-    "physics net",
-    "calculus",
-    "unix",
-    "information retrieval"
+    "physics net"
   ]
 }

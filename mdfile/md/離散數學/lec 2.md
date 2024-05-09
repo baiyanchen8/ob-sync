@@ -1,8 +1,7 @@
 ---
 tags:
   - 離散
-cssclasses:
-  - img
+title: lec 2
 ---
 # Set
 ## Define ---Set
@@ -21,10 +20,11 @@ the set-O of odd positive intergers less than 10 can be express by ?
 1. O={1,3,5,7,9}
 2. O= {x|x is an odd positive interger less than 10}
 3. O={x$\in Z^+$|x is odd and x < 10}
-> 三種表示都是合理的作法
+> [!NOTE] 三種表示都是合理的作法
 > 第一種使用全列出
 > 第二種使用文字描述
 > 第三種使用集合建構法
+
 
 #### 多種常見集合符號
 1. $\mathbf N${0,1,2,3......},a set of natrual number
@@ -50,9 +50,9 @@ Set-A and Set-B are equal if and only if $\forall x(x\in A \leftrightarrow x\in 
 #### take 1
 ![[tempFileForShare_20240502-224653.jpg]]
 
-> all same 
+> [!NOTE] all same 
 > 由於 Set 是不會有順序&重複的問的，so 都一樣
-Which set of problem are same ?
+> Which set of problem are same ?
 ## Define---subsets
 when $\forall x(x \in A \rightarrow x \in B)$ that we say A is a subset of B ($A \subseteq B$)
 
@@ -74,9 +74,11 @@ $\forall x(x\in A \rightarrow x \in B)\land \exists x(x\in B \land x \not\in A)$
 #### example
 ![[SmartSelect_20240503_013548_Samsung Notes.jpg|600]]
 
-> 第一題中說，A={x|$x^2\lt 100$ and$x\in Z$} ,B ={x|$x\in Z^+$}
+>[!NOTE] 第一題
+> **set** A={x|$x^2\lt 100$ and$x\in Z$} ,B ={x|$x\in Z^+$}
 > **but** $-1\in A$ but $-1 \not\in B$
 
+>[!NOTE] 第二題
 >在你們學校學習[[離散數學]]的人,並不是你們學校所有資工專業的人的子集。
 >yes , 沒什麼好解釋的，就是有外系
 
@@ -94,12 +96,13 @@ S = {1,2,3,4,5,67,$\emptyset$}
 ### Example
 ![[tempFileForShare_20240503-132003.jpg|600]]
 
-> Tips 
+> [!NOTE] Tips 
 > 	計算 $|P(S)|$ 就是計算 $|S|^2$
 
 ![[tempFileForShare_20240503-132329.jpg|600]]
 
-> 其實也就是那樣，就記得好好算
+>[!NOTE]
+其實也就是那樣，就記得好好算
 
 ## Define---Orderd n-tuples(有序n項)
 ### Compare
@@ -149,6 +152,7 @@ P(x) 的真值集合通常表示為 {x∈D | P(x)} 或 {x∈D | P(x) 為真}。
 ### Example
 ![[tempFileForShare_20240503-154949.jpg]]
 
+> [!NOTE]
 > P-> {x$\in$Z| "|x|=1"}
 > Q-> {x$\in$Z| "$x^2$=2"}
 > R-> {x$\in$Z| "|x|=x"}
@@ -205,18 +209,20 @@ $|A-B|=|A|-|A\cap B|$
 4. Use Set identities
 
 ### Example
- > Prove that $\overline{A\cap B}=\overline A\cup \overline B$ (use 1)
+>[!TIPS] Prove that $\overline{A\cap B}=\overline A\cup \overline B$ (use 1)
 
-我們可以使用集合的定義來證明這個等式。首先，我們來證明 $\overline{A\cap B}\subseteq \overline A\cup \overline B$。
+首先，我們來證明 $\overline{A\cap B}\subseteq \overline A\cup \overline B$。
 
-假設 $x\in \overline{A\cap B}$，這表示 $x$ 不在 $A\cap B$ 中。根據集合的補集定義，這意味著 $x$ 要麼不在 $A$ 中，要麼不在 $B$ 中，或者同時不在 $A$ 和 $B$ 中。換句話說，$x\in \overline A$ 或者 $x\in \overline B$，所以 $x\in \overline A\cup \overline B$。因此，我們證明了 $\overline{A\cap B}\subseteq \overline A\cup \overline B$。
+假設 x $\in \overline{A\cap B}$ => x $\notin{A\cap B}$ => $x \in -(A\cap B)$ => $x \in \overline A\ or\ x \in \overline B$ => $x\in \overline A\cup \overline B$
+
 
 接下來，我們證明 $\overline A\cup \overline B \subseteq \overline{A\cap B}$。
 
-假設 $x\in \overline A\cup \overline B$，這表示 $x$ 要麼不在 $A$ 中，要麼不在 $B$ 中，或者同時不在 $A$ 和 $B$ 中。根據集合的補集定義，這意味著 $x$ 要麼在 $A$ 的補集中，要麼在 $B$ 的補集中，或者同時在 $A$ 和 $B$ 的補集中。換句話說，$x$ 不在 $A\cap B$ 中。因此，我們證明了 $\overline A\cup \overline B \subseteq \overline{A\cap B}$。
+假設 x $\in \overline A \cup \overline B$ => $x \in \overline A$ or $x \in \overline B$ => 根據補集定義 => $x \notin ({A\cap B})$  => x $\in \overline{A\cap B}$ 
 
 綜合以上兩個部分，我們可以得出 $\overline{A\cap B}=\overline A\cup \overline B$。
->  Prove that $\overline{A\cap B}=\overline A\cup \overline B$ (use 2)
+
+>[!TIPS] Prove that $\overline{A\cap B}=\overline A\cup \overline B$ (use 2)
 
 $\overline{A\cap B}=\{x|x\notin A\cap B\}$
 	$=\{x|-(x\in A \cap B)\}$
@@ -226,7 +232,7 @@ $\overline{A\cap B}=\{x|x\notin A\cap B\}$
 	$=\{x|(x\in\overline A)\cup(x\in\overline B)\}$
 	$=\{x|x\in\overline A\cup \overline B\}$
 	$=\overline A\cup \overline B$
-> Use membership table prove $A\cup(B\cap C)=(A\cup B)\cap(A\cup C)$
+> [!NOTE] Use membership table prove $A\cup(B\cap C)=(A\cup B)\cap(A\cup C)$
 
 | A   | B   | C   | $B\cap C$ | $A\cup B$ | $A\cup C$ | $A\cup(B\cap C)$ | $(A\cup B)\cap(A\cup C)$ |
 | --- | --- | --- | --------- | --------- | --------- | ---------------- | ------------------------ |
@@ -240,7 +246,7 @@ $\overline{A\cap B}=\{x|x\notin A\cap B\}$
 | 0   | 0   | 0   | 0         | 0         | 0         | 0                | 0                        |
 因為最後兩條一樣，so proved
 
-> show that $\overline{A\cup(B\cap C)}=(\overline C \cup \overline B )\cap\overline A$
+>[!TIPS] show that $\overline{A\cup(B\cap C)}=(\overline C \cup \overline B )\cap\overline A$
 
 | equation                                       | indentity         |
 | ---------------------------------------------- | ----------------- |
@@ -304,7 +310,8 @@ function F 是將 A 映射到 B ，S 是 A 的 subset 。求F(S)?
 ##### ans
 $$\huge{F(S)=\{t|\exists\ x\in S(t=F(x))\}}$$
   
-> 備註：對於函數 f 下集合 S 的像，使用符號 f(S) 有潛在的歧義。在這裡，f(S) 表示一個集合，而不是函數 f 對集合 S 的值。 
+> [!nOTE] 備註：
+> 對於函數 f 下集合 S 的像，使用符號 f(S) 有潛在的歧義。在這裡，f(S) 表示一個集合，而不是函數 f 對集合 S 的值。 
 
 ### Example
 Let 
@@ -312,7 +319,7 @@ $$A=\{a,b,c,d,e\}$$
 $$B=\{1,2,3,4\}$$
 with f (a) = 2, f (b) = 1, f (c) = 4, f (d) = 1, and f (e) = 1. if S is subset of A,and $S=\{b,c,d\}$,the image of F(S)?
 
->**ans**:
+>[!note] **ans**:
 >f (S) = {1, 4}.
 
 ## Define---One-to-One Function (injection單射)

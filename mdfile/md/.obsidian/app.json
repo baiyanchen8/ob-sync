@@ -1,6 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "newFileLocation": "current",
+  "newFileLocation": "folder",
   "useMarkdownLinks": false,
   "attachmentFolderPath": "image",
   "showIndentGuide": false,
@@ -12,5 +12,7 @@
     "downscalePercent": 100
   },
   "showUnsupportedFiles": false,
-  "promptDelete": false
+  "promptDelete": false,
+  "newLinkFormat": "shortest",
+  "newFileFolderPath": "離散數學/題庫"
 }

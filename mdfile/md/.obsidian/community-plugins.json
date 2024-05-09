@@ -1,9 +1,12 @@
 [
-  "editor-width-slider",
   "oz-image-plugin",
   "obsidian-style-settings",
-  "obsidian-quiet-outline",
   "sheets",
   "obsidian-image-layouts",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "oz-clear-unused-images",
+  "auto-template-trigger",
+  "obsidian-excalidraw-plugin",
+  "obsidian-quiet-outline",
+  "editor-width-slider"
 ]
