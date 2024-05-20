@@ -36,11 +36,12 @@ tags: [基礎資料結構]
 >  **舉例**
 	**使用$G_3$舉例**
 
-| x\y  | 0   | 1   | 2   |
-| --- |:--- | --- | --- |
+| x\y | 0   | 1   | 2   |
+| --- | :-- | --- | --- |
 | 0   | 0   | 1   | 0   |
 | 1   | 1   | 0   | 0   |
 | 2   | 0   | 1   | 0   |
+
 
 *tips:* 在這裡有方向性(y$\rightarrow$x)
 
@@ -51,9 +52,12 @@ tags: [基礎資料結構]
 
 ### 相鄰串列 (adjacency list)
 
+
 ### 相鄰多元串列 (Adjacency Multilist)
 
+
 ### 索引表 (Index Table)
+
 
 # 圖的各種基本名詞
 1. 完全圖 full graph
@@ -98,7 +102,7 @@ tags: [基礎資料結構]
 
 從字面意義上可知，是優先探索深度的算法
 
-```clike=
+```clike fold
 int visited[num_vertex]; // 假設 non visited 為 0 , visited 為1 
 int edge [num_vertex][2];//假設未使用的edge內容為(-1,-1)
 void dfs(int now){
@@ -116,9 +120,14 @@ void dfs(int now){
 }
 
 ```
-## Breadth First Search
 
-```clike=
+### 時間複雜度
+edge table :$O(E^2)$ => 因為需要跑整張table才能找到下一層
+adj-list: $O(V+E)$  => 因為使用adj-list不需要跑每個 vertex
+adj-matrix : $O(V^2)$ => 只需要跑對應的 list（V） 即可 
+## Breadth First Search 
+
+```clike fold
 int visited[num_vertex]; // 假設 non visited 為 0 , visited 為1 
 int edge [num_vertex][2];//假設未使用的edge內容為(-1,-1)void bfs(int now){
 void bfs(int now){
@@ -143,9 +152,14 @@ void bfs(int now){
     }
 }
 ```
+
+### 時間複雜度
+edge table :$O(E^2)$ => 因為需要跑整張table才能找到下一層
+adj-list: $O(V+E)$  => 因為使用adj-list不需要跑每個 vertex
+adj-matrix : $O(V^2)$ => 只需要跑對應的 list（V） 即可 
 ## 連通元件
 通過 dfs or bfs 尋找就可以了。
-```clike=
+```clike
 void connected(){
     bfs();
 }
@@ -168,7 +182,7 @@ low(n)=min{dfn(n)
 	當tree 的下邊的low大於當前節點的dfn時
 
 ### code
-```c=
+```c fold="雙連通點查找長的要死的純C實現"
 #include <stdio.h>
 #include <stdlib.h>
 #define maxnode 100
@@ -332,16 +346,89 @@ void addedge(int a, int b) {
 }
 ```
 # 最小花費生成樹(Minimum cost spanning tree)
+## 目的及應用場景
+在有權重的無向圖中找出任一點到所有點的最小距離，以應付現實使用場景？例如地圖路線生成？
 ## greedy method（貪婪）
 簡單而言，就是**每次**選擇最短的的路徑，直到所有點都被連通為止。
 ### 缺點
 不夠好，不夠精確，有可能造成 Cycle
-## kruskal's algorithm
-1. 將所有 edge 按照由小到大排序
-2. 然後要將所有edge 一個一個選出(要避免cycle)
+## kruskal's algorithm $O(ElogE)$
+透過每次選取最短權重的路徑，達成MST
+### step
+1. 通過 sort （通常是quick sort or merge sort）將所有路徑由小道大排序
+2. 選取當前最短路徑
+3. 與 union 中已存在節點比較（看兩端點是否存在union中），避免形成迴圈
+4. 加入（未形成迴圈）或移除路徑（形成迴圈）
+5. 重複2.3.4直至所有節點皆加 union
+## Prim algorithm $O(V^2)$
+一開始選定一個點，選擇與其相鄰中最短的邊加入，直至遍歷所有節點
+### 特色 
+從始至終都只會有一顆樹，與之相比 Kruskal 可能會在過程中產生 forest
+### Step
+1. 將edge 資料以 Adjacency List 型態儲存，並選定一個節點
+2. 從 union (儲存所有已連通點的結構) 中所有點的 adj-list 中選出最短相鄰邊(最近相鄰點？)=> $O(V)$
+3. 確認該邊是否滿足不發生迴圈的條件，以決定是否加入該邊的兩端入 union =>$O(1)$
+4. 重複 2、3 直至完成 MST => O(V)
 
+```python fold="Prim Pyhon（真好用）實現"
+from collections import defaultdict
+
+class Graph:
+    def __init__(self):
+        self.graph = defaultdict(list)
+    
+    def add_edge(self, u, v, weight):
+        self.graph[u].append((v, weight))
+        self.graph[v].append((u, weight))
+    
+    def prim_mst(self):
+        # 用來儲存已選取的點
+        selected = set()
+        # 選擇一個起始點
+        selected.add(list(self.graph.keys())[0])
+        
+        mst = []
+        while len(selected) < len(self.graph):
+            min_edge = None
+            for node in selected:
+                for neighbor, weight in self.graph[node]:
+                    if neighbor not in selected:
+                        if min_edge is None or weight < min_edge[1]:
+                            min_edge = (node, neighbor, weight)
+            
+            if min_edge:
+                mst.append(min_edge)
+                selected.add(min_edge[1])
+        
+        return mst
+
+# 範例使用
+g = Graph()
+g.add_edge('A', 'B', 2)
+g.add_edge('A', 'C', 3)
+g.add_edge('B', 'C', 1)
+g.add_edge('B', 'D', 1)
+g.add_edge('C', 'D', 4)
+
+mst = g.prim_mst()
+print("最小生成樹的邊:")
+for edge in mst:
+    print(edge)
+
+```
+
+## Sollin 演算法 $O(E+VlogV)$
+Sollin 與先前幾個算法最為不同的是它會同時為多的點選擇邊，通常在幾輪內就會結束
+### 線性 Sollin 算法 
+1. 初始化：將每個節點視為一個獨立的集合，將每個集合標記為一個不同的集合編號。
+2. 對於每個節點，找到與之相鄰的所有邊，並按照邊的權重遞增的順序對這些邊進行排序。
+3. 遍歷排序後的邊，對於每條邊，如果其連接的兩個節點屬於不同的集合，則將這兩個集合合併成一個集合，並將這條邊加入最小生成樹中。
+4. 重複步驟 3，直到所有節點都屬於同一個集合或者所有邊都被遍歷完畢。
 
 # 最短路徑與遞移封閉
+在 Google Map  或之類的應用中，兩點之間的最短路徑(要先確認有無路徑)是其中很重要的功能。
+
+## 單一終起點/所有終點: 無負數邊
 
 
 # 活動網路

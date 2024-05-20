@@ -8,5 +8,7 @@
   "auto-template-trigger",
   "obsidian-excalidraw-plugin",
   "obsidian-quiet-outline",
-  "editor-width-slider"
+  "editor-width-slider",
+  "code-styler",
+  "obsidian-importer"
 ]

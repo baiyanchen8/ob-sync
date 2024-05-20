@@ -21,7 +21,8 @@ tags: [I.R.]
 2. [[L2 Tolerance Retrieval]]
 3. [[ir3]]
 4. [[Link analysis]]
-6.  [[ir5]]
+5.  [[ir5]]
+6. [[hadoop1]]
 ## 評估
 1. Assignment 20%
 2. Midterm 20%
