@@ -1,6 +1,8 @@
 ---
 title: 《奧本海默》（英語：Oppenheimer）
-tags: ['#movie']
+tags:
+  - movie
+move-score: "9.8"
 ---
 # 電影評分：《奧本海默》（英語：Oppenheimer)
 

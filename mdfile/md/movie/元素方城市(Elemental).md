@@ -1,7 +1,8 @@
 ---
 title: 元素方城市(Elemental)
-tags: ['#movie']
-
+tags:
+  - "#movie"
+move-score: "6.5"
 ---
 
 # 電影評分：**元素方城市**(_Elemental_)

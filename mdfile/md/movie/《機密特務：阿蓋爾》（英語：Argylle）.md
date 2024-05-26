@@ -1,7 +1,8 @@
 ---
 title: 《機密特務：阿蓋爾》（英語：Argylle）
-tags: ['#movie']
-
+tags:
+  - "#movie"
+move-score: "5"
 ---
 
 # 電影評分：《機密特務：阿蓋爾》（英語：Argylle）
