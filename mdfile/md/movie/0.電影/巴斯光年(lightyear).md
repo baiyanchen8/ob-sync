@@ -2,7 +2,7 @@
 title: 巴斯光年(lightyear)
 tags:
   - "#movie"
-move-score: "7"
+moive-score: "7"
 ---
 
 # 電影評分：巴斯光年(lightyear)

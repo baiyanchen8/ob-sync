@@ -26,14 +26,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "movie/猩球崛起4.md",
+                "file": "movie/0.電影/《機密特務：阿蓋爾》（英語：Argylle）.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "07de13961f3be82b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "movie/moive home.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "information retrieval/hadoop1.md",
+                "file": "movie/moive home.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "information retrieval/hadoop1.md",
+                "file": "movie/moive home.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 331.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,37 +195,40 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "458a52680f7af9e9",
+  "active": "07de13961f3be82b",
   "lastOpenFiles": [
-    "movie/猩球崛起4.md",
-    "other/Tasks.md",
-    "moive.md",
-    "information retrieval/hadoop1.md",
-    "image/B1BmX6DgA.png",
-    "movie/巴斯光年(lightyear).md",
+    "movie/0.電影/《機密特務：阿蓋爾》（英語：Argylle）.md",
+    "movie/moive home.md",
+    "movie/觀看清單.md",
+    "movie/1.發行商/Disneys.md",
+    "movie/0.電影/Poor Things.md",
+    "movie/0.電影/靈魂急轉彎(Soul).md",
+    "movie/馬修·范恩.md",
     "movie/白日夢冒險王.md",
-    "movie/皮克斯Pixar.md",
-    "movie/沙丘1.md",
-    "movie/月老.md",
-    "movie/元素方城市(Elemental).md",
-    "movie/《機密特務：阿蓋爾》（英語：Argylle）.md",
-    "movie/《奧本海默》（英語：Oppenheimer）.md",
+    "movie/0.電影/還錢.md",
+    "movie/蒙太奇.md",
+    "movie/0.電影/魔法滿屋(Encanto).md",
+    "movie/0.電影/劇場版 SPY×FAMILY CODE_ White.md",
+    "movie/0.電影/猩球崛起4.md",
+    "movie/0.電影/庫伊拉.md",
+    "movie/0.電影/哥吉拉與金剛：新帝國.md",
+    "movie/0.電影/沙丘2.md",
+    "movie/0.電影/沙丘1.md",
+    "movie/1.發行商/皮克斯Pixar.md",
+    "movie/1.發行商",
+    "movie/0.電影",
+    "movie/0.電影/月老.md",
+    "movie/0.電影/巴斯光年(lightyear).md",
+    "movie/0.電影/元素方城市(Elemental).md",
+    "movie/0.電影/《奧本海默》（英語：Oppenheimer）.md",
+    "other/Tasks.md",
+    "information retrieval/hadoop1.md",
+    "moive.md",
+    "image/B1BmX6DgA.png",
     "pycode",
     "image/Pasted image 20240525154404.png",
     "資安與密碼學/lect 9 note.md",
-    "資安與密碼學/lec 6 note.md",
-    "資安與密碼學/密碼學.md",
-    "離散數學/lec 2.md",
-    "基礎資料結構/chap6 graph.md",
-    "離散數學/lec4.md",
-    "Excalidraw/Drawing 2024-05-16 18.41.33.excalidraw.md",
-    "資安與密碼學/lect 1 note.md",
     "image/Pasted image 20240516133735.png",
-    "離散數學/離散數學.md",
-    "movie/觀看清單.md",
-    "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/ALGORITHM c07fa8f7d79742c68dfcde7d8ce1217b/chap_01-Uion find.md",
-    "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/ALGORITHM.md",
-    "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/game-project 46538e61cec349fe9b45225db38bd2e1/process 15228fc67b054ba0bf54ceb047a4cb4a/finish first game cd5234a858b34b92860bc68c26c34661/pacman→ghost catcher 17e435ad8313474e8c72bec9ebf58c2e.md",
     "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/SYSTEM LANGUAGE 07554e4e9f7147db85cfb8f8cb43983f/system language c2ab02b8bea64ef881338122f69a6d7b/chap2-assembler a6be334f3eee4dba950b1c44bb8b2605/Untitled.png",
     "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/SYSTEM LANGUAGE 07554e4e9f7147db85cfb8f8cb43983f/system language c2ab02b8bea64ef881338122f69a6d7b/chap1 2af2f010af1744d2a4bb3408aa90bac6/Untitled.png",
     "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/電電 5b417774fb5b402498ed548f41bdf2ab/chap16 96d39e641c484cf59a13f5f38245746f/Untitled.png",
@@ -218,7 +236,6 @@
     "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/電電 5b417774fb5b402498ed548f41bdf2ab/chap16 96d39e641c484cf59a13f5f38245746f/Untitled 9.png",
     "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/電電 5b417774fb5b402498ed548f41bdf2ab/chap16 96d39e641c484cf59a13f5f38245746f/Untitled 8.png",
     "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/電電 5b417774fb5b402498ed548f41bdf2ab/chap16 96d39e641c484cf59a13f5f38245746f/Untitled 7.png",
-    "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/組合語 8fa9ee8e6ced44bbb259c2ec091a24f4/感恩蛋高的分享 50e1e0ff06314d60ace9700d8ed01d17/Untitled c1903405032c4bf3836e9bbcf8dded58.md",
     "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/game-project 46538e61cec349fe9b45225db38bd2e1/process 15228fc67b054ba0bf54ceb047a4cb4a/finish first game cd5234a858b34b92860bc68c26c34661",
     "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/Unix f7064b436acb4375b1bcb3909f3d632c/unix chap1 38f915133efb459dbf9248d6e23dc2da/nse-5095921230886195132-UNIX_Ch01_230413_211947.pdf.pdf",
     "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/Unix f7064b436acb4375b1bcb3909f3d632c/lab e0fe3159af034b4898ce622c42c34f17/Unix_Exercise5_Ans.pdf",
@@ -226,8 +243,6 @@
     "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/SYSTEM LANGUAGE 07554e4e9f7147db85cfb8f8cb43983f/system language c2ab02b8bea64ef881338122f69a6d7b/chap1 2af2f010af1744d2a4bb3408aa90bac6",
     "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/電電 5b417774fb5b402498ed548f41bdf2ab/chap16 96d39e641c484cf59a13f5f38245746f",
     "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/組合語 8fa9ee8e6ced44bbb259c2ec091a24f4/感恩蛋高的分享 50e1e0ff06314d60ace9700d8ed01d17",
-    "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/專題 2523627fe7cb4346ab04f156651d01c5/summer 9ed2f3a7f67f418788cd71ed42cfecfa_all.csv",
-    "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/專題 2523627fe7cb4346ab04f156651d01c5/summer 9ed2f3a7f67f418788cd71ed42cfecfa.csv",
     "未命名.canvas"
   ]
 }

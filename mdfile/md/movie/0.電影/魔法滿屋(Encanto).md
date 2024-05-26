@@ -1,7 +1,7 @@
 ---
 title: 魔法滿屋(Encanto)
 tags: ['#movie']
-
+moive-score: "7.5"
 ---
 
 # 電影評分：魔法滿屋(Encanto)
