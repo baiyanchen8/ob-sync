@@ -26,20 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "movie/0.電影/《機密特務：阿蓋爾》（英語：Argylle）.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "07de13961f3be82b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "movie/moive home.md",
+                "file": "calculus/calculus.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -113,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "movie/moive home.md",
+                "file": "calculus/calculus.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -130,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "movie/moive home.md",
+                "file": "calculus/calculus.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +155,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "other/Tasks.md",
+                "file": "000.other/Tasks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -194,9 +181,14 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "07de13961f3be82b",
+  "active": "ee44f02385ff56ef",
   "lastOpenFiles": [
+    "001.考言大戰士",
+    "unix/UNIX.md",
+    "physics net/物連網hw4.md",
     "movie/0.電影/《機密特務：阿蓋爾》（英語：Argylle）.md",
+    "專題/Spatial color-to-grayscale transform preserving chrominance edge information.md",
+    "專題/專題.md",
     "movie/moive home.md",
     "movie/觀看清單.md",
     "movie/1.發行商/Disneys.md",
@@ -219,14 +211,9 @@
     "movie/0.電影/月老.md",
     "movie/0.電影/巴斯光年(lightyear).md",
     "movie/0.電影/元素方城市(Elemental).md",
-    "movie/0.電影/《奧本海默》（英語：Oppenheimer）.md",
-    "other/Tasks.md",
-    "information retrieval/hadoop1.md",
-    "moive.md",
     "image/B1BmX6DgA.png",
     "pycode",
     "image/Pasted image 20240525154404.png",
-    "資安與密碼學/lect 9 note.md",
     "image/Pasted image 20240516133735.png",
     "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/SYSTEM LANGUAGE 07554e4e9f7147db85cfb8f8cb43983f/system language c2ab02b8bea64ef881338122f69a6d7b/chap2-assembler a6be334f3eee4dba950b1c44bb8b2605/Untitled.png",
     "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/SYSTEM LANGUAGE 07554e4e9f7147db85cfb8f8cb43983f/system language c2ab02b8bea64ef881338122f69a6d7b/chap1 2af2f010af1744d2a4bb3408aa90bac6/Untitled.png",
