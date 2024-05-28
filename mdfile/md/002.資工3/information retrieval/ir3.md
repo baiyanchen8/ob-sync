@@ -61,7 +61,7 @@ $b$ : given parameter
     - 假設是 binary index ，就只需要紀錄批配項和
     - 假設是 weighted index , 就需要將每項相乘取和
 3. Cosine Similarity （角度）
-    ![image](image/rJoeZCeWA.png)
+    ![image](rJoeZCeWA.png)
 
 > ***第61 頁不懂*** 做等解釋
 

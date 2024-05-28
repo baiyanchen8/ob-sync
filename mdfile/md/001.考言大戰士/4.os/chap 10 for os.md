@@ -23,8 +23,8 @@ tags: [os]
 - Solution : Virtual Memory
 	- 只會有一部分需要執行的 program 在記憶體
 
-![image](image/BJFf4kIw6.png)
-![image](image/ByeXE1Uv6.png)
+![image](BJFf4kIw6.png)
+![image](ByeXE1Uv6.png)
 
 >可以看到只有部分在記憶體(3page)
 >剩下 page 在 Disk
@@ -51,7 +51,7 @@ tags: [os]
 
 
 >
->![image](image/BJ23jELvp.png)
+>![image](BJ23jELvp.png)
 >1. cpu 要執行 B page 時，發現 page B 不在物理記憶體中 (page fault)
 >2. OS收到 page fault(Demand)，從 disk 中將 page 搬入 (page in)
 >
@@ -107,7 +107,7 @@ tags: [os]
 - valid bit controlled by **OS**
 
 
-![image](image/ry6gFSIPT.png)
+![image](ry6gFSIPT.png)
 
 ### Page Fault Handling
 
@@ -215,7 +215,7 @@ c--8.重新觸發instruction-->a;
 
 
 ## Example
-![image](image/ByRlfU_D6.png)
+![image](ByRlfU_D6.png)
 
 1. D 為什麼不用設為 1
 	- 因為他是code space
@@ -233,7 +233,7 @@ c--8.重新觸發instruction-->a;
 	- Find a page in Memory, Page it out 
 	- Page in
 
-![image](image/SJ38FIdvT.png)
+![image](SJ38FIdvT.png)
 1. 選擇一個 Page Victim 寫入硬碟 
 	-	要先檢查 dirty bit(m) 是否為 1 
 		-	if 1 
@@ -261,13 +261,13 @@ c--8.重新觸發instruction-->a;
 >如題
 
 
-![image](image/HJHOJDOw6.png)
+![image](HJHOJDOw6.png)
 total Page Fault : 15
 ####  Belady’s Anomaly
 Belady's Anomaly通常在某些特殊的頁串列情況下才會發生，並不是所有的頁串列都會出現這種情況。
-![image](image/HkLM7Puw6.png)
+![image](HkLM7Puw6.png)
 
-![image](image/HJ1wNPuDa.png)
+![image](HJ1wNPuDa.png)
 
 ### Optimal algorithm (最佳解)
 >Optimal algorithm，也稱為最佳頁置換算法，是一種理想情況下的頁置換算法，其核心思想是選擇未來最長時間內不再被使用的頁面進行替換。儘管這是一種理論上的最佳算法，**但實際上很難實現，因為需要預知未來的頁面訪問模式。**
@@ -342,7 +342,7 @@ total Page Fault : 12
 		- History 右移，並將 new bit 放在最高位
 		- When Replacement Occurred，選擇最小值 
 			 example image
-			![image](image/HyA4PXtvp.png)
+			![image](HyA4PXtvp.png)
 			
 
 
@@ -436,7 +436,7 @@ total Page Fault : 12
 		- 暫停 reaper(死神)
 
 
-![image](image/rJKS7oKvp.png)
+![image](rJKS7oKvp.png)
 > Ｑ：為什麼不可以用光全部的 free-frame list，反而要保留一定數量?
 > Ａ：為了要避免當突然需要大量記憶體空間時，性能急劇下降。(因為完整的page fault 需要2次Disk存取，非常耗時)
 
@@ -445,7 +445,7 @@ total Page Fault : 12
 	- 當 process 在 paging 的時間多於執行的時間就是 Thrashing
 
 
-![image](image/BkCHr3Kv6.png)
+![image](BkCHr3Kv6.png)
 
 ## Cause of Thrashing
 > 當 Process 沒有足夠的 Page 時
@@ -462,7 +462,7 @@ total Page Fault : 12
 > 因此我們可以利用該特性，只要滿足部分 Page of Process 即能避免 Thrashing
 
  雖然我看不太懂這張圖，但我還是放上來了
-![image](image/HkIFD3Kw6.png)
+![image](HkIFD3Kw6.png)
 
 ## Working-Set Model
 ### idea
@@ -471,7 +471,7 @@ total Page Fault : 12
 - working set
 	- unique of reference pages
 	 example image
-	![image](image/B1yAhhYv6.png)
+	![image](B1yAhhYv6.png)
 	
 - D 
 	- num of set
@@ -522,7 +522,7 @@ total Page Fault : 12
 	- if rate > upper bound
 		- 資源吃緊 ⇒ Allocate process more frame
  example image
-![image](image/HkDafaKvT.png)
+![image](HkDafaKvT.png)
 
 
 # Mmeory Compression
@@ -549,7 +549,7 @@ total Page Fault : 12
 
 ## Buddy system
 
-![image](image/r1DzBCKv6.png)
+![image](r1DzBCKv6.png)
 - Drawback
 	- internal Fragmentation(內部碎片化)
 ## Slab allocation
@@ -560,7 +560,7 @@ total Page Fault : 12
 	- 一個以上連續的 Slab
 	- 每一個 Cache 都用於存放特定的資料結構
 	 example image
-	![image](image/HyXFLRtwT.png)
+	![image](HyXFLRtwT.png)
 	
 - ==優點==
 	- 不會受碎片化影響
@@ -574,7 +574,7 @@ total Page Fault : 12
 - 在一個 process 啟動時，若是唯有將 page 事先準備很容易就產生大量 page fault
 	- Pre-page 會先預測 process 要哪些 page 
 		 example image
-		![image](image/S17Mpgnwp.png)
+		![image](S17Mpgnwp.png)
 		
 - ==BUT== 假如 page 沒有被用到
 	- 浪費 I/O 和 Memory

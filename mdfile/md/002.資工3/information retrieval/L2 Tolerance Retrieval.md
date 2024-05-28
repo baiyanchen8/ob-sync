@@ -7,7 +7,7 @@ title: L2 Tolerance Retrieval
 
 ## 使用的 index 搜尋
 在關鍵字進來時，要怎麼將關鍵字與其所在Dictionary位做相連
-![image](image/r1cKq176p.png)
+![image](r1cKq176p.png)
 
 1. Hash
     - 缺點
@@ -26,11 +26,11 @@ title: L2 Tolerance Retrieval
 1. 將text切割為 k-gram(連續k個字元)的字串ex: month,k=2 => \{\$m,mo,on,nt,th,h\$\}
 2. 建立一個list table，用於保存所有包含k-gram的所有單字
     >  example
-    ![image](image/BknHblXaT.png)
+    ![image](BknHblXaT.png)
     
 3. 從 table 中將符合的片段取出，並且對所有結果取聯集後確保所有結果都符合原本的條件
     > 
-    ![image](image/B1QXel7TT.png)
+    ![image](B1QXel7TT.png)
     
 
 ## Spelling correction 
@@ -72,7 +72,7 @@ title: L2 Tolerance Retrieval
 
 so 解法就是先對搜尋字做 k-gram，將其中的字根抓出，再去 k-gram table 中把該字根的 List 取出，以那些List 做比較最為方便
 
-![image](image/Sk8fAl7aT.png)
+![image](Sk8fAl7aT.png)
 
 ### fix 2 (語意錯誤)
 
@@ -84,7 +84,7 @@ so 解法就是先對搜尋字做 k-gram，將其中的字根抓出，再去 k-g
 - 透過將相近的字母轉換為符號，可以將單字做編碼
 - 編碼方式
     - 抓開頭，去母音，轉編碼，補0
-![image](image/S1K0sZmTp.png)
+![image](S1K0sZmTp.png)
 
 ## Spelling correction -- Context Sensitive
 
@@ -108,9 +108,9 @@ so 解法就是先對搜尋字做 k-gram，將其中的字根抓出，再去 k-g
 
 ### 需要儲存的內容
 1. 文檔本身的 index 
-    ![image](image/BJzYCgeWR.png)
+    ![image](BJzYCgeWR.png)
 3. 建立invert index 的空間(posting list)
-    ![image](image/HJUc0xeb0.png)
+    ![image](HJUc0xeb0.png)
 
 >  example
 假設文檔有 600 billion (= 600,000,000,000)

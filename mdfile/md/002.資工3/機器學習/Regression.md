@@ -33,7 +33,7 @@ tags: [機器學習]
     而這關係是$y=\Sigma\theta_nx^n$，其中$\theta_n$皆為常數
 2. how to choose complexity of model
     >  慎選指數
-    ![](image/HkCTXtHfT.png)
+    ![](HkCTXtHfT.png)
     
     1. 透過使用**交叉驗證**(k-fold)來檢測 overfit & underfit 
         ```mermaid
@@ -57,12 +57,12 @@ tags: [機器學習]
     2. 透過畫**learning Curve**判斷
         >  未擬合
         
-        ![](image/SkGxoFHzp.png)
+        ![](SkGxoFHzp.png)
         驗證集合訓練集效果都很糟
         
         ---
         >  過擬合
-        ![](image/HJLDcKHMT.png)
+        ![](HJLDcKHMT.png)
         雖然訓練集效果不錯，RMSE很小，但驗證級效果很差
         
     
@@ -73,7 +73,7 @@ tags: [機器學習]
 
 1. BGD（批次梯度下降）
     - BGD使用整个训练数据集来计算每次迭代中的梯度。也就是说，它一次性处理整个数据集，计算平均梯度，然后更新参数。
-    - ![](image/rJmEfBBMT.png)
+    - ![](rJmEfBBMT.png)
     - 其中$\large{\alpha}$只的是learning rate，用於控制每次下降的幅度
     - **优点：**
         - 穩定：BGD通常有穩定的收斂性，因為它使用整個資料集的資訊來計算梯度，<font color ="ffff">不容易受到雜訊的干擾</font>。
@@ -83,7 +83,7 @@ tags: [機器學習]
         - 内存占用大：需要在内存中加载整个数据集，可能导致内存不足的问题。
 2. SGD(隨機梯度下降)
     >  SGD 的路線圖&presudo code
-    ![](image/B1V4J_Bza.png)
+    ![](B1V4J_Bza.png)
     ~~~python=1
     model = initialization(...)
     n_epochs = ...
@@ -101,12 +101,12 @@ tags: [機器學習]
         - SGD使用<font color ="#ffff">單一訓練樣本</font>来计算每次迭代中的梯度。
             - If we have 100 samples, SGD will randomly select one sample at each step → 100 epoch (one step at each epoch)
 
-        - 对于每个参数 θ ，更新规则如下：![](image/rJv5XrHfp.png)
+        - 对于每个参数 θ ，更新规则如下：![](rJv5XrHfp.png)
     - **優點：**
         - 因為不需要用全部的data計算，所以計算較快⇒<font color ="ffff">可以用於計算大量的DataBase</font>
         - 因為其隨機性，容易脫離局部山谷
         >  山谷
-        ![](image/Hk5xJuBzT.png)
+        ![](Hk5xJuBzT.png)
         
     - **缺點：**
         - 不穩定，容易發生震盪
@@ -146,7 +146,7 @@ tags: [機器學習]
     
     - 学习率α是控制每次参数更新步长的超参数。选择适当的学习率对于BGD的性能至关重要。过大的学习率可能导致算法不稳定，而过小的学习率可能导致收敛速度过慢。
 5. 總結 (自己看)
-![](image/SJ1dGtrG6.png)
+![](SJ1dGtrG6.png)
 ## Bias nad Variance
 - Total error = Bias + Variance
 - **Bias**
@@ -155,7 +155,7 @@ tags: [機器學習]
     - 方差代表的是以不同試驗集中的準確率
     - if model對於某訓練集產生overfit，那麼就會有很大的方差
  >  bias vs Variance 圖片
-![](image/BJrBUxLzT.png)
+![](BJrBUxLzT.png)
 
 ## Overfit Fixing (Regularization)
 - Why we need **Regularization**?
@@ -166,13 +166,13 @@ tags: [機器學習]
         - 操縱指數
     - linear 
         - **Ridge+L2**
-            - ![](image/ry9xCgIGT.png)
+            - ![](ry9xCgIGT.png)
             - Ridge迴歸使用L2正規化項，透過加入係數的平方和來約束模型參數。 這有助於防止係數過大，減少模型的複雜度。
             - L2會嘗試最小化([[特徵縮放]])不重要係數，但不會使之歸0，因此不會進行特徵選擇。
-                ![](image/HJki0xIfp.png)
+                ![](HJki0xIfp.png)
 
         - **Lasso+L1**
-            - ![](image/rJ2QN-Lfp.png)
+            - ![](rJ2QN-Lfp.png)
             - 關於變化$\alpha$
                 - $\alpha = 0$
                     - 不會產生約束
@@ -181,10 +181,10 @@ tags: [機器學習]
                 - $\alpha = \infty$
                     - 產生大量約束 ，all factor limit to 0
             - L1透過加入係數的絕對值和來約束模型參數。 這有助於推動一些係數變為零，實現特徵選擇，因此可以用於自動<font color ="#ffff">特徵選擇。</font>
-                ![](image/rk67SbIf6.png)
+                ![](rk67SbIf6.png)
         - **Elastic net綜合**
             - Elastic Net迴歸是L1和L2正規化的綜合，透過同時添加L1和L2正規化項，可以在某種程度上綜合Ridge和Lasso的效果。
-            - ![](image/HyuTlM8M6.png)
+            - ![](HyuTlM8M6.png)
                 - $r=0$
                     -  same as Lasso
                 - $r=1$

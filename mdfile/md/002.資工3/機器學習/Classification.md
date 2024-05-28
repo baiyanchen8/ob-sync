@@ -45,20 +45,20 @@ tags: [機器學習]
             - 考慮資料集合的Random Sampling
 ### k-fold validation 
 
-![](image/r1MqqaQGp.png)
+![](r1MqqaQGp.png)
 
 ## Binary Class Classification
 
 1.  **Logistic Regression**
 
     邏輯迴歸（英語：Logistic regression，又譯作邏輯斯迴歸、羅吉斯迴歸、邏輯迴歸、對數機率迴歸）是一種對數機率模型（英語：Logit model，又譯作邏輯模型、評定模型、分類評定模型），是離散選擇法模型之一，屬於多變量分析範疇，是社會學、生物統計學、臨床、數量心理學、計量經濟學、市場行銷等統計實證分析的常用方法。
-    ![](image/SySNddBzp.png)
+    ![](SySNddBzp.png)
 
 
 2. **k-nearest neighbor**
 
     以點（new point）為中心，選擇K個最近的node，計算其中最多點的集群，作為該點的集群
-    ![](image/B1eOjAXzT.png)
+    ![](B1eOjAXzT.png)
 
 3. [[Support Vector Machine]]
 
@@ -105,7 +105,7 @@ obsidian://open?vault=mdfile&file=md%2F
     - Random forest
 - method of make Output is multiLabel
     - 利用將各種標籤進行編碼，之後再將output解碼還原為原本的label即可
-    ![](image/rJ4LbQEGT.png)
+    ![](rJ4LbQEGT.png)
 
 ### multioutput classification
 - **DEFINATION**
@@ -140,9 +140,9 @@ obsidian://open?vault=mdfile&file=md%2F
 在機器器學習中，精確度和召回率之間的權衡是非常之重要的。
 
 在實際應用中，招回率和精準度成反關係，如果硬要提升某項，在實際預測中就會達成反效果。
-![](image/ryLsY8BzT.png)
+![](ryLsY8BzT.png)
 因此我們在預測時，要在招回率和精準度的平衡設下臨界點，以此達到最好的效果
-![](image/rySAmN4z6.png)
+![](rySAmN4z6.png)
 ### ROC Curve (Receiver operating characteristic curve)
 - define 
     - TPR(True Positive Rate)(縱軸)
@@ -157,4 +157,4 @@ obsidian://open?vault=mdfile&file=md%2F
 - AUC(area under curve)
     - AUC →1 ⇒ perfect
     - AUC →0.5 ⇒ bad 
-![](image/rkb02vSf6.png)
+![](rkb02vSf6.png)

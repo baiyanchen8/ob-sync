@@ -12,7 +12,7 @@ tags: [os]
 	- request edge : 請求資源
 	- assignment edge : 分配資源
 
-![image](image/S1MqaZaw6.png)
+![image](S1MqaZaw6.png)
 
 # Deadlock Characterization
 - 4 大必要條件
@@ -25,7 +25,7 @@ tags: [os]
 
 ## Circlar Wait
 
-![](image/S1MqaZaw6.png)
+![](S1MqaZaw6.png)
 P2->R3->P3->R2->P2
 P1->R1->P2->R3->P3->R2->P1
 - fun fact

@@ -53,7 +53,7 @@ graph LR
 
 ```
 ### 程式在cpu中執行的流程
-![image](image/BJTaikmEa.png)
+![image](BJTaikmEa.png)
 ![image](https://cdn-images-1.medium.com/max/1200/1*8b9-Z3FV6X9SP9We8gSC3Q.jpeg)
 
 1. 提取
@@ -80,14 +80,14 @@ graph LR
 	- 跳躍到對應記憶體位置**PC\&IR\&memory**
 
 ### MIPs 的暫存器
-![image](image/rJVsQeXEa.png)
+![image](rJVsQeXEa.png)
 
 
 `$zero`由於經常使用，用暫存器特別儲存以提升效率
 
 ## 個別指令介紹
 ### 指令結構介紹
-![image](image/HkG8MFQ4T.png)
+![image](HkG8MFQ4T.png)
 R:`op dest, source1, source2`
 I:`op dest, source1, immediate`
 J:`j target`
@@ -97,7 +97,7 @@ J:`j target`
 	- 在邏輯類中17~32bit補0
 ### 資料傳輸類(l&s開頭系列)
 
-![image](image/ry8xG-QNp.png)
+![image](ry8xG-QNp.png)
 - 開頭
 	- l : 將memory中的data移至regs
 	- s : 將regs 存進memory
@@ -119,7 +119,7 @@ J:`j target`
 	- `lb $t1,x($s3)`
 	- `x`為矩陣中的位置，單位為bit
 	- `$s3`在 registers s3 中存放記憶體位置
-- ![image](image/Skrq5-QVp.png)
+- ![image](Skrq5-QVp.png)
 - 一般的常數該如何載入暫存器中呢?
  	- 常數不能直接給CPU使用，必須先載入記憶體，再存到暫存器後，由暫存器載到CPU中使用。
  	- 其他解法:`addi $t1,$zero,144`
@@ -151,8 +151,8 @@ J:`j target`
 
 
 ### 邏輯類別
-![image](image/BkidAdQVT.png)
-![image](image/B1XURdmV6.png)
+![image](BkidAdQVT.png)
+![image](B1XURdmV6.png)
 <font color=ffff>**重點:MIPs沒有not**</font>
 
 - shift(I型)
@@ -197,7 +197,7 @@ J:`j target`
 | 1     | 0   | 0      |
 <!-- example -->
 ### 條件式跳躍&非條件跳躍(J/I型??)
-![image](image/HkHqzIVVa.png)
+![image](HkHqzIVVa.png)
 - beq and bne
 	- `beq $s1,$s2,offset`
 		- if s1\==s2 ,jmp offset
@@ -366,7 +366,7 @@ sum :
 ```
 
  作業11
-![image](image/HJFqXEcVT.png)
+![image](HJFqXEcVT.png)
 
 ### source code
 ```c=

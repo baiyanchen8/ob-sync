@@ -7,10 +7,10 @@ tags: [os]
 # oslab期中
 
 >  筆試ans
-![112期中考筆試答案_page-0001.jpg](image/HkQg6w7Qa.jpg)
-![112期中考筆試答案_page-0002.jpg](image/rymlavXXa.jpg)
-![112期中考筆試答案_page-0003.jpg](image/B17epwXXT.jpg)
-![112期中考筆試答案_page-0004.jpg](image/SkQxpDXXa.jpg)
+![112期中考筆試答案_page-0001.jpg](HkQg6w7Qa.jpg)
+![112期中考筆試答案_page-0002.jpg](rymlavXXa.jpg)
+![112期中考筆試答案_page-0003.jpg](B17epwXXT.jpg)
+![112期中考筆試答案_page-0004.jpg](SkQxpDXXa.jpg)
 
 ### 上機q1
 >  上機q1

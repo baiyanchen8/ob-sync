@@ -12,7 +12,7 @@ tags: [os]
     * os(operation system)
     * 系統與應用程式 (system and application programs)
     * user 
-    ![Untitled (4)](image/H1vEDKcQ6.png)
+    ![Untitled (4)](H1vEDKcQ6.png)
 
 ## What is Operating System ?
 ---
@@ -39,14 +39,14 @@ tags: [os]
 ## Computer Structure
 
 ### 電腦硬體介紹
-![image.png](image/S1c37Ov7T.png)
+![image.png](S1c37Ov7T.png)
 - [[cpu]]
     - 處理器
     - 現代電腦皆採[[馮紐曼]]
 - bus (匯流排)
     - 可以簡單理解為數據線
 - memory
-    ![Untitled (5)](image/r1j0Oo9mp.png)
+    ![Untitled (5)](r1j0Oo9mp.png)
     - 分類1(性質分類)
         - Volatile Memory(揮發性記憶體)
             - 揮發性記憶體是一種計算機儲存設備，其特點是當電源關閉或設備關閉時，其中存儲的數據會丟失。
@@ -109,7 +109,7 @@ tags: [os]
     - fault tolerant(容錯)
     - graceful degradation(優雅降級)
         - 指的是在部分主機 shut down 時，整個系統的效能並不會斷層式下降
-        ![image](image/SyGEVns7T.png)
+        ![image](SyGEVns7T.png)
 
     
 - 分類
@@ -125,7 +125,7 @@ tags: [os]
 
 ### os 大前提--- Event driven
 
-![image.png](image/S1c37Ov7T.png)
+![image.png](S1c37Ov7T.png)
 <!-- 不會看圖嘔??-->
  Event driven 
 "Event driven"（事件驅動）是一種軟體架構或程式設計範式，它強調系統的反應和行為取決於發生的事件。在這種模式下，**程式執行的動作是對於事件的觸發而發生的**，而不是持續地進行某些操作。這種架構常見於許多應用程式和系統中，如用戶介面開發、即時資訊處理等領域。

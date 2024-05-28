@@ -5,7 +5,7 @@ tags: [基礎資料結構]
 ---
 
 # 4.1 單向 link-list
-![image](image/ByDoh2Mt6.png)
+![image](ByDoh2Mt6.png)
 
 # 4.2 在 C 實現 link-list
 > 使用 self-structure 的方式 實現 link-list 
@@ -341,7 +341,7 @@ int countlength(struct node * A){
 ### insertion 
 success 
 問題 : 要將 node 嵌入再環狀 link list 中的 首位 
-![螢幕擷取畫面 2024-01-31 102223](image/B15GkNDqa.png)
+![螢幕擷取畫面 2024-01-31 102223](B15GkNDqa.png)
 **solution 1** : input last node of link list
 優點 : 實作方便，時間複雜度較低
 缺點 : 在引用時不方便

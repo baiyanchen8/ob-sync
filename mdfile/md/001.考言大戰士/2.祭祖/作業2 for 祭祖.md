@@ -4,7 +4,7 @@ title: 作業2 for 祭祖
 ---
 
 # 作業2 for 祭祖
-![image](image/HyuPxZTNa.png)
+![image](HyuPxZTNa.png)
 
   > ans 1 10 to 16 : 1000000 ⇒ 000f4240
 - big_endian
@@ -19,14 +19,14 @@ title: 作業2 for 祭祖
 | --- | --- | --- | --- |
 | 40  | 42  | 0f  | 00  |
  
-![image](image/rJCvlb6VT.png)
+![image](rJCvlb6VT.png)
 
   > ans 2
 - make common case fast
 - 減少指令數
 - 簡易硬體設計
  
-![image](image/Hynde-64T.png)
+![image](Hynde-64T.png)
 
   > ans 3
 
@@ -40,7 +40,7 @@ title: 作業2 for 祭祖
 1111 1100 0000 0001 ⇒ -1023
 ```
  
-![image](image/HkZYx-T4a.png)
+![image](HkZYx-T4a.png)
 
   > ans 4
 
@@ -50,7 +50,7 @@ title: 作業2 for 祭祖
 | I    | rs     | rt     | im/adr | im/adr | im/adr |
 | J    | im/adr | im/adr | im/adr | im/adr | im/adr |
  
-![image](image/HkDKg-TVa.png)
+![image](HkDKg-TVa.png)
 
   > ans 5
 ```
@@ -66,7 +66,7 @@ b )
 13a7 9bdf
 ```
  
-![image](image/HJdjlW6E6.png)
+![image](HJdjlW6E6.png)
 
   > ans 1 
 `A[12]=A[1]+A[2]-A[3]+4`
@@ -81,7 +81,7 @@ addi $t0,$t0,4
 sw $t0,48($s2)
 ```
  
-![image](image/Hknng-aVp.png)
+![image](Hknng-aVp.png)
 
   > asn 2 
 ```
@@ -90,17 +90,17 @@ add $t0,$t0,$s3
 sub $t0,$t0,$s4
 ```
  
-![image](image/HybpebTNp.png)
+![image](HybpebTNp.png)
 
   > ans3
 還不會
  
-![image](image/HkDpxWp4T.png)
+![image](HkDpxWp4T.png)
 
   > ans4 
 4,2
  
-![image](image/B1qQx-aET.png)
+![image](B1qQx-aET.png)
   > ans 5
 ```
 nor $t1, $t3, $zero   # $t1 = NOT $t3
@@ -112,7 +112,7 @@ nor $t1, $t1, $zero   # $t1 = NOT ($t2 XOR $t3)
 $t1 = 0xFF000384
 ```
  
-![image](image/r1PGxWpVT.png)
+![image](r1PGxWpVT.png)
 
    > ans 6
 ```
@@ -122,17 +122,17 @@ sub $v0,$v0,$a3
 ```
  
 
-![image](image/B1NelWaV6.png)
+![image](B1NelWaV6.png)
 
   > asn 7
 沒教
  
-![image](image/SkNygZpEa.png)
+![image](SkNygZpEa.png)
 
   > ans 8
 `add $s1,$zero,$t0`
  
-![image](image/rkY0yZT4a.png)
+![image](rkY0yZT4a.png)
 
   > ans 9
 ```
@@ -141,7 +141,7 @@ add $t0,$s0,$t0
 sw $t0,48($s1)
 ```
  
-![image](image/HJ5akZa4a.png)
+![image](HJ5akZa4a.png)
 
   > ans 10
 - a
@@ -167,7 +167,7 @@ sw $t0,48($s1)
 	}
 	```
  
-![image](image/HJFqXEcVT.png)
+![image](HJFqXEcVT.png)
   > 作業11
 
 ### source code
@@ -189,7 +189,7 @@ add $s1,$t0,$zero
 ### machine language
 `NULL`
  
-![image](image/rkyGkWT4T.png)
+![image](rkyGkWT4T.png)
 
   > 作業12
 
@@ -241,7 +241,7 @@ vend :
 ```
 
  
-![image](image/BJ3F1-a4p.png)
+![image](BJ3F1-a4p.png)
    > 課本 2.3
 ```
 sub $t0,$s3,$s4
@@ -251,8 +251,8 @@ lw $t0,0($t0)
 sw $t0,32($s7)
 ```
  
-![image](image/rJXQfW6Np.png)
-![image](image/SkhGfWaVT.png)
+![image](rJXQfW6Np.png)
+![image](SkhGfWaVT.png)
   > 課本 2.4
 ```
 sll $t0, $s0, 2 	#t0=f*4
@@ -266,15 +266,15 @@ add $t0, $t0, $s0	#t0=A[f+1]+A[f]
 SW $t0, 0($t1)		#t1=B[g]=A[f+1]+A[f]
 ```
  
-![image](image/r1b0XWpE6.png)
+![image](r1b0XWpE6.png)
   > 課本 2.6
 ```
 0000 0000 0000 0000 0000 0000 0000 0000
 1010 1011 1100 1101 1110 1111 0001 0010
 ```
  
-![image](image/B1j0VZ6ET.png)
-![image](image/HyaREW6Ea.png)
+![image](B1j0VZ6ET.png)
+![image](HyaREW6Ea.png)
 
   > 課本 2.8
 ```
@@ -286,13 +286,13 @@ add $s0, $t1, $t0	#s0=2*&A[0]
 ```
  
 
-![image](image/B1NHKvT4p.png)
+![image](B1NHKvT4p.png)
   > 課本 2.11
 1. $-2^{31}<x+128<2^31-1$
 2. $-2^{31}<128-x<2^31-1$
 3. $-2^{31}<x-128<2^31-1$
  
-![image](image/Bkax9v6V6.png)
+![image](Bkax9v6V6.png)
   > 課本 2.16
 
 | op  | rs  | rt  | rd  | s   | f   |
@@ -308,19 +308,19 @@ reg↑ ⇒ memory ascess(registers spills)↓ ⇒ program size ↓
 instructions↑ ⇒ more fit instructions ⇒ instructions nums↓
 instructions↑ ⇒ instruction size↑ ⇒ program size ↑
  
-![image](image/BJk-nv64T.png)
+![image](BJk-nv64T.png)
   > 課本 2.18
-![image](image/rJJb3w6Vp.png)
-![image](image/SJl-hP64T.png)
+![image](rJJb3w6Vp.png)
+![image](SJl-hP64T.png)
  
 
-![image](image/H1dt2wpVa.png)
+![image](H1dt2wpVa.png)
   > 課本 2.23
 I - type(1存1取)
-![image](image/H1Expwa46.png)
-![image](image/BJ3Eaw6ET.png)
+![image](H1Expwa46.png)
+![image](BJ3Eaw6ET.png)
  
-![image](image/SydF6DTNp.png)
+![image](SydF6DTNp.png)
   >  課本 2.25
 ```
 add t0,$0,$0
@@ -357,5 +357,5 @@ int fib_rec(int n) {
 }
 ```
   > 課本 2.29(找不到題目但應該是這個)
-![image](image/rJFTcZaEa.png)
+![image](rJFTcZaEa.png)
  

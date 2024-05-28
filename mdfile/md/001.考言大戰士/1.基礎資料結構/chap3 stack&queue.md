@@ -9,7 +9,7 @@ tags: [基礎資料結構]
 ## Stack
 - 推入：將資料放入堆疊頂端，堆疊頂端移到新放入的資料。
 - 彈出：將堆疊頂端資料移除，堆疊頂端移到移除後的下一筆資料。
-![](image/1280px-Data_stack.svg.png)
+![](1280px-Data_stack.svg.png)
 ## 使用動態陣列的stack
 ```c=
 struct Stack {
@@ -61,7 +61,7 @@ int pop() {
 ```
 
 ## 佇列(queue)
-![](image/Queue-in-Python.png)
+![](Queue-in-Python.png)
 ```clike=
 struct Queue {
 	int *init;

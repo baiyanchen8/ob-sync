@@ -7,7 +7,7 @@ tags: [資料庫]
 # chap 7 for 資料庫
 ### Features of Good Relational Designs
 假設我們將`instructor`和`department`組合成一個名為`in_dep`的關聯，代表對`instructor`和`department`進行自然連接（natural join）。
-![image](image/rkQYWurva.png)
+![image](rkQYWurva.png)
 
 - 存在信息的重複，即某些屬性在原來的`instructor`和`department`兩者之間可能存在相同的值，導致冗余。
 - 需要使用空值（null values）來表示新添加的部門中沒有教師的情況，這可能導致數據表中的空值增加，增加了處理和查詢的複雜性。
@@ -23,7 +23,7 @@ tags: [資料庫]
 
 在資料庫設計中，選擇正確的分解方法是至關重要的，以確保結構的正確性和數據的完整性。適當的正規化和分解可以減少信息重複，提高數據庫的一致性。
 ### A Lossy Decomposition
-![image](image/BJxCWOSPT.png)
+![image](BJxCWOSPT.png)
 
 ### Lossless Decomposition
 
@@ -39,7 +39,7 @@ tags: [資料庫]
 
 簡而言之，無損分解確保我們可以通過合併子關聯模式的投影來還原原始關聯模式，而有損分解則可能會導致信息的損失。在設計資料庫時，通常優先考慮無損分解以保持資料完整性。
 ### Example of Lossless Decomposition 
-![image](image/Hy3_MdHD6.png)
+![image](Hy3_MdHD6.png)
 
 ### Normalization Theory
 判斷一個特定的關聯 R 是否處於「良好」的形式中。在這種情況下，如果一個關聯 R 不處於「良好」的形式中，則需要進行分解，形成一組關聯 {R1, R2, ..., Rn}，滿足以下條件：
@@ -174,7 +174,7 @@ $r = \pi_{R1}(r) \bowtie \pi_{R2}(r)$
 所以，F+ = {A → B, B → C, A → C}。這是在給定的條件下，F+ 中的所有可能函數。
 
 ### example
-![image](image/By0FCOrva.png)
+![image](By0FCOrva.png)
 
 
 ### Dependency Preservation (依賴關係保留)

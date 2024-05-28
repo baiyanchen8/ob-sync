@@ -8,33 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "458a52680f7af9e9",
+            "id": "9d3af4b75846ce71",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "information retrieval/hadoop1.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ee44f02385ff56ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "calculus/calculus.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "home-tab-view",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "calculus/calculus.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "calculus/calculus.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -181,8 +160,13 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "ee44f02385ff56ef",
+  "active": "9d3af4b75846ce71",
   "lastOpenFiles": [
+    "002.資工3/資安與密碼學/密碼學.md",
+    "999.datafeild/Excalidraw/Drawing 2024-05-28 17.46.19.excalidraw.md",
+    "999.datafeild",
+    "calculus/calculus.md",
+    "002.資工3",
     "001.考言大戰士",
     "unix/UNIX.md",
     "physics net/物連網hw4.md",
@@ -209,12 +193,10 @@
     "movie/1.發行商",
     "movie/0.電影",
     "movie/0.電影/月老.md",
-    "movie/0.電影/巴斯光年(lightyear).md",
-    "movie/0.電影/元素方城市(Elemental).md",
-    "image/B1BmX6DgA.png",
+    "999.datafeild/image/B1BmX6DgA.png",
     "pycode",
-    "image/Pasted image 20240525154404.png",
-    "image/Pasted image 20240516133735.png",
+    "999.datafeild/image/Pasted image 20240525154404.png",
+    "999.datafeild/image/Pasted image 20240516133735.png",
     "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/SYSTEM LANGUAGE 07554e4e9f7147db85cfb8f8cb43983f/system language c2ab02b8bea64ef881338122f69a6d7b/chap2-assembler a6be334f3eee4dba950b1c44bb8b2605/Untitled.png",
     "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/SYSTEM LANGUAGE 07554e4e9f7147db85cfb8f8cb43983f/system language c2ab02b8bea64ef881338122f69a6d7b/chap1 2af2f010af1744d2a4bb3408aa90bac6/Untitled.png",
     "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/電電 5b417774fb5b402498ed548f41bdf2ab/chap16 96d39e641c484cf59a13f5f38245746f/Untitled.png",
@@ -226,9 +208,6 @@
     "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/Unix f7064b436acb4375b1bcb3909f3d632c/unix chap1 38f915133efb459dbf9248d6e23dc2da/nse-5095921230886195132-UNIX_Ch01_230413_211947.pdf.pdf",
     "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/Unix f7064b436acb4375b1bcb3909f3d632c/lab e0fe3159af034b4898ce622c42c34f17/Unix_Exercise5_Ans.pdf",
     "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/SYSTEM LANGUAGE 07554e4e9f7147db85cfb8f8cb43983f/system language c2ab02b8bea64ef881338122f69a6d7b/chap2-assembler a6be334f3eee4dba950b1c44bb8b2605",
-    "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/SYSTEM LANGUAGE 07554e4e9f7147db85cfb8f8cb43983f/system language c2ab02b8bea64ef881338122f69a6d7b/chap1 2af2f010af1744d2a4bb3408aa90bac6",
-    "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/電電 5b417774fb5b402498ed548f41bdf2ab/chap16 96d39e641c484cf59a13f5f38245746f",
-    "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/組合語 8fa9ee8e6ced44bbb259c2ec091a24f4/感恩蛋高的分享 50e1e0ff06314d60ace9700d8ed01d17",
     "未命名.canvas"
   ]
 }

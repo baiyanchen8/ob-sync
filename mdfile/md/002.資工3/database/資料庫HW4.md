@@ -177,7 +177,7 @@ cg[account]---cvb2([<ins>AccountNumber</ins>]);
 	cg---cvb2([<ins>AccountNumber</ins>]);
 	```
 4. Convert the E/R diagram of Fig. 3 to a relational database schema. (30%)
-	![image](image/BJwo-DCm6.png)
+	![image](BJwo-DCm6.png)
 	```sql=1
 	create table Booking{
 		seat int,

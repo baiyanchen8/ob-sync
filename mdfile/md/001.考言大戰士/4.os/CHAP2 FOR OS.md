@@ -9,7 +9,7 @@ tags: [os]
 ## Operating System Service
 
 作業系統提供了很多服務，舉例來說：User interface ( UI )、Program execution、I/O operation、File-system manipulation、Communications、Error detection、Resource allocation、Logging、Protection and security …
-![image](image/Bkc8p8xEa.png)
+![image](Bkc8p8xEa.png)
 ## User Operating System Interface
 
 ### CLI(command line interface/command interpreter)
@@ -18,11 +18,11 @@ tags: [os]
 - Linux中實作了多種選擇－shell
 	- Bourne shell (bash)、C shell (csh)、Korn shell (ksh)
 
-![image](image/B1ny0UxNa.png)
+![image](B1ny0UxNa.png)
 
 ### Batch interface
 簡單來說，就是一次做很多的意思
-![image](image/Ska-kPe4a.png)
+![image](Ska-kPe4a.png)
 在 Linux 裡面，這是一個 batch file ( 批次檔 )，使用 shell script 將想要執行的 command 都寫進來，然後交給 OS 執行，OS 就會把裡面的指令依序跑完，但從 user 的觀點來看，就是一次完成
 example : k.sh
 
@@ -31,7 +31,7 @@ example : k.sh
 圖形使用者介面（英語：Graphical User Interface，縮寫：GUI）是指採用圖形方式顯示的電腦操作使用者介面。與早期電腦使用的命令列介面相比，除了降低使用者的操作負擔之外，對於新使用者而言，圖形介面對於使用者來說在視覺上更易於接受，學習成本大幅下降，也讓電腦的大眾化得以實現。
 
 雖然圖形使用者介面已經成為現代電腦的主要介面，然而這介面必定要透過在顯示器的特定位置，以「各種美觀、而不單調的視覺訊息」提示使用者「狀態的改變」，勢必得比簡單的文字訊息呈現，花上更多的電腦運算能力，計算「要改變顯示器哪些光點，變成哪些顏色」，功能命令的設計也比較複雜，現代作業系統的圖形複雜程度更遠超早期的GUI。
-![](image/KDE_4.png)
+![](KDE_4.png)
 from[wiki](https://zh.wikipedia.org/zh-tw/%E5%9B%BE%E5%BD%A2%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2)
 
 ### TOUCH Screen Interface

@@ -73,7 +73,7 @@ int main(){
 ```
 
 
-![image.png](image/HkZP2gtmp.png)
+![image.png](HkZP2gtmp.png)
 
 
 
@@ -133,7 +133,7 @@ int main(){
 }
 ```
 
-![image.png](image/BkhxfZtX6.png)
+![image.png](BkhxfZtX6.png)
 
 > ANS:
 > 1. 每次執行都不滿100,000,000 
@@ -142,16 +142,16 @@ int main(){
 
 ## Java thread
 ### method 1 `implement Runnable`
-![image](image/rkzDELb_6.png)
+![image](rkzDELb_6.png)
 
 ### method 2	`extends Thread`
-![image](image/SkBUEIZua.png)
+![image](SkBUEIZua.png)
 
 ### Thread 函式庫
 `Thread.currentThread().getName()`可以get thread number
 
 ### lab2
-![image.png](image/HksYGbK76.png)
+![image.png](HksYGbK76.png)
 >  lab2 code
 ```java=1  
 public class ThreadEx {
@@ -205,9 +205,9 @@ class ShareData implements Runnable {
 
 ```
 
-![image.png](image/HylumZFXa.png)
+![image.png](HylumZFXa.png)
 ### lab 3
-![image](image/By6CgKbua.png)
+![image](By6CgKbua.png)
 
 > 
 > - Ｑ：請用c的msg queue實現雙向溝通。

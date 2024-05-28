@@ -23,7 +23,7 @@ title: Reading Assignment (Self-learning Week)
 - 任務執行：調用並執行每個選定的AI模型，將結果返回給ChatGPT。
 - 響應生成：最後，ChatGPT用於整合所有模型的預測並為用戶生成響應。通過這種設計，HuggingGPT可以自動從用戶請求生成計劃，並使用外部模型，因此可以集成多模態的感知能力並處理多個複雜的AI任務。值得注意的是，這種流水線還允許HuggingGPT繼續吸收來自特定任務專家的能力，實現可增長和可擴展的AI能力。此外，我們還指出，任務規劃在HuggingGPT中起著非常重要的作用，直接決定後續工作流程的成功。因此，如何進行計劃也是評估LLMs能力的一個良好角度，這也為LLMs評估開啟了一扇新的大門。
 :::spoiler example
-![image](image/B1ncz8PST.png)
+![image](B1ncz8PST.png)
 :::
 
 總的來說，我們的貢獻可以總結如下：

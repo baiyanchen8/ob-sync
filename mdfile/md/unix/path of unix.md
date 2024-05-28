@@ -18,7 +18,7 @@ this page is going to explain <font color="ffff">unix path contrustion</font>
 - **intro:** 需要透過apt安裝
 	- sudo apt install tree
 	
-![image.png](image/r1TCLX9mT.png)
+![image.png](r1TCLX9mT.png)
 
 | direction | usual meaning                                                    |
 | --------- | ---------------------------------------------------------------- |

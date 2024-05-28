@@ -21,7 +21,7 @@ tags: [機器學習]
 - Maximal Margin Classifier(hard Margin)
 
     與soft Margin不同，Maximal Margin Classifier<font color="ffff">不容忍錯誤</font>，只是單純選擇兩個Data中的中間點
-    ![](image/rkXdrhUfp.png)
+    ![](rkXdrhUfp.png)
 
 ### 支援向量
 支持向量是與決策邊界最靠近的資料點。 它們在SVM的訓練過程中起著關鍵作用，因為它們決定了間隔的大小。

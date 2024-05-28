@@ -9,7 +9,7 @@ tags: [機器學習]
 
 
 
-![](image/SkBfxizfa.png)
+![](SkBfxizfa.png)
 
 
 there is nothing to write

@@ -5,7 +5,7 @@ tags: ['#計組']
 ---
 
 
-![](image/Bk3mx6o-6.png)
+![](Bk3mx6o-6.png)
 
 1. **[[SaaS]]（軟件即服務，Software as a Service）**：
 	- SaaS是一種雲計算服務模型，它提供已經構建好的軟件應用程序，用戶可以通過網絡來訪問和使用這些應用程序。

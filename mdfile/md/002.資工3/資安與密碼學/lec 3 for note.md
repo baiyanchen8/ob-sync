@@ -6,7 +6,7 @@ tags: [密碼學]
 
 
 ## Monoalphabetic Cipher 單字母加密法
-![image](image/S1qUrnDe0.png)
+![image](S1qUrnDe0.png)
 
 - 最簡單的單字母加密法就是加法加密法 (Additive Cipher)。此加密法有時稱為位移加密法 (Shift Cipher)。
 - 因為 Julius Ceasar 以 3 當成金鑰，利用加法加密法與他的下屬聯繫，因此加法加密法有時亦稱為凱撒加密法 (Caesar Cipher)，但加法加密法比較能顯示出其數學意涵。
@@ -21,16 +21,16 @@ tags: [密碼學]
 ## Multiplicative Cipher
 
 就 ... 乘法
-![image](image/ByJz22vgR.png)
+![image](ByJz22vgR.png)
 但問題是最多只有 12 組 密碼
 
 ## Affine Cipher
 
-![image](image/B1loy6wgR.png)
+![image](B1loy6wgR.png)
 
 ## Monoalphabetic Substitution Cipher 
 單字母取代加密法的金鑰範例
-![image](image/B1BmX6DgA.png)
+![image](B1BmX6DgA.png)
 
 這種加密方式容易被破解，因為它反映了原始字母的頻率數據。攻擊者可以利用英文的雙字母組（Bigram）和三字母組（Trigram）的頻率來進行破解。為了對抗這種攻擊，一種對策是為單個字母提供多個替代字（同音異譯字）。
 
@@ -42,23 +42,23 @@ tags: [密碼學]
 
 
 前一個 block 加密後的密文是後一個 block 的 key 
-![image](image/rJUJgudl0.png)
-![image](image/HyeegddlC.png)
+![image](rJUJgudl0.png)
+![image](HyeegddlC.png)
 
 ## Playfair Cipher
 - Best-known multiple-letter encryption cipher
-![image](image/S1ARMd_xR.png)
+![image](S1ARMd_xR.png)
 
 傑森的作法是將I\J放在一起
-![image](image/BJfgQO_x0.png)
+![image](BJfgQO_x0.png)
 
 ## Vigenère Cipher 
 - Best known and one of the simplest polyalphabetic(one/明文 to Many/密文) substitution ciphers.
 
-![image](image/S1DQW5ul0.png)
+![image](S1DQW5ul0.png)
 ### 破密分析
-![image](image/ByBTG9ueC.png)
-![image](image/Bky0f5Oe0.png)
+![image](ByBTG9ueC.png)
+![image](Bky0f5Oe0.png)
 
 
 ## Hill Cipher
@@ -67,7 +67,7 @@ tags: [密碼學]
     - 不只能隱藏單字母頻率，還能隱藏雙字母頻率
 - 能有效抵擋已知密文攻擊，不過防不住已知明文攻擊
 - 金鑰為一個矩陣
-![image](image/r1cM09OgA.png)
+![image](r1cM09OgA.png)
 
 ### 流程
 ***加密***
@@ -108,22 +108,22 @@ tags: [密碼學]
 1. 翻轉法
     - abc $\rightarrow$ cba
 2. 軌道加密法
-    - ![image](image/SJ-dDjOg0.png)
+    - ![image](SJ-dDjOg0.png)
     - 可以根據需求調整長度
 3. 行列翻轉法？
-    - ![image](image/BkMy_sOgA.png)
+    - ![image](BkMy_sOgA.png)
 
 ### Columnar Transposition Cipher
-![image](image/BkmMdiOlA.png)
+![image](BkmMdiOlA.png)
 
 ### Double Transposition Cipher
 就只是比上個方法多做一次？
-![image](image/rkarKo_eC.png)
+![image](rkarKo_eC.png)
 
 ### Rotor Machines
-![image](image/H1l9no_x0.png)
+![image](H1l9no_x0.png)
 
 ## Block and Stream Ciphers
-![image](image/Bya2nodeR.png)
-![image](image/r1oa3oOg0.png)
+![image](Bya2nodeR.png)
+![image](r1oa3oOg0.png)
 

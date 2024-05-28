@@ -50,7 +50,7 @@ tags: [os]
 
 當 producer & consumer 一起執行時，有可能因為某方執行到一半時遇到   context switch (交換 process 執行)，進而發生錯誤。
 > examle image
-![image](image/BJJy3mjVp.png)
+![image](BJJy3mjVp.png)
 
 
 ## Race Condition
@@ -220,7 +220,7 @@ ensure only one process at a time can manipulate the shared data
 	-  因最有可能的情況是，同時兩個thread 同時解鎖，因此 lock 就沒意義了
 	-  也因為 lock 這個變數本身就是 global(Not atomic) 所以也會產生 race condition 
 		:::spoiler race condition
-		![image](image/r1oZXgCr6.png)
+		![image](r1oZXgCr6.png)
 		:::
 	-  除非每個 lock 皆用不同條件做設定，但這又太麻煩 
 - 解法:
@@ -259,7 +259,7 @@ void thread(){
 }
 ```
 :::spoiler 結果
-![image](image/rJlvdxCHT.png)
+![image](rJlvdxCHT.png)
 :::
 #### compare_and_swap
 將邏輯以c language 實現
@@ -283,13 +283,13 @@ void thread(){
 }
 ```
 :::spoiler 結果 
-![image](image/HJTXGWRST.png)
+![image](HJTXGWRST.png)
 :::
 #### 問題
 - 即使 compare_and_swap and test_and_set 已經滿足 mutual exclusive 
 - 沒有滿足 bounded waiting
 	:::spoiler 只要remainder夠小，就沒有thread2的事
-	![image](image/ByQCOfASp.png)
+	![image](ByQCOfASp.png)
 	:::
 - 解法 : `boolean waiting[n]`
 	- 透過將每一個thread個字分別設定lock，就可以避免互相搶共同資源
@@ -471,7 +471,7 @@ Solution : 由 OS 建立了更方便的方法去解決 Critical Section
 	- 有可能因為寫錯而導致唯有實現效果
 2. The bugs may hard to detect
 ### Problem of semaphores 
-![image](image/S1gfbeJup.png)
+![image](S1gfbeJup.png)
 
 # Language Level Solution : Monitors
 - Monitor : encapsulate private data with public method (用公共方法封裝私有數據)
@@ -593,7 +593,7 @@ Deadlock（死結）是指在多個執行緒或進程之間，每個都在等待
 ## Priority Inversion
 
 Priority Inversion（優先權反轉）則是指低優先權的執行緒持有了高優先權的資源，導致高優先權的執行緒被迫等待。這可能發生在多執行緒環境中，低優先權的執行緒在使用資源時阻礙了高優先權的執行緒，而高優先權的執行緒必須等待低優先權的執行緒釋放資源。
-![image](image/rJUz67hUT.png)
+![image](rJUz67hUT.png)
 
 ### Solution --- Priority Inheritance
 
@@ -607,4 +607,4 @@ Priority Inversion（優先權反轉）則是指低優先權的執行緒持有�
 	- 如果發生了再處理
 	
 	
-![image](image/S1QgzNhLp.png)
+![image](S1QgzNhLp.png)

@@ -38,4 +38,4 @@ moive-score: "7.5"
 **IMDb頁面：** https://www.imdb.com/title/tt2953050/ 
 
 **海報：** 
-![](image/MV5BNjE5NzA4ZDctOTJkZi00NzM0LTkwOTYtMDI4MmNkMzIxODhkXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_FMjpg_UY3000_.jpg)
+![](MV5BNjE5NzA4ZDctOTJkZi00NzM0LTkwOTYtMDI4MmNkMzIxODhkXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_FMjpg_UY3000_.jpg)

@@ -20,7 +20,7 @@ tags: [unix]
 ---
 **command:** \$cat\[option] file
 **info:** show file inside ，通常會與 `>` 一起用
-![image.png](image/BJtMu1qma.png)
+![image.png](BJtMu1qma.png)
 
 | option | mean                        |
 |:------:|:--------------------------- |
@@ -32,7 +32,7 @@ tags: [unix]
 ---
 **command:** \$ more \[option] filename
 **info:** show file context
-![image.png](image/Hkui0y9mT.png)
+![image.png](Hkui0y9mT.png)
 
 | option | meaning                                           |
 |:------:|:------------------------------------------------- |
@@ -100,7 +100,7 @@ tags: [unix]
 --- 
 **command:**\$ pwd 
 **Introduction:** display current dir from root
-![image.png](image/Bku1sVcQT.png)
+![image.png](Bku1sVcQT.png)
 
 ### whoami
 ---

@@ -68,18 +68,18 @@ tags: [密碼學]
 
 總的來說，實際安全的加密方案需要在理論安全性的基礎上，考慮到現實中的各種因素和限制，並且能夠有效地應對可能的攻擊和威脅。
 
-![image](image/BJ0qqnQl0.png)
+![image](BJ0qqnQl0.png)
 
 W(n):
 理論工作函數，理論的最少代價
 Wh(n):
 實際工作函數，已知的最小代價
 
-![image](image/HJeyo2QlA.png)
+![image](HJeyo2QlA.png)
 
 # 密碼系統之分類
 ## 分類方式
-![image](image/Hyvkp3Qg0.png)
+![image](Hyvkp3Qg0.png)
 
 ##  對稱式加密 & 公開金鑰加密
 - Secret-key encryption 
@@ -90,18 +90,18 @@ Wh(n):
     - 又稱非對稱式加密
     - 安全性取決於發送者和接收者擁有一些共同的可信訊息，並且假設敵方密碼分析者也知道這些資訊。
     - 加密 ＆ 解密的 key 不相同 （加密使用公鑰，解密使用私鑰）
-![image](image/H1KH-OIeA.png)
+![image](H1KH-OIeA.png)
 
 ## Compare
 
-![image](image/SJZkWO8eR.png)
+![image](SJZkWO8eR.png)
 
 # 私鑰加密
 
 ## 古典技術
 
-![image](image/HyQtSu8l0.png)
-![image](image/rypFBOIlR.png)
+![image](HyQtSu8l0.png)
+![image](rypFBOIlR.png)
 ## 現代技術
 以代換 (Substitution) 及換位 (Transposition)為基本轉換方式，其運算速度快，適合用於大量資料之加解密。
 
@@ -181,7 +181,7 @@ Diffie-Hellman金鑰交換協定的運作過程如下：
 3. **金鑰確認**：雙方通過某種方式確認共享的金鑰是否正確，通常是通過加密一個挑戰性的消息並將其發送給對方進行確認。
 
 Diffie-Hellman協定的安全性基於離散對數問題的困難性，即計算$g^x \mod p$的反函數，即已知$g$、$p$和$A = g^x \mod p$，求解$x$的困難性。只要$p$和$g$足夠大，攻擊者需要耗費極大的計算資源才能成功破解共享金鑰。
-![image](image/SkxMQ3PlR.png)
+![image](SkxMQ3PlR.png)
 
 
 ### RSA 加密演算法
@@ -255,8 +255,8 @@ Oblivious Transfer可以通過各種技術和協議來實現，包括零知識�
 - 常用之單向雜湊函數 (One-way Hash Function)
     - MD5、SHA-1、SHA-2、SHA-3 …
 
-![image](image/Sk2gu4weR.png)
-![image](image/rkwbO4PeC.png)
-![image](image/SJnNONDg0.png)
+![image](Sk2gu4weR.png)
+![image](rkwbO4PeC.png)
+![image](SJnNONDg0.png)
 
 

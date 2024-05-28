@@ -44,14 +44,14 @@ tags: ['#計組']
     
     詳細介紹:[[industry]]
     
-![](image/BJUVc6obT.png)
+![](BJUVc6obT.png)
 
 ## Looking at hardware and software from a single computer
 ### hardware
 #### input
 keyborad、mouse
 ##### [[POSTPC]] 後PC時代
-![](image/By_Ay6jW6.png)
+![](By_Ay6jW6.png)
 
 
 #### output
@@ -67,12 +67,12 @@ keyborad、mouse
 ##### valid memory
 memory、cache、register 
 
-![](image/r1PoWaoZp.png)
+![](r1PoWaoZp.png)
 
 **由於其價格差異，因此才會分為多層使用(越快越貴)**
 
 #### network
-![](image/BJWnZTo-6.png)
+![](BJWnZTo-6.png)
 **WAN** : wide area netwwork → 輸入(通常只有一孔)
 
 **LAN** : Local area netwwork → 輸入(通常有多孔)
@@ -82,12 +82,12 @@ memory、cache、register
 
 #### cpu
 ##### [[馮紐曼]]電腦
-![](image/HJt6-piZp.png)
-![](image/S1YaZps-T.png)
+![](HJt6-piZp.png)
+![](S1YaZps-T.png)
 
 隨著功率、指令級並行性和記憶體延遲被限制
 #### wafer
-![](image/H1Oi7pi-p.png)
+![](H1Oi7pi-p.png)
 $Cost\ Per\ Dies=Cost\ Per\ Wafer/Dies\ Per\ Wafer\times Yelid$
 
 $Dies\ Per\ Wafer≓Wafer\ Area/Dies\ Area$
@@ -96,7 +96,7 @@ $Yelid =1/(1+Defect\ Per\ Area×Dies\ Area)^N$
 
 通常N各家晶片廠自定義,like 三星為130
 ### SOFTWARE
-![](image/rJzp7pjbp.png)
+![](rJzp7pjbp.png)
 
 #### system software
 
@@ -126,7 +126,7 @@ window and linux kernel and so on
 | cons | 換台電腦就不能用 |                 比exe慢                |    跑到才會出錯，比im更慢，會野外露出程式碼   |
 | 舉例 |     C&C++             |     java                            |  python、ruby        |
 #### from code to execute
-![](image/BkR8ETibp.png)
+![](BkR8ETibp.png)
 
 ### cloud system
 #### [[SIP]]
@@ -205,7 +205,7 @@ window and linux kernel and so on
     - 單位(次/秒)
     - 3.xHz 
 
-![](image/BJEYHF3bT.png)
+![](BJEYHF3bT.png)
 
 
 #### Five criteria of Performance of software
@@ -299,7 +299,7 @@ window and linux kernel and so on
     - 無法解決的散熱問題(液氮超频)
     - MOSFET 結構的能耗 
          
-        ![](image/SyvpWBp-p.png)
+        ![](SyvpWBp-p.png)
         動態耗能: 
             由於電橋本身具有電阻，產生能耗
 

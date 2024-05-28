@@ -17,7 +17,7 @@ tags: [密碼學]
 - 一個交換群（Commutative Group，或稱為 Abelian Group），除了滿足群的四個特性之外，還有以下一個額外的特性。
     - 交換性 (Commutative)：對於集合 G 中所有的元素 a 和 b，皆滿足等式a • b = b • a
 
-![image](image/r1bZM1YeC.png)
+![image](r1bZM1YeC.png)
 >  ans
 這裡的記號 G=<Zn,+> 代表一個特定的群，其中：
 - $Z_n$ 是模 n 的整數集合，也就是 $\{0, 1, 2, ..., n-1\}$，這裡 n 是一個正整數。
@@ -36,23 +36,23 @@ tags: [密碼學]
 
 
 ### 交換環
-![image](image/BkzjOScg0.png)
+![image](BkzjOScg0.png)
 
 ### 體
 
-![image](image/HJO2_S9gR.png)
-![image](image/SJy0dHcl0.png)
+![image](HJO2_S9gR.png)
+![image](SJy0dHcl0.png)
 
 
 ### 有限體
 有限體 ： 有限元素的 GROUP
 - 其中必會有 $p^n$ 個元素， p 為質數 n 為正整數
-![image](image/S1d1KrcgA.png)
+![image](S1d1KrcgA.png)
 
 
 
 
-![image](image/BJn-oLol0.png)
+![image](BJn-oLol0.png)
 ord(k)的計算就是計算 $k^n$ 在這個群中有多少等價
 
 like 在 $G=<Z_6,+>$ 中 ord(1)

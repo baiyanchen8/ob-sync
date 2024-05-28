@@ -53,6 +53,6 @@ moive-score: "9.7"
 
 **海報：** 
 
-![image](image/Poor_Things_Poster.jpg)
+![image](Poor_Things_Poster.jpg)
 
 

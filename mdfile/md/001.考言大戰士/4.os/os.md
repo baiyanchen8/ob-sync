@@ -65,4 +65,4 @@ This course introduces the operating system to facilitate students to understand
 - 期末考 : 40
 - 程式作業 :20 
 ## 學習資源
-- 主要教材: ![](image/B1J1f7Xza.png)
+- 主要教材: ![](B1J1f7Xza.png)

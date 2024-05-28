@@ -50,7 +50,7 @@ tags: [os]
 - 問題：**何時執行對應到最終實際記憶體存取的位置**。
 	- 目前，使用者程式在運作前要經過幾個步驟，因此，綁定可以在編譯時、載入時或執行時執行。
 
-![image](image/H1idX06LT.png)
+![image](H1idX06LT.png)
 
 ### example
 - 編譯時期：例如 SIC 電腦
@@ -68,7 +68,7 @@ tags: [os]
 	- 將 symbolic 轉為 abs address
 - 加載時期
 	
-	![image](image/HJ_zBATLT.png)![image](image/rkcGBRT8T.png)
+	![image](HJ_zBATLT.png)![image](rkcGBRT8T.png)
 	
 - 執行時期
 	- 這章會介紹
@@ -88,7 +88,7 @@ tags: [os]
 ### Memory Management Unit
 >用於控制 memory 很重要
 
-![image](image/rkq0OkkDp.png)
+![image](rkq0OkkDp.png)
 
 ## Dynamic loading
 - 到目前為止，整段程式必須在記憶體中執行
@@ -104,7 +104,7 @@ tags: [os]
 - Dynamic Linking
 	- link on excution time
 	- 多個進程*可以共用一個DLL(shared lib)*，比較節省記憶體，從而可以減少文件的交換。
-		![螢幕擷取畫面 2023-12-19 192519](image/BJU_Q-Jw6.png)
+		![螢幕擷取畫面 2023-12-19 192519](BJU_Q-Jw6.png)
 - shared libraries
 	- 由於不同的程式可能會用到相同的函式庫
 	- 因此，使用統尾的函式庫在函式被呼叫時才會鏈接
@@ -152,11 +152,11 @@ tags: [os]
 		```
 		- 作業系統載入重定位和限制暫存器作為上下文切換的一部分
 			- 透過更新 relocation 實現
-		![image](image/SyskqQxDp.png)
+		![image](SyskqQxDp.png)
 - Memory Allocation 
 	- 可變分區方案
 		- 在任何時候，記憶體都由一組可變大小的已使用分割區和空閒分割區組成
-	![image](image/rk86JVevp.png)
+	![image](rk86JVevp.png)
 	- algorithm of place 
 		- first fit：分配第一個足夠大的孔
 		- best fit：分配足夠大的最小孔
@@ -202,14 +202,14 @@ tags: [os]
 - 由 os 紀錄 page table 
 	- page table : 用於紀錄每個 page 對應到哪個 frame
 	- 為何由os建立，因為是 os 將執行檔搬到 memory 所以由 os 建立最為合理
-![image](image/SJ2tTPlDp.png)
+![image](SJ2tTPlDp.png)
 - Characteristics
 	- not External Fragmentation
 	- but also internal Fragmentation
 		- 會發生於最後一個 page
 
 #### Address Translation Scheme
-![image](image/Sk0xg_lD6.png)
+![image](Sk0xg_lD6.png)
 - m
 	- $2^m$ is **logical address space**
 	- 由 MMU/hardware 定義
@@ -220,7 +220,7 @@ tags: [os]
 	- $2^n$ is **page size** (offset)
 	- 一個 page 的大小
 
-![image](image/ryTR0PxvT.png)
+![image](ryTR0PxvT.png)
 
 > Q : who maintain page table
 > A : os
@@ -235,7 +235,7 @@ tags: [os]
 >Why? How and by Whom?
 > OS maintain free frame list 
 
-![image](image/HJyHXdgDa.png)
+![image](HJyHXdgDa.png)
 
 #### frame table 
 > We must know which frame is allocated to 
@@ -247,7 +247,7 @@ tags: [os]
 	- 狀態(use or not)
 	- 使用者($process_i$的第幾個page)
 
-![image](image/BypKEdePa.png)
+![image](BypKEdePa.png)
 ### Summary
 - 分頁在使用者的記憶體視圖和實際物理記憶體之間提供了清晰的轉換
 	- 使用者程式將記憶體視為一個空間
@@ -281,7 +281,7 @@ tags: [os]
 	- TLB : super 快記憶體(cache)
 	- 通常用於存放 page table
 
-![image](image/SJJz9OxPa.png)
+![image](SJJz9OxPa.png)
 - TLB miss
 	- 在 TLB 中沒找到 page number
 	- solution
@@ -308,7 +308,7 @@ tags: [os]
 >If a process issue a memory access to page 6(out of page number), how to detect and denythis access? and by whom?
 	>Ａ：protection bit & PTLR
 
-![image](image/rk3CxFgPa.png)
+![image](rk3CxFgPa.png)
 
 - 事實上，大多數行程只使用很小的位址空間
 	- 因此，頁表中**有效的** PTE（Page Table Entry） 很少，但無效的 PTE 較多
@@ -325,7 +325,7 @@ tags: [os]
 ## shared page
 - 分頁的另一個優點是支援共享通用程式碼(c library)
 - 透過 shared page 可以大量節省記憶體空間
-![image](image/BkJtVKevT.png)
+![image](BkJtVKevT.png)
 -  實際上
 	- 常用程式也可以分享
 		- 編譯器、視窗系統、資料庫系統
@@ -356,14 +356,14 @@ tags: [os]
 		- 2nd
 			- 20-10 = 10 bit
  
-![image](image/SyDadmZDp.png)
-![image](image/ryIm27bw6.png)
-![image](image/H1T8yE-P6.png)
+![image](SyDadmZDp.png)
+![image](ryIm27bw6.png)
+![image](H1T8yE-P6.png)
 
 ## Solution 2 : Hashed Page Tables
 - Common in address spaces > 32 bits 
 
-![image](image/rkeWQVbwp.png)
+![image](rkeWQVbwp.png)
 
 ## Solution 3 : Inverted Page Tables
 - 先前的方案要求每個行程都有一個 page table
@@ -372,7 +372,7 @@ tags: [os]
 	- 系統級統一的 page table 而非每個 process 各自擁有 page table 
 	- Each entry consists of (process-id, page number)
 - Example: PowerPC
-![image](image/SJ_5EN-Da.png)
+![image](SJ_5EN-Da.png)
 <!--  -->
 - n 為IPT的長度
 - 優點
@@ -384,7 +384,7 @@ tags: [os]
 	- 難以實現共享記憶體
 
 # Swapping
-![image](image/ryOND4WDp.png)
+![image](ryOND4WDp.png)
 - 優點
 	- 系統可以容納的進程數量多於儲存它們的實體記憶體數量
 - backing strore – 用於交換空間，通常是磁碟分割區

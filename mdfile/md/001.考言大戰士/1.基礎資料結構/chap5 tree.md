@@ -604,7 +604,7 @@ struct node * twoWayJoin(struct node *s,struct node *b){
 ## winner & loser tree
 > 這是一種常用於 external sort 的方法，由一個 tree 及多個 queue 組成
 
-![image](image/BypUUymha.png)
+![image](BypUUymha.png)
 
 ## 方法 winner tree
 ### bulit
@@ -622,7 +622,7 @@ struct node * twoWayJoin(struct node *s,struct node *b){
 
 
 # 互斥集合表示法(union)
-![image](image/HyU3_v3h6.png)
+![image](HyU3_v3h6.png)
 
 ## sample version Union
 ```c=

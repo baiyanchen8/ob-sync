@@ -27,5 +27,5 @@ moive-score: "5"
 **imdb rate：** 6.1/10
 **海報：** 
 
-![](image/MV5BZDM3YTg4MGUtZmUxNi00YmEyLTllNTctNjYyNjZlZGViNmFhXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_QL75_UX180_CR0,9,180,266_.jpg)
+![](MV5BZDM3YTg4MGUtZmUxNi00YmEyLTllNTctNjYyNjZlZGViNmFhXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_QL75_UX180_CR0,9,180,266_.jpg)
 

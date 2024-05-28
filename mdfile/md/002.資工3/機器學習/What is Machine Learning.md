@@ -16,13 +16,13 @@ tags: [機器學習]
 >“如果電腦程式在 T 中的任務中的表現（按 P 測量）隨著經驗 E 的提高而提高，則可以說它可以從關於某類任務 T 和性能測量 P 的經驗 E 中學習。”
 ---Tom Mitchell(1997)
 ### 範例
-![](image/S1ppAPfzp.png)
+![](S1ppAPfzp.png)
 從關於某類任務 T 和性能測量 P 的經驗 E 中學習
 先通過E(training set)將 model 訓練好 → model 學習經驗
 通過T(testing set)測驗 model 的P → 通過T得出效能P
 
 ### model training 流程圖
-![](image/rkobbuff6.png)
+![](rkobbuff6.png)
 
 ## 四種mdeol類型
 
@@ -36,15 +36,15 @@ tags: [機器學習]
         在監督學習中，模型接受有標籤的訓練數據，其中每個數據點都有一個已知的正確答案（標  籤）。模型的目標是學習如何映射輸入數據到正確的輸出，以便在未見過的數據上進行預測。
     - 例子: 手寫數字識別，其中模型訓練於數字圖像和相對應的數字標籤。
     - 圖示 : 
-         ![](image/SkvRu_zfp.png)
-         ![](image/1Nf2tTTkALYq6RTMQmhjo1A.png)
+         ![](SkvRu_zfp.png)
+         ![](1Nf2tTTkALYq6RTMQmhjo1A.png)
 
     
     
 2. 非監督學習 (Unsupervised Learning):
     - 介紹: 在非監督學習中，模型處理沒有標籤的數據，目標是發現數據中的結構、模式或群集。這種方法通常用於降維、集群分析和特徵提取。
     - 例子: K-均值聚類，該算法通過將數據點劃分為 K 個簇來識別模式。
-    - 示意圖: ![](image/HkhpOdMGa.png)
+    - 示意圖: ![](HkhpOdMGa.png)
         
 3. 半監督學習 (Semi-Supervised Learning):
 
@@ -55,7 +55,7 @@ tags: [機器學習]
 
     - 介紹: 強化學習是一種學習方式，模型通過與環境互動，根據其行動而獲得的回饋信號來學習。目標是找到最佳策略，以最大化長期獎勵。
     - 例子: 機器人學習遊戲中的最佳策略，例如學習玩象棋或打電子遊戲。
-    - 示意圖: Reinforcement Learning ![](image/500px-Reinforcement_learning_diagram.svg.png)
+    - 示意圖: Reinforcement Learning ![](500px-Reinforcement_learning_diagram.svg.png)
 ## The challenges of machine learning
 - Challenges in data selection
     - 訓練資料不足
@@ -71,4 +71,4 @@ tags: [機器學習]
         - model too complex
     - 未擬合
         - model too easy
-![](image/SyXTh_Mfp.png)
+![](SyXTh_Mfp.png)
