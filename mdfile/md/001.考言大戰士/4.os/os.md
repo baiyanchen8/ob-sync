@@ -29,16 +29,16 @@ This course introduces the operating system to facilitate students to understand
 3. [[HW3 Thread & Concurrency]]
 4. [[HW4 Mutex]]
 ### CHAP
-1. [[CHAP1  For OS]]
-2. [[CHAP2 FOR OS]]
-3. [[CHAP3 FOR OS]]
-4. [[chap  4 FOR OS]]
-5. [[chap 5 for os]]
-6. [[chap 6 Process Synchronizatio]]
-7. [[chap 7 for Os]]
-8. [[chap 8 Deadlock]]
-9. [[chap 9 for os]]
-10. [[chap 10 for os]]
+1. [[1.OS]]
+2. [[2.OS]]
+3. [[3.OS]]
+4. [[4.OS]]
+5. [[5.OS]]
+6. [[6.OS]]
+7. [[7.OS]]
+8. [[8.OS]]
+9. [[9.OS]]
+10. [[10.OS]]
 ### oslab
 1. tmp
 2. tmp

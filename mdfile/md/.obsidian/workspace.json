@@ -8,11 +8,26 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9d3af4b75846ce71",
+            "id": "752b3c6b3bb7292c",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "001.考言大戰士/3.離散數學/lect3 algorithm.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a7911ea97f2af6e6",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "999.datafeild/Excalidraw/Drawing 2024-06-03 14.33.40.excalidraw.md"
+              }
             }
           }
         ]
@@ -65,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b03ce395fb964a80",
@@ -81,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "001.考言大戰士/3.離散數學/lect3 algorithm.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -97,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "001.考言大戰士/3.離散數學/lect3 algorithm.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +132,7 @@
             }
           },
           {
-            "id": "ffa4092ecbfebbc2",
+            "id": "7a839ee80349c3da",
             "type": "leaf",
             "state": {
               "type": "quiet-outline",
@@ -145,8 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5,
-    "collapsed": true
+    "width": 331.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,54 +177,54 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "9d3af4b75846ce71",
+  "active": "752b3c6b3bb7292c",
   "lastOpenFiles": [
-    "002.資工3/資安與密碼學/密碼學.md",
-    "999.datafeild/Excalidraw/Drawing 2024-05-28 17.46.19.excalidraw.md",
-    "999.datafeild",
-    "calculus/calculus.md",
-    "002.資工3",
-    "001.考言大戰士",
-    "unix/UNIX.md",
-    "physics net/物連網hw4.md",
+    "999.datafeild/Excalidraw/Drawing 2024-06-03 14.33.40.excalidraw.md",
+    "001.考言大戰士/3.離散數學/lect3 algorithm.md",
+    "999.datafeild/image/螢幕快照_2024-06-03_14-32-52.png",
+    "001.考言大戰士/4.os/3.OS.md",
+    "001.考言大戰士/4.os/2.OS.md",
+    "999.datafeild/Excalidraw/Drawing 2024-06-03 01.55.32.excalidraw.md",
+    "999.datafeild/Excalidraw/Drawing 2024-06-03 01.48.02.excalidraw.md",
+    "002.資工3/pn/aiot作業6.md",
+    "999.datafeild/image/螢幕快照_2024-06-02_22-33-57.png",
+    "999.datafeild/image/即時溫度.png",
+    "999.datafeild/image/toggle.png",
+    "999.datafeild/image/螢幕快照_2024-03-19_18-25-12.png",
+    "999.datafeild/image/使用vnc.png",
+    "999.datafeild/Excalidraw/Drawing 2024-06-02 22.10.02.excalidraw.md",
+    "002.資工3/pn",
+    "movie/0.電影/腦筋急轉彎.md",
     "movie/0.電影/《機密特務：阿蓋爾》（英語：Argylle）.md",
-    "專題/Spatial color-to-grayscale transform preserving chrominance edge information.md",
-    "專題/專題.md",
     "movie/moive home.md",
-    "movie/觀看清單.md",
-    "movie/1.發行商/Disneys.md",
-    "movie/0.電影/Poor Things.md",
-    "movie/0.電影/靈魂急轉彎(Soul).md",
-    "movie/馬修·范恩.md",
-    "movie/白日夢冒險王.md",
+    "movie/0.電影/芙莉歐莎：瘋狂麥斯傳奇篇章.md",
+    "000.other/電影評分：.md",
+    "movie/0.電影/《奧本海默》（英語：Oppenheimer）.md",
+    "000.other/我的遊戲庫.md",
     "movie/0.電影/還錢.md",
-    "movie/蒙太奇.md",
-    "movie/0.電影/魔法滿屋(Encanto).md",
-    "movie/0.電影/劇場版 SPY×FAMILY CODE_ White.md",
-    "movie/0.電影/猩球崛起4.md",
-    "movie/0.電影/庫伊拉.md",
     "movie/0.電影/哥吉拉與金剛：新帝國.md",
     "movie/0.電影/沙丘2.md",
     "movie/0.電影/沙丘1.md",
+    "movie/0.電影/月老.md",
     "movie/1.發行商/皮克斯Pixar.md",
+    "movie/1.發行商/Disneys.md",
+    "movie/白日夢冒險王.md",
+    "movie/馬修·范恩.md",
+    "movie/蒙太奇.md",
+    "movie/觀看清單.md",
+    "999.datafeild/image/Pasted image 20240530010621.png",
+    "999.datafeild/image/Pasted image 20240530010536.png",
+    "999.datafeild/image/Pasted image 20240530005812.png",
+    "001.考言大戰士/6.演算法",
+    "001.考言大戰士/5.線代",
+    "999.datafeild",
+    "002.資工3",
+    "001.考言大戰士",
     "movie/1.發行商",
     "movie/0.電影",
-    "movie/0.電影/月老.md",
     "999.datafeild/image/B1BmX6DgA.png",
     "pycode",
-    "999.datafeild/image/Pasted image 20240525154404.png",
-    "999.datafeild/image/Pasted image 20240516133735.png",
-    "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/SYSTEM LANGUAGE 07554e4e9f7147db85cfb8f8cb43983f/system language c2ab02b8bea64ef881338122f69a6d7b/chap2-assembler a6be334f3eee4dba950b1c44bb8b2605/Untitled.png",
-    "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/SYSTEM LANGUAGE 07554e4e9f7147db85cfb8f8cb43983f/system language c2ab02b8bea64ef881338122f69a6d7b/chap1 2af2f010af1744d2a4bb3408aa90bac6/Untitled.png",
-    "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/電電 5b417774fb5b402498ed548f41bdf2ab/chap16 96d39e641c484cf59a13f5f38245746f/Untitled.png",
-    "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/電電 5b417774fb5b402498ed548f41bdf2ab/chap16 96d39e641c484cf59a13f5f38245746f/Untitled.jpeg",
-    "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/電電 5b417774fb5b402498ed548f41bdf2ab/chap16 96d39e641c484cf59a13f5f38245746f/Untitled 9.png",
-    "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/電電 5b417774fb5b402498ed548f41bdf2ab/chap16 96d39e641c484cf59a13f5f38245746f/Untitled 8.png",
-    "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/電電 5b417774fb5b402498ed548f41bdf2ab/chap16 96d39e641c484cf59a13f5f38245746f/Untitled 7.png",
     "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/game-project 46538e61cec349fe9b45225db38bd2e1/process 15228fc67b054ba0bf54ceb047a4cb4a/finish first game cd5234a858b34b92860bc68c26c34661",
-    "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/Unix f7064b436acb4375b1bcb3909f3d632c/unix chap1 38f915133efb459dbf9248d6e23dc2da/nse-5095921230886195132-UNIX_Ch01_230413_211947.pdf.pdf",
-    "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/Unix f7064b436acb4375b1bcb3909f3d632c/lab e0fe3159af034b4898ce622c42c34f17/Unix_Exercise5_Ans.pdf",
-    "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/SYSTEM LANGUAGE 07554e4e9f7147db85cfb8f8cb43983f/system language c2ab02b8bea64ef881338122f69a6d7b/chap2-assembler a6be334f3eee4dba950b1c44bb8b2605",
     "未命名.canvas"
   ]
 }
