@@ -103,4 +103,10 @@
 
 ![[Drawing 2024-06-03 14.33.40.excalidraw]]
 
-  
+   >[!example] 
+   >**PROOF BELOW**
+   >$$f(x)=x^2+2x+1\ is\ O(x^2)$$
+   >**敘述**
+   >$\because x^2+2x+1\le x^2+2x^2+x^2$
+   >$\Rightarrow f(x)=O(x^2)$
+   

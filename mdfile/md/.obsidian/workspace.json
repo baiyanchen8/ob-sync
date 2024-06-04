@@ -4,29 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "1735ce251e03a287",
+        "id": "be89532f3f466a37",
         "type": "tabs",
         "children": [
           {
-            "id": "752b3c6b3bb7292c",
+            "id": "c89012bcb3ceb8d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001.考言大戰士/3.離散數學/lect3 algorithm.md",
+                "file": "002.資工3/資安與密碼學/HW04_4110056009_陳柏硯.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "a7911ea97f2af6e6",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "999.datafeild/Excalidraw/Drawing 2024-06-03 14.33.40.excalidraw.md"
               }
             }
           }
@@ -97,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "001.考言大戰士/3.離散數學/lect3 algorithm.md",
+                "file": "002.資工3/資安與密碼學/HW04_4110056009_陳柏硯.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "001.考言大戰士/3.離散數學/lect3 algorithm.md",
+                "file": "002.資工3/資安與密碼學/HW04_4110056009_陳柏硯.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +153,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 331.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,10 +168,19 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "752b3c6b3bb7292c",
+  "active": "c89012bcb3ceb8d6",
   "lastOpenFiles": [
-    "999.datafeild/Excalidraw/Drawing 2024-06-03 14.33.40.excalidraw.md",
+    "999.datafeild/image/Pasted image 20240603211613.png",
+    "999.datafeild/image/Pasted image 20240603202834.png",
+    "999.datafeild/image/Pasted image 20240603201231.png",
+    "999.datafeild/image/Pasted image 20240603200328.png",
+    "999.datafeild/image/Pasted image 20240603194926.png",
+    "001.考言大戰士/3.離散數學/未命名 2.md",
+    "002.資工3/資安與密碼學/HW04_4110056009_陳柏硯.md",
+    "001.考言大戰士/3.離散數學/未命名 1.md",
     "001.考言大戰士/3.離散數學/lect3 algorithm.md",
+    "000.other/Tasks.md",
+    "999.datafeild/Excalidraw/Drawing 2024-06-03 14.33.40.excalidraw.md",
     "999.datafeild/image/螢幕快照_2024-06-03_14-32-52.png",
     "001.考言大戰士/4.os/3.OS.md",
     "001.考言大戰士/4.os/2.OS.md",
@@ -207,14 +207,6 @@
     "movie/0.電影/沙丘1.md",
     "movie/0.電影/月老.md",
     "movie/1.發行商/皮克斯Pixar.md",
-    "movie/1.發行商/Disneys.md",
-    "movie/白日夢冒險王.md",
-    "movie/馬修·范恩.md",
-    "movie/蒙太奇.md",
-    "movie/觀看清單.md",
-    "999.datafeild/image/Pasted image 20240530010621.png",
-    "999.datafeild/image/Pasted image 20240530010536.png",
-    "999.datafeild/image/Pasted image 20240530005812.png",
     "001.考言大戰士/6.演算法",
     "001.考言大戰士/5.線代",
     "999.datafeild",
@@ -222,7 +214,6 @@
     "001.考言大戰士",
     "movie/1.發行商",
     "movie/0.電影",
-    "999.datafeild/image/B1BmX6DgA.png",
     "pycode",
     "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/game-project 46538e61cec349fe9b45225db38bd2e1/process 15228fc67b054ba0bf54ceb047a4cb4a/finish first game cd5234a858b34b92860bc68c26c34661",
     "未命名.canvas"
