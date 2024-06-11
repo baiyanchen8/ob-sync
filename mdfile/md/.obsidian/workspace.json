@@ -13,10 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "002.資工3/資安與密碼學/HW04_4110056009_陳柏硯.md",
+                "file": "001.考言大戰士/4.os/3.OS PROCESSES.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "1eec8f66870b9d8f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "999.datafeild/Excalidraw/Drawing 2024-06-11 15.16.22.excalidraw.md"
               }
             }
           }
@@ -87,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "002.資工3/資安與密碼學/HW04_4110056009_陳柏硯.md",
+                "file": "001.考言大戰士/4.os/3.OS PROCESSES.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "002.資工3/資安與密碼學/HW04_4110056009_陳柏硯.md",
+                "file": "001.考言大戰士/4.os/3.OS PROCESSES.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -153,13 +163,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5,
-    "collapsed": true
+    "width": 331.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "markdown-importer:開啟 Markdown 格式轉換器": false,
       "canvas:建立新畫布": false,
+      "markdown-importer:開啟 Markdown 格式轉換器": false,
       "templates:插入模板": false,
       "command-palette:開啟命令面板": false,
       "graph:查看關聯圖": false,
@@ -170,43 +179,45 @@
   },
   "active": "c89012bcb3ceb8d6",
   "lastOpenFiles": [
+    "999.datafeild/image/Pasted image 20240611153048.png",
+    "999.datafeild/Excalidraw/Drawing 2024-06-11 15.16.22.excalidraw.md",
+    "001.考言大戰士/4.os/3.OS PROCESSES.md",
+    "999.datafeild/Excalidraw/Drawing 2024-06-11 14.39.22.excalidraw.md",
+    "999.datafeild/image/Pasted image 20240611143757.png",
+    "000.other/Tasks.md",
+    "001.考言大戰士/4.os/Pasted.md",
+    "001.考言大戰士/4.os/2.OS.md",
+    "999.datafeild/image/Pasted image 20240611142657.png",
+    "002.資工3/資安與密碼學/HW04_4110056009_陳柏硯.md",
+    "000.other/英文.md",
+    "000.other/題目.md",
+    "000.other/電影評分：.md",
+    "000.other/課程時間表.md",
+    "000.other/課程名稱.md",
+    "000.other/標準.md",
+    "000.other/我的遊戲庫.md",
+    "000.other/latex 大全.md",
+    "000.other/sql-apache.md",
+    "000.other/oracle.md",
+    "000.other/for me hackmd note.md",
+    "000.other/dada.md",
+    "000.other/Untitled (2).md",
+    "000.other/SQL.md",
+    "000.other",
+    "未命名.canvas",
+    "movie/0.電影/瘋狂麥司：憤怒道.md",
+    "movie/0.電影/芙莉歐莎：瘋狂麥斯傳奇篇章.md",
+    "movie/moive home.md",
+    "002.資工3/資安與密碼學/HW05_4110056009_陳柏硯.md",
+    "999.datafeild/image/Pasted image 20240608223542.png",
     "999.datafeild/image/Pasted image 20240603211613.png",
     "999.datafeild/image/Pasted image 20240603202834.png",
     "999.datafeild/image/Pasted image 20240603201231.png",
     "999.datafeild/image/Pasted image 20240603200328.png",
     "999.datafeild/image/Pasted image 20240603194926.png",
-    "001.考言大戰士/3.離散數學/未命名 2.md",
-    "002.資工3/資安與密碼學/HW04_4110056009_陳柏硯.md",
-    "001.考言大戰士/3.離散數學/未命名 1.md",
-    "001.考言大戰士/3.離散數學/lect3 algorithm.md",
-    "000.other/Tasks.md",
-    "999.datafeild/Excalidraw/Drawing 2024-06-03 14.33.40.excalidraw.md",
     "999.datafeild/image/螢幕快照_2024-06-03_14-32-52.png",
-    "001.考言大戰士/4.os/3.OS.md",
-    "001.考言大戰士/4.os/2.OS.md",
-    "999.datafeild/Excalidraw/Drawing 2024-06-03 01.55.32.excalidraw.md",
-    "999.datafeild/Excalidraw/Drawing 2024-06-03 01.48.02.excalidraw.md",
-    "002.資工3/pn/aiot作業6.md",
     "999.datafeild/image/螢幕快照_2024-06-02_22-33-57.png",
-    "999.datafeild/image/即時溫度.png",
-    "999.datafeild/image/toggle.png",
-    "999.datafeild/image/螢幕快照_2024-03-19_18-25-12.png",
-    "999.datafeild/image/使用vnc.png",
-    "999.datafeild/Excalidraw/Drawing 2024-06-02 22.10.02.excalidraw.md",
     "002.資工3/pn",
-    "movie/0.電影/腦筋急轉彎.md",
-    "movie/0.電影/《機密特務：阿蓋爾》（英語：Argylle）.md",
-    "movie/moive home.md",
-    "movie/0.電影/芙莉歐莎：瘋狂麥斯傳奇篇章.md",
-    "000.other/電影評分：.md",
-    "movie/0.電影/《奧本海默》（英語：Oppenheimer）.md",
-    "000.other/我的遊戲庫.md",
-    "movie/0.電影/還錢.md",
-    "movie/0.電影/哥吉拉與金剛：新帝國.md",
-    "movie/0.電影/沙丘2.md",
-    "movie/0.電影/沙丘1.md",
-    "movie/0.電影/月老.md",
-    "movie/1.發行商/皮克斯Pixar.md",
     "001.考言大戰士/6.演算法",
     "001.考言大戰士/5.線代",
     "999.datafeild",
@@ -214,8 +225,6 @@
     "001.考言大戰士",
     "movie/1.發行商",
     "movie/0.電影",
-    "pycode",
-    "b70dc79e-d3ca-4146-80e6-3a5ca1e9e6cb_Export-bff8531d-ae07-4ef6-85b8-b1e8fed3b355/control my life cffb178b38fe4eb687d7a7d9e2ccc93d/Lesson 797c92c860964185a7786030bbee6227/game-project 46538e61cec349fe9b45225db38bd2e1/process 15228fc67b054ba0bf54ceb047a4cb4a/finish first game cd5234a858b34b92860bc68c26c34661",
-    "未命名.canvas"
+    "pycode"
   ]
 }

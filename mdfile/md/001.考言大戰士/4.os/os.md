@@ -31,7 +31,7 @@ This course introduces the operating system to facilitate students to understand
 ### CHAP
 1. [[1.OS]]
 2. [[2.OS]]
-3. [[3.OS]]
+3. [[3.OS PROCESSES]]
 4. [[4.OS]]
 5. [[5.OS]]
 6. [[6.OS]]

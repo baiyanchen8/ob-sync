@@ -2,5 +2,5 @@
 - [ ] 密碼學專題（5...）
 - [ ] 樹莓派功課 (6/4)
 - [ ] 密碼學作業
-- [ ] [[2.OS]] unfinish
-- [ ] 離散數學[[lect3 algorithm]] 
+- [ ] [[3.OS PROCESSES]] unfinish
+- [ ] 離散數學[[lect3 algorithm]]  
