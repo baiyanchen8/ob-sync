@@ -3,6 +3,7 @@ title: 元素方城市(Elemental)
 tags:
   - "#movie"
 moive-score: "6.5"
+上映日期: 2023/07/06
 ---
 
 # 電影評分：**元素方城市**(_Elemental_)

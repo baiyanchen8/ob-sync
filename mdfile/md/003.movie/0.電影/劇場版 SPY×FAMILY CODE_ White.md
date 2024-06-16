@@ -1,7 +1,9 @@
 ---
-title: '劇場版 SPY×FAMILY CODE: White'
-tags: ['#movie']
+title: "劇場版 SPY×FAMILY CODE: White"
+tags:
+  - "#movie"
 moive-score: "8"
+上映日期: 2023/12/22
 ---
 
 # 電影評分：劇場版 SPY×FAMILY CODE: White

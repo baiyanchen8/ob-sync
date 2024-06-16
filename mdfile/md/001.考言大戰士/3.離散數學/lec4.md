@@ -33,26 +33,28 @@ r is called the remainder. (餘數一定要是正數)
 > ans => -4 & 1
 
 ## Define---Congurence Relation（同餘）
-$a\equiv b(mod\ m)$ => m|(a-b)
+$a\equiv b(mod\ m)$ => m|(a-b) => $\frac{a-b}{m}=int$
 ## Theorm---同餘???定理
+Let m be a positive integer. The integers a and b are congruent modulo such that Let m be a positive integer. The integers a and b are congruent modulo m if and only if there is an integer k such that a = b + km.
 
-# other 
-## RSA
-RSA是一種非對稱加密算法，由Ron Rivest、Adi Shamir和Leonard Adleman在1977年提出。RSA算法基於數學中的兩個重要問題：大數因式分解和模指數運算。
 
-RSA算法的運作過程如下：
+> [!question] if $a\equiv b\ (mod\ m)$ and $c\equiv d\ (mod\ m)$ that$ac\equiv bd\ (mod\ m)$ and $(a+c)\equiv (b+d)\ (mod\ m)$
+>  > [!note] proof
+>  >  a=im+b ,c =jm+d
+>  >  a+c=m(i+j)+b+d => $(a+c)\equiv (b+d)\ (mod\ m)$
+>  >  $ac=ijm^2+imd+jmb+db=(ijm+id+jb)\times m+db$
+>  >  =>$ac\equiv bd\ (mod\ m)$
 
-1. **金鑰生成**：
-   - 選擇兩個大質數$p$和$q$，計算它們的乘積$n = p \times q$。
-   - 計算$n$的歐拉函數$\phi(n) = (p - 1) \times (q - 1)$。(這屬於歐拉函數特殊解)
-   - 選擇一個整數\(e\)，使得$1 < e < \phi(n)$，且$e$與$\phi(n)$互質。
-   - 計算$d$，使得$d \times e \equiv 1 \pmod{\phi(n)}$。
-   - 公鑰為$(n, e)$，私鑰為$(n, d)$。
+![[Pasted image 20240612220758.png]]
 
-2. **加密**：
-   - 將明文消息轉換為整數$m$，滿足$0 \leq m < n$。
-   - 使用公鑰中的指數$e$，計算密文$c \equiv m^e \pmod{n}$。
+12 mod 19
 
-3. **解密**：
-   - 使用私鑰中的指數$d$，計算密文$c$的解密結果$m \equiv c^d \pmod{n}$。
-
+| q   | a   | b   | r   | s1  | s2  | s   | t1  | t2  | t   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0   | 12  | 19  | 12  | 1   | 0   | 1   | 0   | 1   | 0   |
+| 1   | 19  | 12  | 7   | 0   | 1   | -1  | 1   | 0   | 1   |
+| 1   | 12  | 7   | 5   | 1   | -1  | 2   | 0   | 1   | -1  |
+| 1   | 7   | 5   | 2   | -1  | 2   | -3  | 1   | -1  | 2   |
+| 2   | 5   | 2   | 1   | 2   | -3  | 8   | -1  | 2   | -5  |
+| 2   | 2   | 1   | 0   | -3  | 8   |     | 2   | -5  |     |
+|     | 1   | 0   |     | 8   |     |     | -5  |     |     |

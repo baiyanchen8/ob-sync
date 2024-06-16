@@ -3,6 +3,7 @@ title: 巴斯光年(lightyear)
 tags:
   - "#movie"
 moive-score: "7"
+上映日期: 2022/06/17
 ---
 
 # 電影評分：巴斯光年(lightyear)

@@ -10,8 +10,8 @@ tags: ["\_#undo", 電影發行商]
 ### [[元素方城市(Elemental)]]
 
 ### [[靈魂急轉彎(Soul)]]
-### movie2
-### movie3
+### [[inside out 2]]
+### [[腦筋急轉彎]]
 ### movie4
 ### movie5
 ### movi6

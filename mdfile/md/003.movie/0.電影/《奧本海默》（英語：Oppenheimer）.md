@@ -3,6 +3,7 @@ title: 《奧本海默》（英語：Oppenheimer）
 tags:
   - movie
 moive-score: "9.8"
+上映日期: 2023/07/20
 ---
 # 電影評分：《奧本海默》（英語：Oppenheimer)
 

@@ -1,7 +1,9 @@
 ---
 title: 靈魂急轉彎(Soul)
-tags: ['#movie']
+tags:
+  - "#movie"
 moive-score: "7"
+上映日期: 2020/12/25
 ---
 
 # 電影評分：

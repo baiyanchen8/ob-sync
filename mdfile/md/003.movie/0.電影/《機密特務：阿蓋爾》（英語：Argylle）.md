@@ -3,6 +3,7 @@ title: 《機密特務：阿蓋爾》（英語：Argylle）
 tags:
   - "#movie"
 moive-score: "5"
+上映日期: 2024/01/24
 ---
 
 # 電影評分：《機密特務：阿蓋爾》（英語：Argylle）

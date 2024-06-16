@@ -1,7 +1,9 @@
 ---
 title: Poor Things
-tags: ['#movie']
+tags:
+  - "#movie"
 moive-score: "9.7"
+上映日期: 2024/02/08
 ---
 
 # 電影評分：Poor thing
