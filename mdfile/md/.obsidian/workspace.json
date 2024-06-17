@@ -8,15 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b42340599ecbda8a",
+            "id": "f248a560a38609ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001.考言大戰士/4.os/3.OS PROCESSES.md",
+                "file": "002.資工3/information retrieval/final exam 4110056009 陳柏硯.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "c4d87b4112ea8374",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "999.datafeild/Excalidraw/Drawing 2024-06-17 14.33.35.excalidraw.md"
               }
             }
           }
@@ -87,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "001.考言大戰士/4.os/3.OS PROCESSES.md",
+                "file": "002.資工3/information retrieval/final exam 4110056009 陳柏硯.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "001.考言大戰士/4.os/3.OS PROCESSES.md",
+                "file": "002.資工3/information retrieval/final exam 4110056009 陳柏硯.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +163,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 602.5
+    "width": 484.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,8 +178,25 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "b42340599ecbda8a",
+  "active": "f248a560a38609ee",
   "lastOpenFiles": [
+    "999.datafeild/Excalidraw/Drawing 2024-06-17 14.33.35.excalidraw.md",
+    "002.資工3/information retrieval/final exam 4110056009 陳柏硯.md",
+    "999.datafeild/image/Pasted image 20240617142659.png",
+    "999.datafeild/image/Pasted image 20240617142048.png",
+    "999.datafeild/Excalidraw/Drawing 2024-06-17 13.10.05.excalidraw.md",
+    "999.datafeild/image/Pasted image 20240617135602.png",
+    "999.datafeild/image/Pasted image 20240617132418.png",
+    "999.datafeild/image/Pasted Image 20240617132353_801.png",
+    "999.datafeild/image/Pasted image 20240617130928.png",
+    "999.datafeild/image/Pasted image 20240617130911.png",
+    "002.資工3/information retrieval/hadoop1.md",
+    "002.資工3/資安與密碼學/lect5.md",
+    "002.資工3/資安與密碼學/密碼學.md",
+    "001.考言大戰士/4.os/3.OS PROCESSES.md",
+    "999.datafeild/Excalidraw/Drawing 2024-06-16 16.17.05.excalidraw.md",
+    "999.datafeild/Excalidraw/Drawing 2024-06-16 16.12.09.excalidraw.md",
+    "999.datafeild/Excalidraw/Drawing 2024-06-16 14.15.29.excalidraw.md",
     "003.movie/moive home.md",
     "003.movie/0.電影/inside out 2.md",
     "003.movie/0.電影/魔法滿屋(Encanto).md",
@@ -185,28 +213,11 @@
     "003.movie/0.電影/月老.md",
     "003.movie/0.電影/庫伊拉.md",
     "003.movie/0.電影/巴斯光年(lightyear).md",
-    "003.movie/0.電影/哥吉拉與金剛：新帝國.md",
-    "003.movie/0.電影/劇場版 SPY×FAMILY CODE_ White.md",
-    "003.movie/0.電影/元素方城市(Elemental).md",
-    "003.movie/0.電影/《機密特務：阿蓋爾》（英語：Argylle）.md",
-    "003.movie/0.電影/Poor Things.md",
-    "003.movie/0.電影/《奧本海默》（英語：Oppenheimer）.md",
-    "000.other/電影評分：.md",
-    "001.考言大戰士/3.離散數學/lec4.md",
-    "001.考言大戰士/1.基礎資料結構/排序演算法.md",
     "999.datafeild/image/Pasted image 20240612220758.png",
-    "001.考言大戰士/1.基礎資料結構/chap1 introduction.md",
     "999.datafeild/image/Pasted image 20240612134202.png",
     "999.datafeild/image/Pasted image 20240612134127.png",
-    "999.datafeild/image/螢幕快照_2024-06-12_13-32-24.png",
-    "999.datafeild/image/螢幕快照_2024-06-11_19-33-57.png",
-    "999.datafeild/image/Pasted image 20240611192340.png",
-    "999.datafeild/image/Pasted image 20240611153048.png",
-    "999.datafeild/image/Pasted image 20240611143757.png",
-    "999.datafeild/image/Pasted image 20240611142657.png",
     "000.other",
     "未命名.canvas",
-    "999.datafeild/image/Pasted image 20240608223542.png",
     "002.資工3/pn",
     "001.考言大戰士/6.演算法",
     "001.考言大戰士/5.線代",
