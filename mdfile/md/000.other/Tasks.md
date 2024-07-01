@@ -1,6 +1,7 @@
-
-- [ ] 密碼學專題（5...）
-- [ ] 樹莓派功課 (6/4)
-- [ ] 密碼學作業
-- [ ] [[3.OS PROCESSES]] unfinish
-- [ ] 離散數學[[lec3 algorithm]]  
+- [ ] [[4.OS Thread & Concurrency]] 
+	- [ ]  [外部連結](https://blog.csdn.net/phenixyf/article/details/116718762) 
+- [ ] 離散
+- [ ] 演算法
+- [ ] 資料結構 [[chap6 graph]]
+- [ ] 計算機組織
+- [ ] 線性代數

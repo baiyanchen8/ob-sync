@@ -21,5 +21,6 @@
   "locate_by_cursor": false,
   "show_popover_key": "ctrlKey",
   "remember_state": true,
+  "export_format": "{title}",
   "auto_expand": true
 }
