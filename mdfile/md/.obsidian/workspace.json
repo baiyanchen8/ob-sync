@@ -21,32 +21,15 @@
             }
           },
           {
-            "id": "f71df6e581e27cb8",
+            "id": "551ce3421e2d6221",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "999.datafeild/image/4.OS Thread & Concurrency 2024-06-30 14.31.06.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "8dcf46506c32fbb2",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "999.datafeild/image/4.OS Thread & Concurrency 2024-06-30 14.17.11.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "52f74437b5514cda",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "999.datafeild/image/4.OS Thread & Concurrency 2024-06-30 09.32.42.excalidraw.md"
+                "file": "001.考言大戰士/4.os/3.OS PROCESSES.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -200,12 +183,13 @@
   },
   "active": "a8f2278dc084dfcf",
   "lastOpenFiles": [
+    "001.考言大戰士/4.os/3.OS PROCESSES.md",
+    "001.考言大戰士/4.os/5.OS CPU Scheduler.md",
     "001.考言大戰士/4.os/4.OS Thread & Concurrency.md",
     "999.datafeild/image/Pasted image 20240702031330.png",
     "000.other/Tasks.md",
     "999.datafeild/image/Pasted image 20240702002126.png",
     "001.考言大戰士/4.os/6.OS.md",
-    "001.考言大戰士/4.os/5.OS CPU Scheduler.md",
     "999.datafeild/image/4.OS Thread & Concurrency 2024-06-30 14.31.06.excalidraw.md",
     "999.datafeild/image/4.OS Thread & Concurrency 2024-06-30 09.32.42.excalidraw.md",
     "999.datafeild/image/4.OS Thread & Concurrency 2024-06-30 14.17.11.excalidraw.md",
@@ -218,7 +202,6 @@
     "999.datafeild/image/Pasted image 20240629000122.png",
     "999.datafeild/image/Pasted image 20240628235751.png",
     "999.datafeild/image/3.OS PROCESSES 2024-06-28 00.28.21.excalidraw.md",
-    "001.考言大戰士/4.os/3.OS PROCESSES.md",
     "999.datafeild/image/Pasted image 20240628181723.png",
     "001.考言大戰士/4.os/2.OS.md",
     "999.datafeild/image/Pasted image 20240628083408.png",
