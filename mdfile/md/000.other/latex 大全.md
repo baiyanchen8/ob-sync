@@ -11,6 +11,7 @@
 | `$\neq$`   | $\neq$ |
 | `$\le$`    | $\le$  |
 | `$\lt$`    | $\lt$  |
+|            |        |
 ### 希臘字母
 | 發音     | latex code  | 大寫        | 小寫        |
 | ------ | ----------- | --------- | --------- |
@@ -18,6 +19,7 @@
 | forall | `$\forall$` | $\forall$ |           |
 | exists | `\exists`   | $\exists$ |           |
 | lambda | `\lambda`   | $\Lambda$ | $\lambda$ |
+|        |             |           |           |
 
 
 ### 集合
@@ -40,7 +42,7 @@
 | normal | latex code        | code            |
 | ------ | ----------------- | --------------- |
 | $abc$  | `$\mathbf {abc}$` | $\mathbf {abc}$ |
-|        |                   |                 |
+|        | `$\mathbb{R}$`    | $\mathbb{R}$    |
 
 
 ### other

@@ -5,10 +5,10 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:基礎資料結構  ",
+      "query": "path:基礎資料結構 ",
       "color": {
         "a": 1,
         "rgb": 14048348
@@ -93,8 +93,8 @@
     }
   ],
   "collapse-display": false,
-  "showArrow": false,
-  "textFadeMultiplier": 0,
+  "showArrow": true,
+  "textFadeMultiplier": 3,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
@@ -102,6 +102,6 @@
   "repelStrength": 9.77392716935156,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.20179459325531393,
-  "close": true
+  "scale": 0.7295655790252794,
+  "close": false
 }

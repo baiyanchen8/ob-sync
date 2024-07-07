@@ -4,7 +4,6 @@ tags: ['#計組']
 
 ---
 
-
 # 簡介
 對計組的簡單介紹
 # 主題
@@ -36,13 +35,13 @@ tags: ['#計組']
 2. Portion of software run on a PMD and a portion run in the Cloud
 3. [[SIP]]
 4. [[四種部屬雲]]
-5. 延伸介紹: industry 3.0 vs 4.0
+5. 延伸介紹: industry 3.0 vs 4.0  
     
-    | ----         | Industry 3.0                             | Industry 4.0                                                 |
-    | ------------ |:---------------------------------------- |:------------------------------------------------------------ |
-    | 人為干預部分 | 會需要人在事先設定好程序靠本地端電腦執行 | 多數生產過程使用大量數據和智慧互聯機器，不依賴任何人為干預。 |
-    
-    詳細介紹:[[industry]]
+| ----   | Industry 3.0         | Industry 4.0                   |
+| ------ | :------------------- | :----------------------------- |
+| 人為干預部分 | 會需要人在事先設定好程序靠本地端電腦執行 | 多數生產過程使用大量數據和智慧互聯機器，不依賴任何人為干預。 |
+
+詳細介紹:[[industry]]
     
 ![](BJUVc6obT.png)
 
@@ -60,9 +59,9 @@ keyborad、mouse
 #### memory
 
 
-| nonvalid   | valid                |
-| ------- | ----------------------- |
-| magnetic、flash、CDROM、DVD|       memory、cache、register                  |
+| nonvalid                 | valid                 |
+| ------------------------ | --------------------- |
+| magnetic、flash、CDROM、DVD | memory、cache、register |
 由於valid and nonvalid 使memory分為兩種大類型，一種用於快速存取，另一種用於保存資料。
 ##### valid memory
 memory、cache、register 
@@ -74,12 +73,8 @@ memory、cache、register
 #### network
 ![](BJWnZTo-6.png)
 **WAN** : wide area netwwork → 輸入(通常只有一孔)
-
 **LAN** : Local area netwwork → 輸入(通常有多孔)
-
 **Wireless network**: WiFi, Bluetooth
-
-
 #### cpu
 ##### [[馮紐曼]]電腦
 ![](HJt6-piZp.png)
@@ -109,22 +104,18 @@ window and linux kernel and so on
 4. INFORMATION
 
 #### function Marco
-
 - fuctoin :  
-
     it need to return address, so it will cost more tme
-
 - Marco : 
-
     it will insert data into stack , so it did't need return address,but it will cost many space
 
 
 #### compiler
-| ---- | exe              | immediate                       | 直接執行 |
-| ---- | ---------------- | ------------------------------- | -------- |
-| pros | 執行速度快       | 只要有中間檔(&java庫)就可以執行 |    只要有程式碼就能執行      |
-| cons | 換台電腦就不能用 |                 比exe慢                |    跑到才會出錯，比im更慢，會野外露出程式碼   |
-| 舉例 |     C&C++             |     java                            |  python、ruby        |
+| ---- | exe      | immediate           | 直接執行                  |
+| ---- | -------- | ------------------- | --------------------- |
+| pros | 執行速度快    | 只要有中間檔(&java庫)就可以執行 | 只要有程式碼就能執行            |
+| cons | 換台電腦就不能用 | 比exe慢               | 跑到才會出錯，比im更慢，會野外露出程式碼 |
+| 舉例   | C&C++    | java                | python、ruby           |
 #### from code to execute
 ![](BkR8ETibp.png)
 
@@ -243,22 +234,7 @@ window and linux kernel and so on
         - 用權重平均的方式理解
         - 其實不用背啦
         - ex : if here has two program
-        
-        | instruction | a   | b   | c   |
-        | ----------- |:--- |:--- | --- |
-        | cpi         | 1   | 2   | 3   |
-        
-        | program | a   | b   | c   |
-        | ------- |:--- |:--- | --- |
-        | A       | 1   | 1   | 1   |
-        | B       | 1   | 2   | 5   |
-        
-        | ans      | A           | B              |
-        | -------- | ----------- | -------------- |
-        | cycle    | 1+2+3=6     | 1⨯1+2⨯2+3⨯5=20 |
-        | Avg(CPI) | 6/(1+1+1)=2 | 20/(1+2+5)=2.5 |
-        
-    - **Influencing Factors**
+	- **Influencing Factors**
         - Instruction Count for a program(指令數)
             - 程式
             - ISA(指令庫)
@@ -279,16 +255,16 @@ window and linux kernel and so on
     - algorthim
 6. if 你是個資工系學生 ,how to improve cpu time
     
-    |      東東\Cpu Time Factor      | 指令数 | CPI | 時脈速率 |
-    |:------------------------------:|:------:|:--- |:--------:|
-    |           alogorithm           |   ✔️   | ✔️  |    ✖️    |
-    |            資料結構            |   ✔️   | ✔️  |    ✖️    |
-    |         program design         |   ✔️   | ✔️  |    ✖️    |
-    |            complier            |   ✔️   | ✔️  |    ✖️    |
-    | [[ISA]] |   ✔️   | ✔️  |    ✔️    |
-    |              計組              |   ✖️   | ✔️  |    ✔️    |
-    |          VLSI(純硬體)          |   ✖️   | ✖️  |    ✔️    |
-    
+| 東東\Cpu Time Factor | 指令数 | CPI | 時脈速率 |
+| :----------------: | :-: | :-- | :--: |
+|     alogorithm     | ✔️  | ✔️  |  ✖️  |
+|        資料結構        | ✔️  | ✔️  |  ✖️  |
+|   program design   | ✔️  | ✔️  |  ✖️  |
+|      complier      | ✔️  | ✔️  |  ✖️  |
+|      [[ISA]]       | ✔️  | ✔️  |  ✔️  |
+|         計組         | ✖️  | ✔️  |  ✔️  |
+|     VLSI(純硬體)      | ✖️  | ✖️  |  ✔️  |
+
 #### exapand-[[turbo mode]] 
 渦輪模式 : 在 CPU 運算量高時讓 CPO 時脈短暫开高10 %,
 直到 CPO 過熱為止

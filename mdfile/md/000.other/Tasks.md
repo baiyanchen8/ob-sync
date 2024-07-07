@@ -1,7 +1,12 @@
-- [ ] [[4.OS Thread & Concurrency]] 
-	- [ ]  [外部連結](https://blog.csdn.net/phenixyf/article/details/116718762) 
-- [ ] 離散
+- [ ] [[5.OS CPU Scheduler]] 
+	- [ ] 4. [外部連結](https://blog.csdn.net/phenixyf/article/details/116718762)  
+	- [ ] Os 6 一半
+- [ ] 離散 [[lec1 Logic]]
+	- [ ] 未開始
 - [ ] 演算法
+	- [ ] 未開始
 - [ ] 資料結構 [[chap6 graph]]
-- [ ] 計算機組織
-- [ ] 線性代數
+- [ ] 祭祖
+	- [ ] 未開始
+- [ ] 線性代數:[[線代 chap 1]] (3)
+	- [ ] [線性代數 - 臺大開放式課程 (NTU OpenCourseWare)](https://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/102S207/1/V/3)

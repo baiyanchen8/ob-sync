@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9d61f0ae728e9fac",
+        "id": "1735ce251e03a287",
         "type": "tabs",
         "children": [
           {
-            "id": "a8f2278dc084dfcf",
+            "id": "9e4f670124d8cfca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001.考言大戰士/4.os/5.OS CPU Scheduler.md",
+                "file": "001.考言大戰士/5.線性代數/note/線代 chap 1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,25 @@
             }
           },
           {
-            "id": "551ce3421e2d6221",
+            "id": "abe94e2713241f3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001.考言大戰士/4.os/3.OS PROCESSES.md",
+                "file": "001.考言大戰士/1.基礎資料結構/chap6 graph.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b8fb2918ba30a4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "001.考言大戰士/4.os/6.OS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -62,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "RSA",
+                "query": "tag:#numa",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -93,6 +106,7 @@
       {
         "id": "e9709b9635a2af88",
         "type": "tabs",
+        "dimension": 43.55555555555555,
         "children": [
           {
             "id": "ae611fb520470720",
@@ -100,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "001.考言大戰士/4.os/5.OS CPU Scheduler.md",
+                "file": "001.考言大戰士/5.線性代數/note/線代 chap 1.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,8 +131,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "001.考言大戰士/4.os/5.OS CPU Scheduler.md",
-                "linksCollapsed": false,
+                "file": "001.考言大戰士/5.線性代數/note/線代 chap 1.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -135,7 +149,7 @@
             }
           },
           {
-            "id": "54fd259497244e82",
+            "id": "f5c63c9b5caf70b2",
             "type": "leaf",
             "state": {
               "type": "quiet-outline",
@@ -148,9 +162,10 @@
       {
         "id": "494ac88ceff3f4bd",
         "type": "tabs",
+        "dimension": 56.44444444444444,
         "children": [
           {
-            "id": "c89012bcb3ceb8d6",
+            "id": "13abb1400fe7a48e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -166,13 +181,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5,
-    "collapsed": true
+    "width": 331.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:建立新畫布": false,
       "markdown-importer:開啟 Markdown 格式轉換器": false,
+      "canvas:建立新畫布": false,
       "templates:插入模板": false,
       "command-palette:開啟命令面板": false,
       "graph:查看關聯圖": false,
@@ -181,53 +195,53 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "a8f2278dc084dfcf",
+  "active": "9e4f670124d8cfca",
   "lastOpenFiles": [
-    "001.考言大戰士/4.os/3.OS PROCESSES.md",
-    "001.考言大戰士/4.os/5.OS CPU Scheduler.md",
-    "001.考言大戰士/4.os/4.OS Thread & Concurrency.md",
-    "999.datafeild/image/Pasted image 20240702031330.png",
+    "001.考言大戰士/2.祭祖/chap1.md",
     "000.other/Tasks.md",
-    "999.datafeild/image/Pasted image 20240702002126.png",
+    "001.考言大戰士/5.線性代數/note/線代 chap 1.md",
+    "001.考言大戰士/5.線性代數/未命名.md",
+    "001.考言大戰士/5.線性代數/題庫",
+    "001.考言大戰士/5.線性代數/note",
     "001.考言大戰士/4.os/6.OS.md",
-    "999.datafeild/image/4.OS Thread & Concurrency 2024-06-30 14.31.06.excalidraw.md",
-    "999.datafeild/image/4.OS Thread & Concurrency 2024-06-30 09.32.42.excalidraw.md",
-    "999.datafeild/image/4.OS Thread & Concurrency 2024-06-30 14.17.11.excalidraw.md",
-    "999.datafeild/image/Pasted image 20240630135918.png",
-    "999.datafeild/image/4.OS Thread & Concurrency 2024-06-30 10.35.56.excalidraw.md",
-    "999.datafeild/image/4.OS Thread & Concurrency 2024-06-30 10.29.25.excalidraw.md",
-    "999.datafeild/image/4.OS Thread & Concurrency 2024-06-28 23.33.00.excalidraw.md",
-    "999.datafeild/image/Pasted image 20240630085720.png",
-    "999.datafeild/image/Pasted image 20240629005704.png",
-    "999.datafeild/image/Pasted image 20240629000122.png",
-    "999.datafeild/image/Pasted image 20240628235751.png",
-    "999.datafeild/image/3.OS PROCESSES 2024-06-28 00.28.21.excalidraw.md",
-    "999.datafeild/image/Pasted image 20240628181723.png",
-    "001.考言大戰士/4.os/2.OS.md",
-    "999.datafeild/image/Pasted image 20240628083408.png",
-    "999.datafeild/image/Pasted image 20240628005255.png",
-    "001.考言大戰士/4.os/fork.md",
-    "001.考言大戰士/4.os/修課.md",
-    "999.datafeild/image/3.OS PROCESSES 2024-06-26 13.16.08.excalidraw.md",
-    "999.datafeild/image/3.OS PROCESSES 2024-06-26 13.00.15.excalidraw.md",
+    "999.datafeild/image/Pasted image 20240706194154.png",
+    "999.datafeild/image/Pasted image 20240706194104.png",
+    "999.datafeild/image/Pasted image 20240706194049.png",
+    "999.datafeild/image/Pasted image 20240706194047.png",
+    "999.datafeild/image/Pasted image 20240706194027.png",
+    "999.datafeild/image/Pasted image 20240706194021.png",
+    "001.考言大戰士/1.基礎資料結構/chap6 graph.md",
+    "001.考言大戰士/4.os/5.OS CPU Scheduler.md",
+    "999.datafeild/image/Pasted image 20240706190108.png",
+    "001.考言大戰士/4.os/7.OS.md",
     "001.考言大戰士/4.os/1.OS.md",
-    "999.datafeild/Excalidraw/Drawing 2024-06-17 14.33.35.excalidraw.md",
-    "002.資工3/資安與密碼學/lect 1 note.md",
-    "002.資工3/information retrieval/L2 Tolerance Retrieval.md",
-    "002.資工3/information retrieval/lesson 1 for IR.md",
-    "002.資工3/information retrieval/final exam 4110056009 陳柏硯.md",
-    "999.datafeild/Excalidraw/Drawing 2024-06-17 13.10.05.excalidraw.md",
-    "002.資工3/information retrieval/hadoop1.md",
-    "000.other",
-    "未命名.canvas",
-    "002.資工3/pn",
+    "999.datafeild/image/Pasted image 20240706024712.png",
+    "001.考言大戰士/2.祭祖/other/虛擬記憶體.md",
+    "999.datafeild/image/Pasted image 20240705185548.png",
+    "999.datafeild/image/Pasted image 20240705185545.png",
     "001.考言大戰士/6.演算法",
-    "001.考言大戰士/5.線代",
-    "999.datafeild",
-    "002.資工3",
-    "001.考言大戰士",
+    "001.考言大戰士/3.離散數學/lec1 Logic.md",
+    "001.考言大戰士/3.離散數學/lec2.md",
+    "000.other/latex 大全.md",
+    "001.考言大戰士/2.祭祖/other",
+    "001.考言大戰士/3.離散數學/lec4.md",
+    "001.考言大戰士/3.離散數學/lec3 algorithm.md",
+    "Main Page.md",
+    "001.考言大戰士/4.os/未命名 1.md",
+    "001.考言大戰士/5.線性代數",
+    "001.考言大戰士/3.離散數學/離散數學.md",
+    "999.datafeild/image/5.OS CPU Scheduler 2024-07-04 12.17.03.excalidraw.md",
+    "999.datafeild/Excalidraw/Drawing 2024-06-16 16.17.05.excalidraw.md",
+    "000.other/修課.md",
+    "001.考言大戰士/4.os/3.OS PROCESSES.md",
+    "999.datafeild/Excalidraw/Drawing 2024-06-16 14.15.29.excalidraw.md",
+    "001.考言大戰士/4.os/context switch.md",
+    "001.考言大戰士/4.os/fork.md",
     "003.movie/1.發行商",
     "003.movie/0.電影",
-    "pycode"
+    "003.movie",
+    "002.資工3/資安與密碼學",
+    "002.資工3/機器學習",
+    "未命名.canvas"
   ]
 }
