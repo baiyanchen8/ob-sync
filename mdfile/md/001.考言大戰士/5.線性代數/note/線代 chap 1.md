@@ -211,7 +211,35 @@ $$A' = \begin{pmatrix} 1 & 0 & 0 & 1 \\ 0 & 1 & 0 & 2 \\ 0 & 0 & 1 & 1.5 \\ 0 & 
 
 ### Rank (basic variable)
 num of Non-Zero row，可以代表 system 中有用的 equation 有幾個
+> [!tip] define
+> if in consistent(有解) system of equation
+> 	- rank(A) = basic variable 的個數 = rank(\[A|B\])
+> if not consistent 
+> 	- rank(A) +1 = rank(\[A|B\])
 ### Nullity(free variable)
-colum - Rank
+colum - Rank 
 ### Rank-Nullity Theorem
 $$Rank(A)+Nullity(A)=n$$
+### Test of consistency
+ > [!tip] theorem
+ > reduced row echelon form of augmented matrix 中沒有 \[0 0 0 0 0...d\] 則有解，rank(A)=rank(\[A|B\])
+
+# 1.6 Set theorem
+
+- Union set
+	- 聯集
+- intersection set
+	- 交集
+- difference set
+	- 差集
+
+$$R^n=\{[x_1,x_2,x_3......]^T,x_1,x_2,x_3......\in R\}$$
+
+ > [!question] $R^2$ is $R^3$ 的 subset ? 
+ > NO!!!!!!!!
+ 
+ 
+ 
+# 1.6 Span of a Set of Vectors
+
+## Span of S
