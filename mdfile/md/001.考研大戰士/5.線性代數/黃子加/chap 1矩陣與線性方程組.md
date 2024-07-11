@@ -73,7 +73,10 @@ $$
 > 1. $(A+B)^T=A^T+B^T$
 > 2. $(sA)^T=s\cdot A^T$
 > 3. $(A^T)^T=A$
-
+###  對稱矩陣
+> [!tip] define
+> if $A^T=A$ 稱為　Symmetric Matrix
+> if $A^T=-A$ 稱為　skew-Symmetric Matrix
 ### identify Matrix
 **Must be square**
 $I_n = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$
@@ -95,6 +98,39 @@ $I_n = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$
 這是一個二維旋轉矩陣範例：$R(\theta) = \begin{pmatrix} \cos \theta & -\sin \theta \\ \sin \theta & \cos \theta \end{pmatrix}$。
 > [!example]-
 > ![[Pasted image 20240705142701.png]]
+
+### Matrix trace
+> [!tip] define
+> - 當Matrix 為方陣時，他的對角線（左上右下）總和
+> - $\Sigma a_{ii}$
+
+### 共軛(Conjugate)矩陣與轉置共軛(Conjugate Transpose)矩陣
+#### 共軛(Conjugate)矩陣
+$$
+A = \begin{pmatrix} 1 + i & 2 - 3i \\ 4 + 2i & 3 \end{pmatrix}
+$$
+
+$$
+\overline{A} = \begin{pmatrix} 1 - i & 2 + 3i \\ 4 - 2i & 3 \end{pmatrix}
+$$
+#### 轉置共軛(Conjugate Transpose)矩陣
+$$
+A = \begin{pmatrix} 1 + i & 2 - 3i \\ 4 + 2i & 3 \end{pmatrix}
+$$
+
+首先，我們求轉置矩陣 $A^T$：
+$$
+A^T = \begin{pmatrix} 1 + i & 4 + 2i \\ 2 - 3i & 3 \end{pmatrix}
+$$
+
+然後，我們取轉置矩陣的共軛，得到轉置共軛矩陣 $A^H$：
+$$
+A^H = \begin{pmatrix} 1 - i & 4 - 2i \\ 2 + 3i & 3 \end{pmatrix}
+$$
+### Hermitian matrix
+> [!tip] define
+> if $A^H=A$ ，稱為　Hermitian matrix
+> if $A^H=-A$，稱為　skew-Hermitian matrix
 ## Vector 
 - row vector
 	- $[1\ 2\ 3\ 4]$
@@ -105,26 +141,76 @@ $I_n = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$
 	- $R^n=M_{n\times 1}$ 有 n 個 element 的 col vector
 	- $v_i$  第 i 個 element of vector $\textbf{v}$
 
-# 1.2 Linear Combanation
+
+# 1.2 反矩陣
+## define
+> [!tip] define
+> - 左(右)反矩陣
+> 	- $A_{m\times n}B_{n\times m}=I_{m\times m}$
+> 	- 對於 A 而言，B 是右反矩陣（right inverse matrix）
+> 	- 對於 B 而言，A 是左反矩陣（left inverse matrix）
+> - 反矩陣
+> 	- 當　$m==n$
+> 	- 左反=右反
+> 	- 當 A 存在反矩陣時，A 為 inversible matrix or nonsingular matrix
+
+## Theorem 1-6
+> [!tip] define 
+> 方陣(可逆矩陣)的反矩陣存在唯一性
+
+> [!error]- proof
+> **反證法**：
+> 假設不存在唯一性，則可逆矩陣 A 存在 2 反矩陣 B、C 
+> $AB=I$ and $AC=I$
+> that $B=A^{-1}$ and $C=A^{-1}$
+> so $B=A^{-1}=C$ ， $B=C$ 得證反矩陣存在唯一性
+
+## Theorem 1-7
+> [!tip] define
+> if A 為可逆矩陣，$A^{-1}$ 也是可逆矩陣，且$(A^{-1})^{-1}=A$
+
+>[!error]- proof
+> 根據定義：$AA^{-1}=I$
+> so $A$ 的反矩陣為 $A^{-1}$，$A^{-1}$ 的反矩陣也為 $A$
+
+## Theorem 1-8
 
 > [!tip] define
-> $$c_1u_1+c_2u_2+c_3u_3+c_4u_4+...c_ku_k$$
-> 由 coefficient $c_i$ 和 vector $u_i$ 組合而成的向量就稱文為 $u_1$ ~ $u_k$ 的線性組合
+> $A、B\in F_{n\times n}$，if $A、B、AB$ 可逆，that $(AB)^{-1}=B^{-1}A^{-1}$
 
+> [!error]- proof
+> if $AB$ 的反矩陣為 $B^{-1}A^{-1}$
+> that $AB\cdot B^{-1}A^{-1}=B^{-1}A^{-1}\cdot AB=I$
+> because $AB\cdot B^{-1}A^{-1}=B^{-1}A^{-1}\cdot AB=I$ is right 
+> so $AB$ 的反矩陣為 $B^{-1}A^{-1}$
 
-## Standard vectors 
+>[!example]- 
+![[線代chap 1.1]]
 
-$$\left[ \begin{align} 1 \\ 0 \\ 0 \end{align} \right]$$ 只有一個 1 其他都是 0 的 vector 
-## Marix Vector Product
-$$A\mathbb{v}=v_1\mathbb a_1+v_2\mathbb a_2+v_3\mathbb a_3.....$$
-$$A\mathbb{v}=[\mathbb a_1\ \mathbb a_2\ \mathbb a_3.......]\left[\begin{align}v_1\\v_2\\v_3\\v_4\end{align}\right]$$
+## Theorem 1-9
+> [!tip] define
+> if $A$ 為可逆方陣
+> 1. $A^T$ 為可逆且　$(A^{-1})^T=(A^T)^{-1}$
+> 2. $A^H$ 也可逆且　$(A^{-1})^H=(A^H)^{-1}$
 
-![[Pasted image 20240705140422.png]]
+## Define 方陣多項式
+> [!tip] define
+> $$
+> p(A) = a_0 I + a_1 A + a_2 A^2 + \cdots + a_m A^m
+> $$
 
-# 1.3 System of Linear Equation
+## Theorem 1-10
+> [!tip] define
+> 1. $f(A)g(A)=g(A)f(A)$
+> 2. if $g(A)$ 可逆則 $f(A)g(A)^{-1}=g(A)^{-1}f(A)$
+
+# 1.3 基本列運算
+skip 
+# 1.4 線性方程組
+## define 線性系統
 
 ![[Pasted image 20240706190108.png]]
-## Solution set
+### Solution set
 > [!tip] define
 > 以集合方式表達解的方式稱為 solution set
 
@@ -136,7 +222,7 @@ $$A\mathbb{v}=[\mathbb a_1\ \mathbb a_2\ \mathbb a_3.......]\left[\begin{align}v
 - if two system of equation is equivalent 
 	- same solution set
 
-## System linear equation in Matrix
+### System linear equation in Matrix
 
 
 > [!tip] define
@@ -147,35 +233,37 @@ $$A\mathbb{v}=[\mathbb a_1\ \mathbb a_2\ \mathbb a_3.......]\left[\begin{align}v
 > A 為 coefficient matrix，x 為 variable vector，b  is ????(i don't know)
 > $[A|b]$ is augmented matrix(增廣矩陣)
 
-## operation of elementary row (基本行變換)
-#### 行交換
-將矩陣 $A$ 的第 $i$ 行與第 $j$ 行交換可以表示為 $R_i \leftrightarrow R_j$。
-$$\begin{pmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{pmatrix} 
-\xRightarrow{R_1\leftrightarrow R_2}
-\begin{pmatrix} a_{21} & a_{22} & a_{23} \\ a_{11} & a_{12} & a_{13} \\ a_{31} & a_{32} & a_{33} \end{pmatrix}$$
-#### 行乘法
-將矩陣 $A$ 的第 $i$ 行乘以一個非零常數 $k$ 可以表示為 $R_i \rightarrow k R_i$。
-$$
-\begin{pmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{pmatrix} 
-\xRightarrow{R_1\rightarrow 2\times R_1}
-\begin{pmatrix} 2\times a_{11} &2\times  a_{12} &2\times  a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{pmatrix} 
-$$
-#### 行加法
-將矩陣 $A$ 的第 $i$ 行加上第 $j$ 行的 $k$ 倍可以表示為 $R_i \rightarrow R_i + k R_j$。
-$$
-\begin{pmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{pmatrix} 
-\xRightarrow{R_1\rightarrow R_1+1\times R_2}
-\begin{pmatrix} a_{11} +a_{21} &  a_{12}+a_{22} &  a_{13}+a_{23} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{pmatrix} 
-$$
+- if b =0 
+	- 稱$Ax=0$ 為齊次線性系統(homogeneous linear system)
+- if b$\not =$ 0
+	- 稱$Ax=b$ 為非齊次線性系統(nonhomogeneous linear system)
+## 注意事項　1-14
+> [!note]
+> 在齊次線性系統中，$Ax=0$ 因為 $A\cdot 0=0$ 必成立，所以$Ax=0$必有解，稱為顯然解（trivial solution）
+> 
 
-## (Reduced) Row Echelon Form 
+## Theorem 1-15
+> [!tip] define
+> 假設 $A\in F_{m\times n}$，其中$F=\mathbb R\ or\ \mathbb C$ 為一個無限體,則 $Ax=0$具非零解 $\Leftrightarrow$ $Ax=0$ 具有無限多解
+
+> [!error]- proof
+> 1. $Ax=0$具非零解 $\Leftarrow$ $Ax=0$ 具有無限多解
+> 顯而易見
+> 2.  $Ax=0$具非零解 $\Rightarrow$ $Ax=0$ 具有無限多解 	
+> 假設 $Ax = 0$ 具有非零解。這意味著 $A$ 的零空間（null space）有非零向量，即 $\text{Null}(A)$ 至少有一個非零向量 $v$。 
+>  我們來考慮這個非零向量 $v$，以及所有 $v$ 的標量倍數 $cv$，其中 $c \in F$ 且 $c \neq 0$。這些向量 $cv$ 也必定是 $A$ 的解，因為：  $$  A(cv) = cA(v) = c \cdot 0 = 0$$  
+>  由於 $F$ 是無限體，因此 $c$ 可以取無限多個不同的值，從而 $cv$ 可以形成無限多個不同的解。  
+>  因此，零空間 $\text{Null}(A)$ 包含無限多個不同的解。這證明了當 $Ax = 0$ 具有非零解時，它必然具有無限多解。  
+>  綜上所述，我們得到了完整的證明：$Ax = 0$ 具有非零解 $\Leftrightarrow$ $Ax = 0$ 具有無限多解。
+
+## define (Reduced) Row Echelon Form 
 ### Row Echelon Form, REF
 
 一個矩陣處於列階梯形時具有以下特性：
 
 1. 所有的 非零 row 都在 零 row 的上方。
 2. 每個 非零  row 的首個非零元素（稱為主元、leading entry）位於其**上方**的leading entry 右側。
-4. 主元(leading entry)**下方**的元素全為零。
+3. 主元(leading entry)**下方**的元素全為零。
 
 $$ A = \begin{pmatrix} 1 & 2 & 3 & 4 \\ 0 & 1 & 0 & 2 \\ 0 & 0 & 2 & 3 \\ 0 & 0 & 0 & 0 \end{pmatrix} $$
 ### Reduced Row Echelon Form, RREF
@@ -189,26 +277,30 @@ $$A' = \begin{pmatrix} 1 & 0 & 0 & 1 \\ 0 & 1 & 0 & 2 \\ 0 & 0 & 1 & 1.5 \\ 0 & 
 ### 意義
 > [!tip] 當 augmented matrix in (Reduced) Row Echelon Form ，求解會變得很容易
 
-# 1.4 Gaussian Elimination
- 高斯消去法（Gaussian Elimination）是一種用來求解線性方程組、求矩陣的秩和求矩陣的逆的方法。這種方法通過一系列的行變換將矩陣轉換成行階梯形或簡化行階梯形，從而使得問題變得更加容易解決。
+## define Gaussion 消去法、Gauss-Jodan消去法
+1. 將矩陣運算到 row echelon form ，就是 Gaussion 消去法
+2. 將矩陣運算到 reduced row echelon form，就是 Gauss-Jodan消去法
+## Theorem 1-16
+> [!tip] define
+> 當 $[A|a]=[B|b]$（列等價） 時，$Ax=a$ 與 $Bx=b$ 有相同的解集合
 
-### 高斯消去法的步驟
+## Theorem 1-17
+> [!tip] define
+> 當 $A=B$（列等價） 時，$Ax=0$ 與 $Bx=0$ 有相同的解集合
 
-高斯消去法主要包括以下步驟：
+## Theorem 1-18
+> [!tip] define
+> 假設$x_0$為$Ax=b$的其中一個解，解集合為$\{x_0+u|u\in U\}$，其中 $U=\{u|Au=0\}$
 
-1. **前向消去（Forward Elimination）：** 將矩陣轉換成行階梯形（Row Echelon Form, REF）。
-2. **回代（Back Substitution）：** 將行階梯形轉換成簡化行階梯形（Reduced Row Echelon Form, RREF）。
+> [!error] proof
+> 1. 假設 $x_0$ 是  $Ax = b$ 的解，即 $Ax_0 = b$。
+> 2. 令 $u = x - x_0$。我們要證明 $u \in U$，即 $A u = 0$。
+> 3. 由於 $A x = b$ 且 $A x_0 = b$，我們有：$$A u = A (x - x_0) = A x - A x_0 = b - b = 0$$
+> 4. 因此，任何 $x$ 可以表示為 $x = x_0 + u$，其中 $u \in U$。
+> 
+> 這表明，方程 $Ax = b$ 的解集合可以表示為 $\{x_0 + u \mid u \in U\}$，其中 $U = \{u \mid Au = 0\}$ 是齊次方程 $Au = 0$ 的解空間。
 
-### 前向消去
-
-通過一系列的基本行變換將矩陣的下三角部分變為零。
-
-### 回代
-
-通過從下至上的操作，將每一列的主元變為1，並且將主元所在列的其他元素變為零。
-
-## Rank and Nullity (必需要在 RREF 下計算)
-
+## define---Rank and Nullity (必需要在 RREF 下計算)
 ### Rank (basic variable)
 num of Non-Zero row，可以代表 system 中有用的 equation 有幾個
 > [!tip] define
@@ -224,22 +316,5 @@ $$Rank(A)+Nullity(A)=n$$
  > [!tip] theorem
  > reduced row echelon form of augmented matrix 中沒有 \[0 0 0 0 0...d\] 則有解，rank(A)=rank(\[A|B\])
 
-# 1.6 Set theorem
-
-- Union set
-	- 聯集
-- intersection set
-	- 交集
-- difference set
-	- 差集
-
-$$R^n=\{[x_1,x_2,x_3......]^T,x_1,x_2,x_3......\in R\}$$
-
- > [!question] $R^2$ is $R^3$ 的 subset ? 
- > NO!!!!!!!!
- 
- 
- 
-# 1.6 Span of a Set of Vectors
-
-## Span of S
+## Theorem 1-19 Ax=b 有解？
+> [!tip] define

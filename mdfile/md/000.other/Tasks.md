@@ -1,8 +1,7 @@
 - [ ] [[5.OS CPU Scheduler]] 
 	- [ ] 4. [外部連結](https://blog.csdn.net/phenixyf/article/details/116718762)  
 	- [ ] Os 6 一半
-- [ ] 離散 [[lec1 Logic]]
-	- [ ] 未開始
+- [ ] 離散 [[lec4]]
 - [ ] 演算法
 	- [ ] 未開始
 - [ ] 資料結構 [[chap6 graph]]

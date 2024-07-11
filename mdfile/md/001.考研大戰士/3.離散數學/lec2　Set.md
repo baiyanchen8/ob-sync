@@ -45,13 +45,13 @@ the set-O of odd positive intergers less than 10 can be express by ?
 
 Set-A and Set-B are equal if and only if $\forall x(x\in A \leftrightarrow x\in B)$ .
 簡單來說就是A裡有的B有，B裡有的A也有。（饒口令呢！！）
-
+ 
 ### Example
 #### take 1
 ![[tempFileForShare_20240502-224653.jpg]]
 
 > [!NOTE] all same 
-> 由於 Set 是不會有順序&重複的問的，so 都一樣
+> 由於 Set 是不會有順序&重複的問題，so 都一樣
 > Which set of problem are same ?
 ## Define---subsets
 when $\forall x(x \in A \rightarrow x \in B)$ that we say A is a subset of B ($A \subseteq B$)
@@ -182,25 +182,25 @@ $\bar A=\{x\in U|x\notin A\}$
 $|A\cup B|=|A|+|B|-|A\cap B|$
 $|A-B|=|A|-|A\cap B|$
 ## Set identities (運算規則)
-
+　
 | Name                     | identities                                        |
 | ------------------------ | ------------------------------------------------- |
 | identity laws 同一律        | $A \cap U=A$                                      |
-| ^                        | $A\cup \emptyset=A$                               |
+|                          | $A\cup \emptyset=A$                               |
 | Domination laws 支配律      | $A \cup U=U$                                      |
-| ^                        | $A\cap \emptyset=\emptyset$                       |
+|                          | $A\cap \emptyset=\emptyset$                       |
 | Idempotent laws 冪等律      | $A\cap A=A$                                       |
-| ^                        | $A\cup A=A$                                       |
+|                          | $A\cup A=A$                                       |
 | Complementation laws 補集律 | $\overline{ \bar A}=A$                            |
 | Commutative laws 交換律     | $A\cap B=B\cap A$                                 |
-| ^                        | $A\cup B=B\cup A$                                 |
+|                          | $A\cup B=B\cup A$                                 |
 | Associative laws 結合律     | $(A\cap B)\cap C=A\cap(B\cap C)$                  |
 | Distribution laws 分配律    | $A\cup(B\cap C)=(A\cup B)\cap(A\cup C)$           |
 | De Morgan's laws         | $\overline{A\cap B}=\overline A \cup \overline B$ |
 | Absortion laes 吸收律       | $A\cup(A\cap B)=A$                                |
-| ^                        | $A\cap(A\cup B)=A$                                |
+|                          | $A\cap(A\cup B)=A$                                |
 | Complement laws 補律       | $A\cup\bar A=U$                                   |
-| ^                        | $A\cap\bar A=\emptyset$                           |
+|                          | $A\cap\bar A=\emptyset$                           |
 
 ### how to prove 2 sets are equal ?
 1. show that each is a subset of other
@@ -287,9 +287,10 @@ Remark: Functions are sometimes also called mappings or transformations
 
 ## Define---Other related related terms for functions
 ![[Pasted image 20240504160032.png|600]]
-
+> [!tip] define
 >如果 f 是從 A 到 B 的函數，我們說 A 是函數 f 的定義域(domain)，B 是函數 f 的對象域(codomain)。如果 f (a) = b，我們說 b 是 a 的對應值(image)，而 a 是 b 的原像(preimage)。函數 f 的值域(range,image)，也就是 f 的對象域(B codomain)中所有對應值的集合(所有f(a)=b成立的b的集合)。此外，如果 f 是從 A 到 B 的函數，我們說 f 將 A 對應(maps)到 B。
 
+![[lec2　Set 2024-07-10 13.25.19.excalidraw|600]]
 ### Related issus: Smae Fuction
 we define a fuction with:
 1. domain
@@ -310,7 +311,7 @@ function F 是將 A 映射到 B ，S 是 A 的 subset 。求F(S)?
 ##### ans
 $$\huge{F(S)=\{t|\exists\ x\in S(t=F(x))\}}$$
   
-> [!nOTE] 備註：
+> [!tIp] 備註：
 > 對於函數 f 下集合 S 的像，使用符號 f(S) 有潛在的歧義。在這裡，f(S) 表示一個集合，而不是函數 f 對集合 S 的值。 
 
 ### Example
@@ -391,9 +392,9 @@ with f (a) = 2, f (b) = 1, f (c) = 4, f (d) = 1, and f (e) = 1. if S is subset o
 ## Define---Geometric progression(等比級數)
 ### 等比級數和
 ####  if  1~n
-$$\huge{S_n=\frac{a_1\times(1-r^n)}{1-r},q\not=1}$$
+$$\huge{S_n=\frac{a_1\times(1-r^n)}{1-r},r\not=1}$$
 ####  if  0~n
-$$\huge{S_n=\frac{a_0\times(1-r^{n+1})}{1-r},q\not=1}$$
+$$\huge{S_n=\frac{a_0\times(1-r^{n+1})}{1-r},r\not=1}$$
 ### 推導
 $$\large{\begin{align*} 
 S_0 &= a_0 \\
@@ -428,6 +429,7 @@ $$
 $$\huge{S=\frac{a_0+a_n}{2}=\frac{2a_0+(n)\times d}{2}}$$
 
 ## Define---Recurrence Relations(遞迴關係)
+> [!tip] define
 > 後面一項是由前幾項構成
 ### Example
 ![[Pasted image 20240504230203.png]]
@@ -435,7 +437,10 @@ $$\huge{S=\frac{a_0+a_n}{2}=\frac{2a_0+(n)\times d}{2}}$$
 ![[Pasted image 20240504230240.png|600]]
 
 ### 閉式解(closed formula)
-解析解又稱閉式解，是可以用解析表達式來表達的解， 在數學上若一個方程式或方程組存在某些解，是由有限 次常見運算組合給出的形式，則稱該方程式存在解析解
+解析解又稱閉式解，是可以用解析表達式來表達的解， 在數學上若一個方程式或方程組存在某些解，是由有限次常見運算組合給出的形式，則稱該方程式存在解析解
+1. **有限運算**：閉式解中的所有運算都是有限次數的。
+2. **基本運算和函數**：只涉及基本的數學運算和函數。
+3. **無需遞迴或無窮和**：閉式解不依賴於無窮遞迴或無窮級數。
 
 #### Example for 閉式解
 ![[Pasted image 20240504235510.png]]
@@ -446,14 +451,14 @@ $$\huge{S=\frac{a_0+a_n}{2}=\frac{2a_0+(n)\times d}{2}}$$
 
 #### forworad substitution or backward substitution
 ![[Pasted image 20240505000711.png]]
-> **forward substitution**
+> [!tip] forward substitution
 > $a_2=2+3$
 > $a_3=(2+3)+3$
 > $a_4=(2+3*2)+3$
 > .....
 > $a_n=2+3*(n-1)$
 
-> **backward substitution**
+> [!tip] backward substitution
 > $a_n=a_{n-1}+3$
 > $a_n=a_{n-2}+3+3$
 > $a_n=a_{n-3}+3+3+3$
@@ -490,13 +495,13 @@ $$\huge{S=\frac{a_0+a_n}{2}=\frac{2a_0+(n)\times d}{2}}$$
 ![[Pasted image 20240505012436.png]]
 ```
 
-> 左圖前五項要背歐
+> 右圖前五項要背歐
 
 ## 補充第八章(閉式解)
 
 ### 矩陣對角化
 #### Example
-> $a_{n+1}=a_n+2a_{n-1}$
+>[!question] $\huge{a_{n+1}=a_n+2a_{n-1}}$
 
 1. 透過二階矩陣，將二階遞迴化為一階
 $$
@@ -514,7 +519,7 @@ $$
 ![[Pasted image 20240505132857.png]]
 #### Step
 1. 將遞迴關係式轉換為特徵方程式
-3. 求特徵方程式解-> $\lambda_1$ & $\lambda_2$ -> $a_n=C_1(\lambda_1)^n+C_2(\lambda_2)^n$
+3. 求特徵方程式解 → $\lambda_1$ & $\lambda_2$ -> $a_n=C_1(\lambda_1)^n+C_2(\lambda_2)^n$
 5. 帶入初始值求常數解 ($C_1$ & $C_2$)-> 完成求解
 
 ### 生成函數

@@ -36,6 +36,8 @@
 | `$\cap$`          | $\cap$          |
 | `$\cup$`          | $\cup$          |
 | `$\dot\cup$`      | $\dot\cup$      |
+| `$\oplus$`        | $\oplus$        |
+
 
 
 ### 字體

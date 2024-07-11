@@ -175,10 +175,8 @@ window and linux kernel and so on
 
 ## How to evaluate the performance of a computer performance
 
-
 ### Concept of multiple criteria
 因為電腦是一種由多種零件組合起來的集合，所以不能只用單一的標準去判斷電腦的好壞
-
 
 ####  Five criteria of Performance of hardware
 1. Response time
