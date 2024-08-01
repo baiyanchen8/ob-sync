@@ -6,6 +6,7 @@
       {
         "id": "1735ce251e03a287",
         "type": "tabs",
+        "dimension": 49.92937853107343,
         "children": [
           {
             "id": "9e4f670124d8cfca",
@@ -91,6 +92,7 @@
       {
         "id": "8d2b18452224f0be",
         "type": "tabs",
+        "dimension": 50.07062146892657,
         "children": [
           {
             "id": "164828f3b11c65ad",
@@ -256,7 +258,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "9e4f670124d8cfca",
+  "active": "61af2e102ee22bbb",
   "lastOpenFiles": [
     "001.考研大戰士/5.線性代數/台大/線代 chap 1.md",
     "001.考研大戰士/5.線性代數/黃子加/chap 1矩陣與線性方程組.md",

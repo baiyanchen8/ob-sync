@@ -205,7 +205,10 @@ $$
 > 2. if $g(A)$ 可逆則 $f(A)g(A)^{-1}=g(A)^{-1}f(A)$
 
 # 1.3 基本列運算
-skip 
+## Theorem 1-14
+> [!tip] define
+> if $A$ 列等價於 $B$ 則，存在 可逆矩陣$P$ 使 $B=PA$
+> $P$ 為多個 $I$ 的乘積（P 為初等矩陣即為　$I$  進行 row operation 之後的結果）
 # 1.4 線性方程組
 ## define 線性系統
 
@@ -302,7 +305,7 @@ $$A' = \begin{pmatrix} 1 & 0 & 0 & 1 \\ 0 & 1 & 0 & 2 \\ 0 & 0 & 1 & 1.5 \\ 0 & 
 
 ## define---Rank and Nullity (必需要在 RREF 下計算)
 ### Rank (basic variable)
-num of Non-Zero row，可以代表 system 中有用的 equation 有幾個
+**num of Non-Zero row**，可以代表 system 中有用的 equation 有幾個
 > [!tip] define
 > if in consistent(有解) system of equation
 > 	- rank(A) = basic variable 的個數 = rank(\[A|B\])
@@ -318,3 +321,60 @@ $$Rank(A)+Nullity(A)=n$$
 
 ## Theorem 1-19 Ax=b 有解？
 > [!tip] define
+> 1. $rank(A)\not =rank([A|b])\Leftrightarrow Ax=b$ 無解$$範例：A=\left[\begin{matrix}1&0&0\\ 0&1&0\\ 0&0&0\end{matrix}\right]，[A|b]=\left[\begin{array}{ccc|c}1&0&0&1\\ 0&1&0&1\\ 0&0&0&1\end{array}\right]$$
+> 2. $rank(A) =rank([A|b])=row\ 數\Leftrightarrow Ax=b$ 有唯一解 $$範例：A=\left[\begin{matrix}1&0&0\\ 0&1&0\\ 0&0&1\end{matrix}\right]，[A|b]=\left[\begin{array}{ccc|c}1&0&0&1\\ 0&1&0&1\\ 0&0&1&1\end{array}\right]$$
+> 3.  $rank(A) =rank([A|b])<row\ 數\Leftrightarrow Ax=b$ 無限組解$$範例：A=\left[\begin{matrix}1&0&0\\ 0&1&0\\ 0&0&0\end{matrix}\right]，[A|b]=\left[\begin{array}{ccc|c}1&0&0&1\\ 0&1&0&1\\ 0&0&0&0\end{array}\right]$$
+
+
+# 1.5可逆矩陣
+## 引理
+> [!tip] define 
+> 假設$A\in F_{m\times n}$，則 $Ax=0$只有 0 解 $\Leftrightarrow$ A列等價於 $I_n$
+
+
+> [!error] proof - 沒必要
+
+## Theorem 1-20
+> [!tip] define
+> $A\in F_{n\times n}$,即 A 為方陣時下列敘述等價
+> 1. $A$ 為可逆矩陣
+> 2. $Ax=0$ 只有 0 解
+> 3. $A$ 列等價 $I$
+> 4. $A$ 為若干個基本矩陣（$I$）乘積
+
+## Theore 1-21
+> [!tip] define 
+> 假設 $A、B \in F_{m\times n }$,則 A 列等價於 B $\Leftrightarrow$存在一可逆矩陣 P  使 $PB=A$
+
+>[!error] proof
+> ($\Leftarrow$) 
+> 左成一次列基本（初始）矩陣相當做一次列運算，而一個可逆矩陣就是一個初始矩陣
+
+## Theorem 1-22
+> [!tip] define
+> if $A \in F_{m \times m}$
+> 1. A 有右反矩陣 B ，則 $A^{-1}=B$,且 A 可逆
+> 2. A 有左反矩陣 C ，則 $A^{-1}=C$,且 A 可逆
+> => 但是方陣的左反不是等於右反矩陣？
+## Theorem 1-23
+> [!tip] define
+> if $A\in F_{n\times n}$,下列敘述等價
+> 1. $A$ 為可逆矩陣
+> 2. $\forall b\in F_{n\times1}$,$Ax=b$ 具有唯一解
+> 4. $\forall b\in F_{n\times1}$,$Ax=b$ 有解
+
+
+> [!error] proof
+> 3 $\Rightarrow$  1 
+> 因為 "for all b" $Ax=b$ 有解
+> 則可假定 $e_i=第i位為1且其他位為0的colum\ vector$
+> 且$A\times x_i=e_i$,令$E=[x_1....x_n]$
+> $AE=[Ax_1 Ax_2......Ax_n]=[e_1 e_2 ....e_n]=I_n$
+> 則可以看出 $E$ 為 $A$ 的右反矩陣，又因為 $A$ 為方陣，所以可說 $E$ 為 $A^{-1}$
+> $\Rightarrow$  由此看出 $A$ 為可逆矩陣
+
+# 1-6 LU 分解
+
+## Define--- LU 分解
+> [!tip] define
+> 
