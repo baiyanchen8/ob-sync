@@ -6,22 +6,7 @@
       {
         "id": "1735ce251e03a287",
         "type": "tabs",
-        "dimension": 49.92937853107343,
         "children": [
-          {
-            "id": "9e4f670124d8cfca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "001.考研大戰士/5.線性代數/黃子加/chap 1矩陣與線性方程組.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            },
-            "group": "94148f1679baf08e"
-          },
           {
             "id": "1dd35e6a6d503f45",
             "type": "leaf",
@@ -86,27 +71,6 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "8d2b18452224f0be",
-        "type": "tabs",
-        "dimension": 50.07062146892657,
-        "children": [
-          {
-            "id": "164828f3b11c65ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "001.考研大戰士/5.線性代數/黃子加/chap 1矩陣與線性方程組.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            },
-            "group": "94148f1679baf08e"
           }
         ]
       }
@@ -176,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "001.考研大戰士/5.線性代數/黃子加/chap 1矩陣與線性方程組.md",
+                "file": "001.考研大戰士/5.線性代數/台大/線代 chap 1.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -193,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "001.考研大戰士/5.線性代數/黃子加/chap 1矩陣與線性方程組.md",
+                "file": "001.考研大戰士/5.線性代數/台大/線代 chap 1.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -258,10 +222,11 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "61af2e102ee22bbb",
+  "active": "1dd35e6a6d503f45",
   "lastOpenFiles": [
-    "001.考研大戰士/5.線性代數/台大/線代 chap 1.md",
+    "000.other/修課.md",
     "001.考研大戰士/5.線性代數/黃子加/chap 1矩陣與線性方程組.md",
+    "001.考研大戰士/5.線性代數/台大/線代 chap 1.md",
     "001.考研大戰士/3.離散數學/lec4.md",
     "001.考研大戰士/4.os/6.OS.md",
     "002.資工3/資安與密碼學/lec 6 note.md",
@@ -302,7 +267,6 @@
     "001.考研大戰士/4.os/未命名 1.md",
     "001.考研大戰士/5.線性代數",
     "001.考研大戰士/3.離散數學/離散數學.md",
-    "999.datafeild/image/5.OS CPU Scheduler 2024-07-04 12.17.03.excalidraw.md",
     "003.movie/1.發行商",
     "003.movie/0.電影",
     "003.movie",
