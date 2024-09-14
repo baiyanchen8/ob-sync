@@ -1,6 +1,6 @@
 - [ ] [[5.OS CPU Scheduler]] 
 	- [ ] 4. [外部連結](https://blog.csdn.net/phenixyf/article/details/116718762)  
-	- [ ] Os 6 一半
+	- [ ] Os 6-5 (42開始)
 - [ ] 離散 [[lec4]]
 - [ ] 演算法
 	- [ ] 未開始
@@ -8,4 +8,5 @@
 - [ ] 祭祖
 	- [ ] 未開始
 - [ ] 線性代數:[[線代 chap 1]] (3)
-	- [ ] [線性代數 - 臺大開放式課程 (NTU OpenCourseWare)](https://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/102S207/1/V/3)
+	- 01-01
+		- p15-4
