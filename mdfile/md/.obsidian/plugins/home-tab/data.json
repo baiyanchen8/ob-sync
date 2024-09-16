@@ -24,12 +24,16 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "001.考研大戰士/4.os/os/6.OS.md",
-      "timestamp": 1726454469028
+      "filepath": "000.other/Tasks.md",
+      "timestamp": 1726475159526
     },
     {
-      "filepath": "000.other/Tasks.md",
-      "timestamp": 1726454374693
+      "filepath": "001.考研大戰士/2.祭祖/chap1.md",
+      "timestamp": 1726474584738
+    },
+    {
+      "filepath": "001.考研大戰士/4.os/os/6.OS.md",
+      "timestamp": 1726454469028
     },
     {
       "filepath": "001.考研大戰士/4.os/os/7.OS.md",
@@ -38,10 +42,6 @@
     {
       "filepath": "001.考研大戰士/4.os/os/8.OS.md",
       "timestamp": 1726454242022
-    },
-    {
-      "filepath": "001.考研大戰士/4.os/os/9.OS.md",
-      "timestamp": 1726454239821
     }
   ],
   "starredFileStore": [],
