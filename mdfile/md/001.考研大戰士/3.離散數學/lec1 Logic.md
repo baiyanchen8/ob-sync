@@ -37,7 +37,7 @@ tags: [離散]
 | 反演律   | $A \land \neg A = \text{False}$                                   |
 |       | $A \lor \neg A = \text{True}$                                     |
 |       |                                                                   |
-
+ 
 
 # 量詞
 
