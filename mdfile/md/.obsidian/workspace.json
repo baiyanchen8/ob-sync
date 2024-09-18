@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001.考研大戰士/4.os/os/6.OS.md",
+                "file": "001.考研大戰士/4.os/os/9.OS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000.other/Tasks.md",
+                "file": "001.考研大戰士/4.os/os/9.OS.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000.other/Tasks.md",
+                "file": "001.考研大戰士/4.os/os/9.OS.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +221,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 331.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,18 +236,19 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "13abb1400fe7a48e",
+  "active": "0b8fb2918ba30a4f",
   "lastOpenFiles": [
-    "001.考研大戰士/2.祭祖/chap1.md",
+    "001.考研大戰士/5.線性代數/台大/線代 chap 1.md",
+    "001.考研大戰士/4.os/os/9.OS.md",
+    "999.datafeild/image/Pasted image 20240918093744.png",
+    "001.考研大戰士/4.os/os/8.OS.md",
+    "001.考研大戰士/4.os/os/7.OS.md",
     "001.考研大戰士/4.os/os/6.OS.md",
     "000.other/Tasks.md",
-    "001.考研大戰士/4.os/os/7.OS.md",
-    "001.考研大戰士/4.os/os/8.OS.md",
-    "001.考研大戰士/4.os/os/9.OS.md",
+    "001.考研大戰士/2.祭祖/chap1.md",
     "001.考研大戰士/3.離散數學/lec1 Logic.md",
     "001.考研大戰士/3.離散數學/lec2　Set.md",
     "001.考研大戰士/4.os/os/3.OS PROCESSES.md",
-    "001.考研大戰士/5.線性代數/台大/線代 chap 1.md",
     "001.考研大戰士/4.os/simple shell.md",
     "999.datafeild/image/Pasted image 20240914101929.png",
     "999.datafeild/image/Pasted image 20240914101912.png",
@@ -267,7 +269,6 @@
     "001.考研大戰士/4.os/未命名 1.md",
     "001.考研大戰士/4.os/os/10.OS.md",
     "001.考研大戰士/4.os/os",
-    "001.考研大戰士/4.os/os/2.OS.md",
     "001.考研大戰士/5.線性代數/題庫",
     "001.考研大戰士/5.線性代數/黃子加",
     "999.datafeild/image/Pasted image 20240710040116.png",
@@ -277,7 +278,6 @@
     "999.datafeild/image/Pasted image 20240706194154.png",
     "999.datafeild/image/Pasted image 20240706194104.png",
     "999.datafeild/image/Pasted image 20240706194049.png",
-    "999.datafeild/image/Pasted image 20240706194047.png",
     "001.考研大戰士/6.演算法",
     "001.考研大戰士/2.祭祖/other",
     "001.考研大戰士/5.線性代數",
