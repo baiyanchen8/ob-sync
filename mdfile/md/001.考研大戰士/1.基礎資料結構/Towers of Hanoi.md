@@ -13,22 +13,20 @@ tags: [基礎資料結構, 練習題]
 
 
 ```python=
-count=0
-def hanoi(n, source, target, auxiliary):
-    global count
-    
-    if n > 0:
-        count+=1
-        # 将 n-1 个圆盘从源杆移动到辅助杆
-        hanoi(n-1, source, auxiliary, target)
-        
-        # 将第 n 个圆盘从源杆移动到目标杆
-        print(f"Move disk {n} from {source} to {target}")
-        # 将 n-1 个圆盘从辅助杆移动到目标杆
-        hanoi(n-1, auxiliary, target, source)
-# 测试
-n = 7 # 圆盘的数量
-hanoi(n, 'A', 'C', 'B')
-print(count)
-
+def hanoi(n, a, b, c):
+	if n == 1:
+		print(a, '-->', c)
+	else:
+		hanoi(n - 1, a, c, b)
+		hanoi(1    , a, b, c)
+		hanoi(n - 1, b, a, c)
+# 调用
+if __name__ == '__main__':
+	hanoi(5, 'A', 'B', 'C')
 ```
+
+總即動次數:
+$$
+T(n)=T(n-1)+T(1)+T(n-1),T(1)=1
+$$
+$$T(n)=2^n-1$$
