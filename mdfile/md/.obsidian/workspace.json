@@ -36,7 +36,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001.考研大戰士/4.os/os/6.OS.md",
+                "file": "001.考研大戰士/4.os/os/11.OS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000.other/Tasks.md",
+                "file": "001.考研大戰士/4.os/os/11.OS.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000.other/Tasks.md",
+                "file": "001.考研大戰士/4.os/os/11.OS.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +231,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 331.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -245,9 +246,15 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "13abb1400fe7a48e",
+  "active": "c91c76e9519e84f6",
   "lastOpenFiles": [
+    "999.datafeild/image/Pasted image 20241007145640.png",
+    "999.datafeild/image/Pasted image 20241007142419.png",
+    "999.datafeild/image/Pasted image 20241007142356.png",
+    "999.datafeild/image/Pasted image 20241007142352 1.png",
+    "999.datafeild/image/Pasted image 20241007142352.png",
     "001.考研大戰士/4.os/os/6.OS.md",
+    "000.other/Tasks.md",
     "001.考研大戰士/4.os/os/11.OS.md",
     "999.datafeild/image/Pasted image 20241007130259.png",
     "999.datafeild/image/Pasted image 20241007130239.png",
@@ -255,21 +262,16 @@
     "999.datafeild/image/Pasted image 20241007124823.png",
     "999.datafeild/image/Pasted image 20241007120045.png",
     "999.datafeild/image/Pasted image 20241007115652.png",
-    "999.datafeild/image/Pasted image 20241007074315.png",
-    "999.datafeild/image/Pasted image 20241007072202.png",
     "001.考研大戰士/3.離散數學/lec2　Set.md",
     "001.考研大戰士/3.離散數學/lec3 algorithm.md",
     "001.考研大戰士/3.離散數學/lec4.md",
     "001.考研大戰士/3.離散數學/lec1 Logic.md",
-    "999.datafeild/image/Pasted image 20241001180132.png",
-    "999.datafeild/image/Pasted image 20241001180130.png",
     "001.考研大戰士/5.線性代數/台大/線代 chap 1.md",
     "999.datafeild/image/11.OS 2024-09-28 20.10.12.excalidraw.md",
     "001.考研大戰士/4.os/other_os/未命名 1.md",
     "001.考研大戰士/4.os/other_os",
     "未命名",
     "001.考研大戰士/4.os/os/5.OS CPU Scheduler.md",
-    "000.other/Tasks.md",
     "999.datafeild/image/Pasted image 20240928203317.png.~tmp",
     "001.考研大戰士/1.基礎資料結構/chap6 graph.md",
     "999.datafeild/Excalidraw/Drawing 2024-09-28 13.41.17.excalidraw.md",
