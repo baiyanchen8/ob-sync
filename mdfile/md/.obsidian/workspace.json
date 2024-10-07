@@ -36,7 +36,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001.考研大戰士/4.os/os/11.OS.md",
+                "file": "001.考研大戰士/4.os/os/6.OS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "001.考研大戰士/4.os/os/11.OS.md",
+                "file": "000.other/Tasks.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "001.考研大戰士/4.os/os/11.OS.md",
+                "file": "000.other/Tasks.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -245,8 +245,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "c91c76e9519e84f6",
+  "active": "13abb1400fe7a48e",
   "lastOpenFiles": [
+    "001.考研大戰士/4.os/os/6.OS.md",
+    "001.考研大戰士/4.os/os/11.OS.md",
     "999.datafeild/image/Pasted image 20241007130259.png",
     "999.datafeild/image/Pasted image 20241007130239.png",
     "999.datafeild/image/Pasted image 20241007125104.png",
@@ -255,15 +257,12 @@
     "999.datafeild/image/Pasted image 20241007115652.png",
     "999.datafeild/image/Pasted image 20241007074315.png",
     "999.datafeild/image/Pasted image 20241007072202.png",
-    "001.考研大戰士/4.os/os/6.OS.md",
     "001.考研大戰士/3.離散數學/lec2　Set.md",
     "001.考研大戰士/3.離散數學/lec3 algorithm.md",
     "001.考研大戰士/3.離散數學/lec4.md",
     "001.考研大戰士/3.離散數學/lec1 Logic.md",
-    "001.考研大戰士/4.os/os/11.OS.md",
     "999.datafeild/image/Pasted image 20241001180132.png",
     "999.datafeild/image/Pasted image 20241001180130.png",
-    "999.datafeild/image/Pasted image 20241001175119.png",
     "001.考研大戰士/5.線性代數/台大/線代 chap 1.md",
     "999.datafeild/image/11.OS 2024-09-28 20.10.12.excalidraw.md",
     "001.考研大戰士/4.os/other_os/未命名 1.md",
