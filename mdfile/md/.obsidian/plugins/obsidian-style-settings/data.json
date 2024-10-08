@@ -8,5 +8,8 @@
   "blue-topaz-theme@@accent-strong@@dark": "#00FFD4CC",
   "blue-topaz-theme@@accent-strong@@light": "#00E1FF",
   "blue-topaz-theme@@accent-em@@dark": "#FF6161",
-  "blue-topaz-theme@@text-indentation-two-em": false
+  "blue-topaz-theme@@text-indentation-two-em": false,
+  "aura@@italic-color": "rgb(var(--cpt-cyan))",
+  "aura@@aura-neon-list": false,
+  "aura@@cpt-marker-shadow": "rgb(var(--cpt-purple))"
 }
