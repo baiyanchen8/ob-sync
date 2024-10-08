@@ -34,6 +34,19 @@
             }
           },
           {
+            "id": "479a3b4b8c9718cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "001.考研大戰士/4.os/os/12.OS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "cb7d36f1c0f0a98c",
             "type": "leaf",
             "state": {
@@ -86,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -115,7 +128,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "roun",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -132,7 +145,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -153,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "001.考研大戰士/4.os/os/11.OS.md",
+                "file": "001.考研大戰士/4.os/os/12.OS.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -170,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "001.考研大戰士/4.os/os/11.OS.md",
+                "file": "001.考研大戰士/4.os/os/12.OS.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -234,13 +248,15 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "c91c76e9519e84f6",
+  "active": "479a3b4b8c9718cf",
   "lastOpenFiles": [
+    "999.datafeild/image/Pasted image 20241008223914.png",
+    "001.考研大戰士/4.os/os/11.OS.md",
+    "001.考研大戰士/4.os/os/12.OS.md",
     "999.datafeild/image/Pasted image 20241008200255.png",
     "999.datafeild/image/Pasted image 20241008200057.png",
     "999.datafeild/image/Pasted image 20241008200008.png",
     "Main Page.md",
-    "001.考研大戰士/4.os/os/11.OS.md",
     "999.datafeild/image/Pasted image 20241008195305.png",
     "999.datafeild/image/Pasted image 20241008195036.png",
     "999.datafeild/image/Pasted image 20241008155356.png",
@@ -248,7 +264,6 @@
     "999.datafeild/image/Pasted image 20241008155300.png",
     "999.datafeild/image/Pasted image 20241008155156.png",
     "999.datafeild/image/Pasted image 20241008155031.png",
-    "999.datafeild/image/Pasted image 20241008155028.png",
     "001.考研大戰士/4.os/other_os/simple shell.md",
     "001.考研大戰士/3.離散數學/lec2　Set.md",
     "001.考研大戰士/4.os/os/6.OS.md",
@@ -274,7 +289,6 @@
     "001.考研大戰士/4.os/os/3.OS PROCESSES.md",
     "001.考研大戰士/4.os/other_os/pid manager.md",
     "001.考研大戰士/4.os/other_os/oslab期中.md",
-    "001.考研大戰士/4.os/other_os/oslab15.md",
     "001.考研大戰士/4.os/os",
     "001.考研大戰士/5.線性代數/題庫",
     "001.考研大戰士/5.線性代數/黃子加",
