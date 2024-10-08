@@ -21,16 +21,6 @@
             }
           },
           {
-            "id": "4129d67b0e99e6e5",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "999.datafeild/image/Pasted image 20240926194051.png"
-              }
-            }
-          },
-          {
             "id": "c91c76e9519e84f6",
             "type": "leaf",
             "state": {
@@ -96,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,8 +136,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5026054382324,
-    "collapsed": true
+    "width": 300.5026054382324
   },
   "right": {
     "id": "b03ce395fb964a80",
@@ -231,8 +220,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5,
-    "collapsed": true
+    "width": 331.5
   },
   "left-ribbon": {
     "hiddenItems": {
