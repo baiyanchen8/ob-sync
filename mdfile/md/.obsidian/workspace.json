@@ -34,51 +34,12 @@
             }
           },
           {
-            "id": "cb7d36f1c0f0a98c",
+            "id": "d6848dba82bda085",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001.考研大戰士/4.os/other_os/simple shell.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "68e6eae882ff49e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "001.考研大戰士/3.離散數學/lec4.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4418cb5134fd48c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "001.考研大戰士/2.祭祖/chap1.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a567dbce2bc8ebc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "001.考研大戰士/1.基礎資料結構/chap6 graph.md",
+                "file": "001.考研大戰士/2.祭祖/other/DMA.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -115,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "roun",
+                "query": "DMA",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -132,7 +93,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -238,23 +200,25 @@
   },
   "active": "c91c76e9519e84f6",
   "lastOpenFiles": [
+    "001.考研大戰士/2.祭祖/other/DMA.md",
+    "001.考研大戰士/4.os/os/12.OS.md",
+    "999.datafeild/image/Pasted image 20241009102820.png",
+    "999.datafeild/image/Pasted image 20241009102634.png",
+    "999.datafeild/image/Pasted image 20241009102145.png",
+    "001.考研大戰士/4.os/os/1.OS.md",
+    "999.datafeild/image/12.OS 2024-10-09 10.16.39.excalidraw.md",
+    "999.datafeild/image/Pasted Image 20241009101802_961.png",
+    "999.datafeild/image/Pasted image 20241009101338.png",
+    "999.datafeild/image/Pasted image 20241009101302.png",
     "999.datafeild/image/Pasted image 20241009095122.png",
     "999.datafeild/image/Pasted image 20241009093734.png",
     "999.datafeild/image/Pasted image 20241009092917.png",
     "999.datafeild/image/Pasted image 20241009092904.png",
-    "999.datafeild/image/Pasted image 20241009092353.png",
     "001.考研大戰士/4.os/os/11.OS.md",
     "001.考研大戰士/3.離散數學/lec4.md",
     "001.考研大戰士/4.os/other_os/simple shell.md",
     "999.datafeild/image/calculus/calculus.md",
     "999.datafeild/image/calculus",
-    "999.datafeild/image/Pasted image 20241008231802.png",
-    "999.datafeild/image/Pasted image 20241008231602.png",
-    "999.datafeild/image/Pasted image 20241008225941.png",
-    "999.datafeild/image/Pasted image 20241008224625.png",
-    "999.datafeild/image/Pasted image 20241008223914.png",
-    "999.datafeild/image/Pasted image 20241008200255.png",
-    "001.考研大戰士/4.os/os/12.OS.md",
     "001.考研大戰士/4.os/os/6.OS.md",
     "000.other/Tasks.md",
     "001.考研大戰士/3.離散數學/lec2　Set.md",
@@ -275,9 +239,6 @@
     "001.考研大戰士/4.os/os/7.OS.md",
     "001.考研大戰士/2.祭祖/chap1.md",
     "001.考研大戰士/4.os/os/8.OS.md",
-    "001.考研大戰士/4.os/os/3.OS PROCESSES.md",
-    "001.考研大戰士/4.os/other_os/pid manager.md",
-    "001.考研大戰士/4.os/other_os/oslab期中.md",
     "001.考研大戰士/4.os/os",
     "001.考研大戰士/5.線性代數/題庫",
     "001.考研大戰士/5.線性代數/黃子加",
