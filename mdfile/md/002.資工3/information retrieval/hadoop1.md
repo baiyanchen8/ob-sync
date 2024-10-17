@@ -24,6 +24,9 @@ cd hadoop_tutorial
 1. **fs** 指的是對 file system 操作
 2.  `-` 後面放的是要做時麼操作
 3. 將**speech**放到 **speech@hdfs** 
+```
+$hadoop fs -put speech 
+```
 
 ![[Pasted image 20240513144831.png]]
 

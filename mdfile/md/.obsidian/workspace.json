@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001.考研大戰士/4.os/os/12.OS.md",
+                "file": "002.資工3/information retrieval/hadoop1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -93,8 +93,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -116,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "001.考研大戰士/4.os/os/12.OS.md",
+                "file": "002.資工3/information retrieval/hadoop1.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -133,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "001.考研大戰士/4.os/os/12.OS.md",
+                "file": "002.資工3/information retrieval/hadoop1.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -200,21 +199,21 @@
   },
   "active": "c91c76e9519e84f6",
   "lastOpenFiles": [
+    "001.考研大戰士/2.祭祖/other/DMA.md",
+    "999.datafeild/image/Pasted image 20241012233332.png",
+    "999.datafeild/image/Pasted image 20241011115923.png",
+    "999.datafeild/image/Pasted image 20241011115700.png",
+    "999.datafeild/image/Pasted image 20241011104222.png",
+    "001.考研大戰士/4.os/os/12.OS.md",
+    "001.考研大戰士/4.os/os/7.OS.md",
+    "001.考研大戰士/4.os/os/1.OS.md",
+    "999.datafeild/image/Pasted image 20241011093220.png",
+    "999.datafeild/image/Pasted image 20241011093115.png",
     "999.datafeild/image/Pasted image 20241009213148.png",
     "999.datafeild/image/Pasted image 20241009212658.png",
     "999.datafeild/image/Pasted image 20241009211639.png",
     "999.datafeild/image/Pasted image 20241009133717.png",
-    "999.datafeild/image/Pasted image 20241009133706.png",
-    "999.datafeild/image/Pasted image 20241009105205.png",
-    "999.datafeild/image/Pasted image 20241009104617.png",
-    "001.考研大戰士/2.祭祖/other/DMA.md",
-    "001.考研大戰士/4.os/os/12.OS.md",
-    "999.datafeild/image/Pasted image 20241009102820.png",
-    "999.datafeild/image/Pasted image 20241009102634.png",
-    "999.datafeild/image/Pasted image 20241009102145.png",
-    "001.考研大戰士/4.os/os/1.OS.md",
     "999.datafeild/image/12.OS 2024-10-09 10.16.39.excalidraw.md",
-    "999.datafeild/image/Pasted Image 20241009101802_961.png",
     "001.考研大戰士/4.os/os/11.OS.md",
     "001.考研大戰士/3.離散數學/lec4.md",
     "001.考研大戰士/4.os/other_os/simple shell.md",
@@ -237,7 +236,6 @@
     "001.考研大戰士/1.基礎資料結構/Towers of Hanoi.md",
     "001.考研大戰士/4.os/os/10.OS.md",
     "001.考研大戰士/4.os/os/9.OS.md",
-    "001.考研大戰士/4.os/os/7.OS.md",
     "001.考研大戰士/2.祭祖/chap1.md",
     "001.考研大戰士/4.os/os/8.OS.md",
     "001.考研大戰士/4.os/os",
