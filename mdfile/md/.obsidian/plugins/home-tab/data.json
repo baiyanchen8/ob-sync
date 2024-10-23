@@ -25,7 +25,11 @@
   "recentFilesStore": [
     {
       "filepath": "001.考研大戰士/4.os/os/12.OS.md",
-      "timestamp": 1729645472526
+      "timestamp": 1729653417193
+    },
+    {
+      "filepath": "001.考研大戰士/4.os/os/1.OS.md",
+      "timestamp": 1729653410126
     },
     {
       "filepath": "001.考研大戰士/3.離散數學/lec2　Set.md",
@@ -38,10 +42,6 @@
     {
       "filepath": "999.datafeild/image/DMA 2024-10-17 16.26.35.excalidraw.md",
       "timestamp": 1729153595860
-    },
-    {
-      "filepath": "002.資工3/information retrieval/hadoop1.md",
-      "timestamp": 1729151671644
     }
   ],
   "starredFileStore": [],
