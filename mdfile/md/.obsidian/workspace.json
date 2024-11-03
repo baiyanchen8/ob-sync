@@ -4,50 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "1735ce251e03a287",
+        "id": "7c6c3f8a503da435",
         "type": "tabs",
         "children": [
           {
-            "id": "1dd35e6a6d503f45",
+            "id": "5fc93e3ad04c2042",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "001.考研大戰士/3.離散數學/lec2　Set.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c91c76e9519e84f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "002.資工3/information retrieval/hadoop1.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d6848dba82bda085",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "001.考研大戰士/4.os/os/12.OS.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "home-tab-view",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,13 +61,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300.5026054382324,
-    "collapsed": true
+    "width": 300.5026054382324
   },
   "right": {
     "id": "b03ce395fb964a80",
@@ -116,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "001.考研大戰士/4.os/os/12.OS.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -133,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "001.考研大戰士/4.os/os/12.OS.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -158,8 +122,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "494ac88ceff3f4bd",
@@ -198,33 +161,37 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "d6848dba82bda085",
+  "active": "5fc93e3ad04c2042",
   "lastOpenFiles": [
-    "999.datafeild/image/Pasted image 20241023113631.png",
+    "001.考研大戰士/3.離散數學/lec2　Set.md",
+    "002.資工3/information retrieval/hadoop1.md",
+    "001.考研大戰士/4.os/os/7.OS.md",
+    "001.考研大戰士/4.os/os/6.OS.md",
+    "001.考研大戰士/4.os/os/5.OS CPU Scheduler.md",
+    "001.考研大戰士/4.os/os/4.OS Thread & Concurrency.md",
+    "001.考研大戰士/4.os/os/3.OS PROCESSES.md",
+    "001.考研大戰士/4.os/os/2.OS.md",
     "001.考研大戰士/4.os/os/1.OS.md",
     "001.考研大戰士/4.os/os/12.OS.md",
+    "001.考研大戰士/2.祭祖/other/DMA.md",
+    "001.考研大戰士/4.os/os/10.OS.md",
+    "999.datafeild/image/Pasted image 20241023113631.png",
     "999.datafeild/image/Pasted image 20241023102755.png",
     "999.datafeild/image/Pasted image 20241023094206.png",
     "999.datafeild/image/Pasted image 20241017165251.png",
     "999.datafeild/image/Pasted image 20241017165043.png",
     "999.datafeild/image/Pasted image 20241017163350.png",
-    "001.考研大戰士/3.離散數學/lec2　Set.md",
-    "001.考研大戰士/2.祭祖/other/DMA.md",
     "999.datafeild/image/DMA 2024-10-17 16.26.35.excalidraw.md",
     "999.datafeild/image/Pasted image 20241017161933.png",
-    "002.資工3/information retrieval/hadoop1.md",
     "999.datafeild/image/Pasted image 20241012233332.png",
     "999.datafeild/image/Pasted image 20241011115923.png",
     "999.datafeild/image/Pasted image 20241011115700.png",
-    "999.datafeild/image/Pasted image 20241011104222.png",
-    "001.考研大戰士/4.os/os/7.OS.md",
     "999.datafeild/image/12.OS 2024-10-09 10.16.39.excalidraw.md",
     "001.考研大戰士/4.os/os/11.OS.md",
     "001.考研大戰士/3.離散數學/lec4.md",
     "001.考研大戰士/4.os/other_os/simple shell.md",
     "999.datafeild/image/calculus/calculus.md",
     "999.datafeild/image/calculus",
-    "001.考研大戰士/4.os/os/6.OS.md",
     "000.other/Tasks.md",
     "001.考研大戰士/3.離散數學/lec3 algorithm.md",
     "001.考研大戰士/3.離散數學/lec1 Logic.md",
@@ -233,13 +200,9 @@
     "001.考研大戰士/4.os/other_os/未命名 1.md",
     "001.考研大戰士/4.os/other_os",
     "未命名",
-    "001.考研大戰士/4.os/os/5.OS CPU Scheduler.md",
     "999.datafeild/image/Pasted image 20240928203317.png.~tmp",
     "001.考研大戰士/1.基礎資料結構/chap6 graph.md",
     "999.datafeild/Excalidraw/Drawing 2024-09-28 13.41.17.excalidraw.md",
-    "001.考研大戰士/1.基礎資料結構/Towers of Hanoi.md",
-    "001.考研大戰士/4.os/os/10.OS.md",
-    "001.考研大戰士/4.os/os/9.OS.md",
     "001.考研大戰士/4.os/os",
     "001.考研大戰士/5.線性代數/題庫",
     "001.考研大戰士/5.線性代數/黃子加",
