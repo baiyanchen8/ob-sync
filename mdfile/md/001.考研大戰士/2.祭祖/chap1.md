@@ -213,7 +213,7 @@ window and linux kernel and so on
             - 一秒幾個Cycle( 頻率 or 時脈 )
 3. CPI(cycle per instruction)
     - 每個instruction平均有多少週期
-    - $CPI=Cp\ Clock\ Cycle/Instruction\ Num$
+    - $CPI=Cpu\ Clock\ Cycle/Instruction\ Num$
         - InstructionNum(次數)
             - Instruction 的數量
         - CPI(次數/次數)
