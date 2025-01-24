@@ -4,20 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7c6c3f8a503da435",
+        "id": "b907fe9b53aaecde",
         "type": "tabs",
         "children": [
           {
-            "id": "5fc93e3ad04c2042",
+            "id": "374d0aeb8965bc4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001.考研大戰士/2.祭祖/chap1.md",
+                "file": "001.考研大戰士/2.祭祖/考研筆記 - 計算機組織 (大碩張凡).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "考研筆記 - 計算機組織 (大碩張凡)"
             }
           }
         ]
@@ -40,7 +42,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "檔案瀏覽器"
             }
           },
           {
@@ -49,13 +53,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "thoughput",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜尋"
             }
           },
           {
@@ -63,14 +69,17 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "書籤"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b03ce395fb964a80",
@@ -87,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "001.考研大戰士/2.祭祖/chap1.md",
+                "file": "001.考研大戰士/2.祭祖/考研筆記 - 計算機組織 (大碩張凡).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -95,7 +104,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "考研筆記 - 計算機組織 (大碩張凡) 的反向連結"
             }
           },
           {
@@ -104,10 +115,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "001.考研大戰士/2.祭祖/chap1.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "對外連結"
             }
           },
           {
@@ -118,7 +130,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "標籤"
             }
           },
           {
@@ -126,10 +140,13 @@
             "type": "leaf",
             "state": {
               "type": "quiet-outline",
-              "state": {}
+              "state": {},
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "494ac88ceff3f4bd",
@@ -146,15 +163,16 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Tasks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 331.5,
-    "collapsed": true
+    "width": 331.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,14 +186,23 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "5fc93e3ad04c2042",
+  "active": "f5c63c9b5caf70b2",
   "lastOpenFiles": [
+    "001.考研大戰士/2.祭祖/未命名.md",
+    "001.考研大戰士/4.os/os/1.OS.md",
+    "999.datafeild/image/lec2　Set 2024-07-10 13.25.19.excalidraw.md",
+    "999.datafeild/image/Poor_Things_Poster.jpg",
+    "002.資工3/資安與密碼學/lec 2 note.md",
+    "002.資工3/資安與密碼學/密碼學.md",
+    "002.資工3/資安與密碼學/HW04_4110056009_陳柏硯.md",
+    "001.考研大戰士/2.祭祖/chap1.md",
+    "002.資工3/資安與密碼學/HW05_4110056009_陳柏硯.md",
+    "001.考研大戰士/2.祭祖/計算機組織與計算機結構(資料統整).md",
+    "001.考研大戰士/2.祭祖/祭祖.md",
     "001.考研大戰士/4.os/os/10.OS.md",
     "001.考研大戰士/4.os/os/2.OS.md",
-    "001.考研大戰士/4.os/os/1.OS.md",
     "001.考研大戰士/4.os/os/3.OS PROCESSES.md",
     "001.考研大戰士/4.os/os/4.OS Thread & Concurrency.md",
-    "001.考研大戰士/2.祭祖/chap1.md",
     "999.datafeild/image/3.OS PROCESSES 2024-06-26 13.00.15.excalidraw.md",
     "002.資工3/機器學習/Decision Tree.md",
     "002.資工3/機器學習/What is Machine Learning.md",
@@ -188,14 +215,6 @@
     "002.資工3/機器學習/Dimensionality Reduction.md",
     "002.資工3/機器學習/Data Preprocessing.md",
     "002.資工3/機器學習/Deep Learning and Neural Network.md",
-    "002.資工3/機器學習/機器學習.md",
-    "002.資工3/information retrieval/hadoop1.md",
-    "002.資工3/機器學習/特徵縮放.md",
-    "001.考研大戰士/2.祭祖/chap2.md",
-    "001.考研大戰士/2.祭祖/祭祖.md",
-    "001.考研大戰士/4.os/os/12.OS.md",
-    "001.考研大戰士/4.os/os/9.OS.md",
-    "001.考研大戰士/3.離散數學/lec2　Set.md",
     "999.datafeild/image/Pasted image 20241023113631.png",
     "999.datafeild/image/Pasted image 20241023102755.png",
     "999.datafeild/image/Pasted image 20241023094206.png",
@@ -205,7 +224,6 @@
     "999.datafeild/image/Pasted image 20241017161933.png",
     "999.datafeild/image/Pasted image 20241012233332.png",
     "999.datafeild/image/Pasted image 20241011115923.png",
-    "999.datafeild/image/Pasted image 20241011115700.png",
     "999.datafeild/image/calculus",
     "001.考研大戰士/4.os/other_os",
     "未命名",
