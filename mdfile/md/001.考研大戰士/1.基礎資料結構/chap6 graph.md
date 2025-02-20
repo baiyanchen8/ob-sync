@@ -370,7 +370,7 @@ void addedge(int a, int b) {
 3. 確認該邊是否滿足不發生迴圈的條件，以決定是否加入該邊的兩端入 union =>$O(1)$
 4. 重複 2、3 直至完成 MST => O(V)
 
-```python fold="Prim Pyhon（真好用）實現"
+```python fold="Prim Python（真好用）實現"
 from collections import defaultdict
 
 class Graph:

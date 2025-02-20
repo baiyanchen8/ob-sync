@@ -140,6 +140,7 @@ struct term{
 struct term matrix[item+1];
 ```
 通常，在這個表示法的第一行，也就是matrix[0]會用於放置整個矩陣的基本訊息。
+
 - matrix[0].col
 	- matrix的行數
 - matrix[0].row
@@ -150,11 +151,11 @@ struct term matrix[item+1];
 	- 升序
 	- row>col
 
-|i	|0	|1	|2	|3	|4	|5	|6	|7	|8|
-|---|---|---|---|---|---|---|---|---|--|
-|r	|6	|0	|0	|0	|1	|1	|2	|4	|5|
-|c	|6	|0	|3	|5	|1	|2	|3	|0	|2|
-|value	|8	|15	|22	|-15	|11	|3	|-6	|91	|28|
+| i     | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   |
+| ----- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| r     | 6   | 0   | 0   | 0   | 1   | 1   | 2   | 4   | 5   |
+| c     | 6   | 0   | 3   | 5   | 1   | 2   | 3   | 0   | 2   |
+| value | 8   | 15  | 22  | -15 | 11  | 3   | -6  | 91  | 28  |
 
 ### 2.5.3 轉置矩陣
 #### transpose
@@ -187,7 +188,7 @@ struct term *transpose(const struct term *A) {
 假設 value =$col\times row$
 ⇒ $\mathcal{O}(col^2 \times row)$
 ⇒太爛了
-
+$$\frac{1}{2}$$
 ---
 
 #### fast transport(use counting sort)

@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001.考研大戰士/4.os/os/7.OS.md",
+                "file": "001.考研大戰士/1.基礎資料結構/chap6 graph.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7.OS"
+              "title": "chap6 graph"
             }
           },
           {
@@ -61,14 +61,13 @@
                 "file": "001.考研大戰士/2.祭祖/考研筆記 - 計算機組織 (大碩張凡).md",
                 "mode": "source",
                 "backlinks": false,
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "考研筆記 - 計算機組織 (大碩張凡)"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "copy-on",
+                "query": "union",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -218,7 +217,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 331.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -232,34 +232,34 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "eaaa6e63e6ebe07e",
+  "active": "374d0aeb8965bc4d",
   "lastOpenFiles": [
-    "001.考研大戰士/2.祭祖/計算機組織與計算機結構(資料統整).md",
+    "001.考研大戰士/1.基礎資料結構/chap6 graph.md",
+    "001.考研大戰士/1.基礎資料結構/chap4 linklist.md",
     "001.考研大戰士/4.os/os/11.OS.md",
+    "001.考研大戰士/1.基礎資料結構/Towers of Hanoi.md",
+    "001.考研大戰士/3.離散數學/lec2　Set.md",
+    "001.考研大戰士/3.離散數學/lec1 Logic.md",
+    "001.考研大戰士/4.os/os/6.OS.md",
     "001.考研大戰士/4.os/os/7.OS.md",
+    "999.datafeild/Excalidraw/Drawing 2024-06-11 19.34.08.excalidraw.md",
+    "001.考研大戰士/1.基礎資料結構/chap2 陣列&結構.md",
+    "001.考研大戰士/1.基礎資料結構/chap1 introduction.md",
+    "001.考研大戰士/5.線性代數/黃子加/chap 1矩陣與線性方程組.md",
+    "001.考研大戰士/4.os/os/1.OS.md",
     "001.考研大戰士/2.祭祖/考研筆記 - 計算機組織 (大碩張凡).md",
+    "001.考研大戰士/2.祭祖/計算機組織與計算機結構(資料統整).md",
     "001.考研大戰士/4.os/os/8.OS.md",
     "001.考研大戰士/4.os/os/9.OS.md",
     "001.考研大戰士/4.os/os/12.OS.md",
     "001.考研大戰士/4.os/os/10.OS.md",
-    "001.考研大戰士/4.os/os/6.OS.md",
     "001.考研大戰士/4.os/os/5.OS CPU Scheduler.md",
     "001.考研大戰士/2.祭祖/other/Amdahl’s Law.md",
     "999.datafeild/image/4.OS Thread & Concurrency 2024-06-30 14.31.06.excalidraw.md",
-    "001.考研大戰士/4.os/os/1.OS.md",
     "001.考研大戰士/4.os/os/4.OS Thread & Concurrency.md",
     "001.考研大戰士/4.os/os/3.OS PROCESSES.md",
     "001.考研大戰士/4.os/other_os/os.md",
     "001.考研大戰士/4.os/other_os/oslab10.md",
-    "001.考研大戰士/4.os/other_os/oslab11.md",
-    "001.考研大戰士/4.os/other_os/oslab12.md",
-    "001.考研大戰士/4.os/other_os/oslab13.md",
-    "001.考研大戰士/4.os/other_os/oslab14.md",
-    "001.考研大戰士/4.os/other_os/oslab15.md",
-    "001.考研大戰士/4.os/other_os/oslab-9.md",
-    "001.考研大戰士/2.祭祖/other/作業2 for 祭祖.md",
-    "001.考研大戰士/2.祭祖/未命名.md",
-    "001.考研大戰士/2.祭祖/祭祖.md",
     "999.datafeild/image/Poor_Things_Poster.jpg",
     "999.datafeild/image/Pasted image 20241023113631.png",
     "999.datafeild/image/Pasted image 20241023102755.png",
