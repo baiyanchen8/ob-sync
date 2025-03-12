@@ -1,6 +1,6 @@
 {
-  "accentColor": "#8d5dfe",
-  "cssTheme": "Aura",
+  "accentColor": "#fe5d5d",
+  "cssTheme": "80s Neon",
   "theme": "obsidian",
-  "nativeMenus": false
+  "nativeMenus": true
 }
