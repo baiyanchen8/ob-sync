@@ -11,7 +11,6 @@ tags: [基礎資料結構, 練習題]
 
 Ｑ：試求完成的最少次數
 
-
 ```python=
 def hanoi(n, a, b, c):
 	if n == 1:
