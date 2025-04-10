@@ -11,5 +11,6 @@
   "blue-topaz-theme@@text-indentation-two-em": false,
   "aura@@italic-color": "rgb(var(--cpt-cyan))",
   "aura@@aura-neon-list": false,
-  "aura@@cpt-marker-shadow": "rgb(var(--cpt-purple))"
+  "aura@@cpt-marker-shadow": "rgb(var(--cpt-purple))",
+  "anuppuccin-theme-settings@@anp-decoration-toggle": true
 }

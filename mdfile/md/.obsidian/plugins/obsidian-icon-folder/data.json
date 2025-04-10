@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiAlignCenter",
       "RiTodoLine",
       "🗓",
       "📆"
@@ -31,5 +32,6 @@
     "iconInTitlePosition": "above",
     "lucideIconPackType": "native",
     "useInternalPlugins": false
-  }
+  },
+  "000.other/Tasks.md": "LiAlignCenter"
 }
