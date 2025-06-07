@@ -4,40 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "5d67489b950d1c12",
+        "id": "4c241efdf188238e",
         "type": "tabs",
         "children": [
           {
-            "id": "05f5b6687c201a75",
+            "id": "b87e1878916ed0c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001.考研大戰士/4.os/os/12.OS.md",
+                "file": "001.考研大戰士/4.os/io/chap8 Address Resolution Protocol (ARP).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "12.OS"
+              "title": "chap8 Address Resolution Protocol (ARP)"
             }
           },
           {
-            "id": "2bf391f5a772c09d",
+            "id": "bc32b0eb2b9ea827",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001.考研大戰士/4.os/os/11.OS.md",
+                "file": "001.考研大戰士/4.os/io/chap6 Delivery and Routing of IP Packets.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "11.OS"
+              "title": "chap6 Delivery and Routing of IP Packets"
+            }
+          },
+          {
+            "id": "d77bae764d52559f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "001.考研大戰士/4.os/io/chap9 Internet Control Message Protocol Version 4 (ICMPv4).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "chap9 Internet Control Message Protocol Version 4 (ICMPv4)"
+            }
+          },
+          {
+            "id": "da40b7e14566cb97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "001.考研大戰士/4.os/io/chap7 Internet Protocol Version4 (IPv4).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "chap7 Internet Protocol Version4 (IPv4)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"![[Pasted image 20241009092904.png]]\"",
+                "query": "ARP",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -94,8 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5,
-    "collapsed": true
+    "width": 351.5
   },
   "right": {
     "id": "b03ce395fb964a80",
@@ -193,7 +223,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 331.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,54 +238,54 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "05f5b6687c201a75",
+  "active": "bc32b0eb2b9ea827",
   "lastOpenFiles": [
-    "999.datafeild/image/Pasted image 20250411050029.png",
-    "999.datafeild/image/Pasted image 20250411045141.png",
-    "001.考研大戰士/4.os/os/11.OS.md",
-    "001.考研大戰士/4.os/os/12.OS.md",
-    "999.datafeild/image/Pasted image 20250410214910.png",
-    "999.datafeild/image/Pasted image 20250410214558.png",
-    "999.datafeild/image/Pasted image 20241023113631.png",
-    "001.考研大戰士/2.祭祖/other/DMA.md",
+    "001.考研大戰士/4.os/io/chap 11.md",
+    "001.考研大戰士/4.os/io/chap8 Address Resolution Protocol (ARP).md",
+    "001.考研大戰士/4.os/io/chap9 Internet Control Message Protocol Version 4 (ICMPv4).md",
+    "999.datafeild/image/Pasted image 20250607192132.png",
+    "001.考研大戰士/4.os/io/chap7 Internet Protocol Version4 (IPv4).md",
+    "未命名.md",
+    "999.datafeild/Excalidraw/Drawing 2025-06-07 18.59.44.excalidraw.md",
+    "999.datafeild/Excalidraw/Drawing 2025-06-07 18.56.52.excalidraw.md",
+    "999.datafeild/image/Pasted Image 20250607185909_841.png",
+    "999.datafeild/image/Pasted Image 20250607185853_837.png",
     "000.other/Tasks.md",
-    "999.datafeild/image/Pasted image 20241008224625.png",
-    "999.datafeild/image/Pasted image 20240928141448.png",
+    "999.datafeild/image/Pasted image 20250607155751.png",
+    "999.datafeild/image/Pasted image 20250607155749.png",
+    "999.datafeild/image/Pasted image 20250603111917.png",
+    "999.datafeild/image/Pasted image 20250603105855.png",
+    "999.datafeild/image/Pasted image 20250603105850.png",
+    "999.datafeild/image/Pasted image 20250603105510.png",
+    "999.datafeild/image/Pasted image 20250603104541.png",
+    "001.考研大戰士/4.os/io/chap2 The OSI Model and TCP IP Protocol Suite.md",
+    "001.考研大戰士/4.os/io/Chap3 Underlying Networks and Connecting Devices.md",
+    "001.考研大戰士/4.os/io/chap4 Introduction to Network Layer.md",
+    "001.考研大戰士/4.os/io/chap5 IPv4 Address.md",
+    "001.考研大戰士/4.os/io/else/flow1.md",
+    "001.考研大戰士/4.os/io/chap6 Delivery and Routing of IP Packets.md",
+    "001.考研大戰士/4.os/io/chap1.md",
+    "else",
+    "001.考研大戰士/4.os/io/else/example1.md",
+    "001.考研大戰士/4.os/io/else",
+    "001.考研大戰士/4.os/os/12.OS.md",
+    "未命名 1",
+    "001.考研大戰士/4.os/io",
+    "001.考研大戰士/4.os/os/11.OS.md",
+    "001.考研大戰士/2.祭祖/other/DMA.md",
     "001.考研大戰士/3.離散數學/lec3 algorithm.md",
-    "999.datafeild/image/ByDoh2Mt6.png",
     "001.考研大戰士/1.基礎資料結構/chap4 linklist.md",
     "001.考研大戰士/1.基礎資料結構/chap2 陣列&結構.md",
     "001.考研大戰士/1.基礎資料結構/chap1 introduction.md",
     "001.考研大戰士/3.離散數學/題庫/離散數學2-1-18.md",
     "999.datafeild/Excalidraw/Drawing 2024-05-09 01.03.40.excalidraw.md",
     "Main Page.md",
-    "001.考研大戰士/3.離散數學/離散數學.md",
-    "001.考研大戰士/1.基礎資料結構/chap7 for基礎資料結構.md",
-    "999.datafeild/image/12.OS 2024-10-09 10.16.39.excalidraw.md",
-    "999.datafeild/image/Pasted image 20241008225941.png",
-    "001.考研大戰士/2.祭祖/考研筆記 - 計算機組織 (大碩張凡).md",
-    "999.datafeild/Excalidraw/Drawing 2024-06-11 19.34.08.excalidraw.md",
-    "999.datafeild/Excalidraw/Drawing 2024-06-03 01.55.32.excalidraw.md",
-    "999.datafeild/Excalidraw/Drawing 2024-05-09 09.38.24.excalidraw.md",
-    "001.考研大戰士/1.基礎資料結構/Towers of Hanoi.md",
-    "999.datafeild/image/Pasted image 20241009093734.png",
-    "001.考研大戰士/1.基礎資料結構/index.md",
     "003.資工4",
-    "001.考研大戰士/1.基礎資料結構/chap6 graph.md",
-    "001.考研大戰士/3.離散數學/lec2　Set.md",
-    "001.考研大戰士/3.離散數學/lec1 Logic.md",
-    "001.考研大戰士/4.os/os/6.OS.md",
-    "001.考研大戰士/4.os/os/7.OS.md",
-    "999.datafeild/image/Poor_Things_Poster.jpg",
     "999.datafeild/image/calculus",
     "001.考研大戰士/4.os/other_os",
     "999.datafeild/image/Pasted image 20240928203317.png.~tmp",
     "001.考研大戰士/4.os/os",
     "001.考研大戰士/5.線性代數/題庫",
-    "001.考研大戰士/5.線性代數/黃子加",
-    "001.考言大戰士/5.線性代數/題庫",
-    "001.考研大戰士/5.線性代數/台大",
-    "001.考研大戰士/6.演算法",
     "未命名.canvas"
   ]
 }
