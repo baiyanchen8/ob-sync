@@ -28,13 +28,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001.考研大戰士/4.os/io/chap6 Delivery and Routing of IP Packets.md",
+                "file": "001.考研大戰士/4.os/io/chap2 The OSI Model and TCP IP Protocol Suite.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "chap6 Delivery and Routing of IP Packets"
+              "title": "chap2 The OSI Model and TCP IP Protocol Suite"
+            }
+          },
+          {
+            "id": "11afee5be8f37a07",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "999.datafeild/image/chap 11 2025-06-10 19.46.34.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "chap 11 2025-06-10 19.46.34.excalidraw"
             }
           },
           {
@@ -100,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ARP",
+                "query": "wireless",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -125,7 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 365.5
   },
   "right": {
     "id": "b03ce395fb964a80",
@@ -142,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "001.考研大戰士/4.os/os/12.OS.md",
+                "file": "001.考研大戰士/4.os/io/Chap13 Introduction to the Transport Layer.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -152,7 +164,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "12.OS 的反向連結"
+              "title": "Chap13 Introduction to the Transport Layer 的反向連結"
             }
           },
           {
@@ -194,8 +206,7 @@
               "title": "Quiet Outline"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "494ac88ceff3f4bd",
@@ -240,30 +251,36 @@
   },
   "active": "bc32b0eb2b9ea827",
   "lastOpenFiles": [
-    "001.考研大戰士/4.os/io/chap 11.md",
+    "001.考研大戰士/4.os/io/chap15 Transmission Control Protocol (TCP).md",
+    "001.考研大戰士/4.os/io/Chap14 User Datagram Protocol (UDP).md",
+    "999.datafeild/image/Pasted image 20250611213001.png",
+    "999.datafeild/image/Pasted image 20250611212932.png",
+    "999.datafeild/image/Pasted image 20250611212600.png",
+    "999.datafeild/image/Pasted image 20250611190002.png",
+    "999.datafeild/image/Pasted image 20250611160333.png",
+    "001.考研大戰士/4.os/io/Chap13 Introduction to the Transport Layer.md",
+    "999.datafeild/image/Pasted image 20250611160122.png",
+    "999.datafeild/image/Pasted image 20250611160113.png",
+    "999.datafeild/image/Pasted image 20250611160053.png",
+    "999.datafeild/image/Pasted image 20250611160049.png",
+    "999.datafeild/image/Pasted image 20250611160019.png",
+    "001.考研大戰士/4.os/io/chap11 Unicast Routing Protocols RIP, OSPF, and BGP.md",
+    "999.datafeild/image/chap 11 2025-06-10 20.59.41.excalidraw.md",
+    "999.datafeild/image/chap 11 2025-06-10 19.46.34.excalidraw.md",
+    "999.datafeild/Excalidraw/Drawing 2025-06-10 19.46.02.excalidraw.md",
+    "001.考研大戰士/4.os/io/Chap3 Underlying Networks and Connecting Devices.md",
+    "001.考研大戰士/4.os/io/chap7 Internet Protocol Version4 (IPv4).md",
+    "001.考研大戰士/4.os/io/chap6 Delivery and Routing of IP Packets.md",
     "001.考研大戰士/4.os/io/chap8 Address Resolution Protocol (ARP).md",
     "001.考研大戰士/4.os/io/chap9 Internet Control Message Protocol Version 4 (ICMPv4).md",
-    "999.datafeild/image/Pasted image 20250607192132.png",
-    "001.考研大戰士/4.os/io/chap7 Internet Protocol Version4 (IPv4).md",
     "未命名.md",
     "999.datafeild/Excalidraw/Drawing 2025-06-07 18.59.44.excalidraw.md",
     "999.datafeild/Excalidraw/Drawing 2025-06-07 18.56.52.excalidraw.md",
-    "999.datafeild/image/Pasted Image 20250607185909_841.png",
-    "999.datafeild/image/Pasted Image 20250607185853_837.png",
     "000.other/Tasks.md",
-    "999.datafeild/image/Pasted image 20250607155751.png",
-    "999.datafeild/image/Pasted image 20250607155749.png",
-    "999.datafeild/image/Pasted image 20250603111917.png",
-    "999.datafeild/image/Pasted image 20250603105855.png",
-    "999.datafeild/image/Pasted image 20250603105850.png",
-    "999.datafeild/image/Pasted image 20250603105510.png",
-    "999.datafeild/image/Pasted image 20250603104541.png",
     "001.考研大戰士/4.os/io/chap2 The OSI Model and TCP IP Protocol Suite.md",
-    "001.考研大戰士/4.os/io/Chap3 Underlying Networks and Connecting Devices.md",
     "001.考研大戰士/4.os/io/chap4 Introduction to Network Layer.md",
     "001.考研大戰士/4.os/io/chap5 IPv4 Address.md",
     "001.考研大戰士/4.os/io/else/flow1.md",
-    "001.考研大戰士/4.os/io/chap6 Delivery and Routing of IP Packets.md",
     "001.考研大戰士/4.os/io/chap1.md",
     "else",
     "001.考研大戰士/4.os/io/else/example1.md",
@@ -274,12 +291,6 @@
     "001.考研大戰士/4.os/os/11.OS.md",
     "001.考研大戰士/2.祭祖/other/DMA.md",
     "001.考研大戰士/3.離散數學/lec3 algorithm.md",
-    "001.考研大戰士/1.基礎資料結構/chap4 linklist.md",
-    "001.考研大戰士/1.基礎資料結構/chap2 陣列&結構.md",
-    "001.考研大戰士/1.基礎資料結構/chap1 introduction.md",
-    "001.考研大戰士/3.離散數學/題庫/離散數學2-1-18.md",
-    "999.datafeild/Excalidraw/Drawing 2024-05-09 01.03.40.excalidraw.md",
-    "Main Page.md",
     "003.資工4",
     "999.datafeild/image/calculus",
     "001.考研大戰士/4.os/other_os",

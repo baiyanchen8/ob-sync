@@ -172,9 +172,9 @@ reliable process-to-process message **delivery**
 - TCP/IP does not define any specific protocol
 - The unit of communication is a packet called a frame
 ## Network Layer
-1. ￼￼應用層（Application Layer）￼￼
-2. ￼￼表示層（Presentation Layer）￼￼
-3. ￼￼會議層（Session Layer）
+1. 應用層（Application Layer）
+2. 表示層（Presentation Layer）
+3. 會議層（Session Layer）
 ### 📚 網路層（Network Layer）介紹 - TCP/IP 架構中的第三層
 
 #### ✅ 主要功能：
